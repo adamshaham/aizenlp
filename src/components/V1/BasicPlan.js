@@ -18,7 +18,7 @@ const BasicPlan = ({ className = "", basicPlan, propMinWidth }) => {
       >
         {basicPlan}
       </div>
-      <button className="cursor-pointer [border:none] pt-[15.6px] pb-[15.5px] pl-[18px] pr-[17px] bg-[#fff] w-[128.3px] rounded-[97.22px] overflow-hidden shrink-0 flex flex-row items-center justify-center box-border hover:bg-gainsboro-200">
+      <button className="cursor-pointer [border:none] pt-[15.6px] pb-[15.5px] pl-[18px] pr-[17px] bg-[#fff] w-[128.3px] rounded-[97.22px] overflow-hidden shrink-0 flex flex-row items-center justify-center box-border hover:bg-[#e6e6e6]">
         <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#2da884] text-center inline-block min-w-[92.4px] mq450:text-base mq450:leading-[19px]">
           Package
         </div>

@@ -21,7 +21,7 @@ const SolutionCard = ({
       </div>
       <div className="self-stretch flex flex-col items-start justify-center gap-[3.9px]">
         <b className="self-stretch relative leading-[142%]">{solutionTitle}</b>
-        <div className="self-stretch relative text-base-6 leading-[160%] font-body-base-regular text-dimgray-200 [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:3] [-webkit-box-orient:vertical]">
+        <div className="self-stretch relative text-base-6 leading-[160%] font-body-base-regular text-[#4b5162cc] [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:3] [-webkit-box-orient:vertical]">
           {solutionDescr}
         </div>
       </div>

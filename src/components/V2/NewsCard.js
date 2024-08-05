@@ -33,7 +33,7 @@ const NewsCard = ({
 
   return (
     <div
-      className={`flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[25.6px] box-border relative gap-[26.2px] min-w-[316px] max-w-full text-left text-smi-3 text-gray-200 font-body-base-regular ${className}`}
+      className={`flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[25.6px] box-border relative gap-[26.2px] min-w-[316px] max-w-full text-left text-smi-3 text-[#051114b3] font-body-base-regular ${className}`}
     >
       <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-[8.75px] border-[#051114] border-[1.8px] border-solid box-border opacity-[0.1]" />
       <img
@@ -77,7 +77,7 @@ const NewsCard = ({
               <p className="m-0">tellus dignissim quis.</p>
             </div>
           </div>
-          <button className="cursor-pointer [border:none] pt-[8.8px] px-4 pb-[8.7px] bg-blueviolet-200 w-[93px] rounded-[4.38px] flex flex-row items-start justify-start box-border z-[1] hover:bg-blueviolet-100">
+          <button className="cursor-pointer [border:none] pt-[8.8px] px-4 pb-[8.7px] bg-[#7c1dc9] w-[93px] rounded-[4.38px] flex flex-row items-start justify-start box-border z-[1] hover:bg-[#a342f0]">
             <div className="relative text-smi-3 tracking-[0.05em] leading-[20px] font-medium font-body-base-regular text-[#fff] text-left inline-block min-w-[59px]">
               Continue
             </div>

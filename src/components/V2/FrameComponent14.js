@@ -26,7 +26,7 @@ const FrameComponent14 = ({ className = "" }) => {
             <div className="flex-1 flex flex-col items-start justify-end pt-0 px-0 pb-[9.3px] box-border max-w-full">
               <div className="self-stretch flex flex-col items-start justify-start gap-[3.7px] max-w-full">
                 <nav className="m-0 self-stretch flex flex-row items-start justify-start py-0 pl-2 pr-0 box-border max-w-full mq800:hidden">
-                  <nav className="m-0 flex-1 flex flex-row items-start justify-between max-w-full gap-5 text-left text-base-8 text-gray-100 font-body-base-regular">
+                  <nav className="m-0 flex-1 flex flex-row items-start justify-between max-w-full gap-5 text-left text-base-8 text-[#ffffffcc] font-body-base-regular">
                     <div className="relative leading-[160%] font-medium text-[#fff] inline-block min-w-[45px] z-[1]">
                       Home
                     </div>
@@ -61,12 +61,12 @@ const FrameComponent14 = ({ className = "" }) => {
                 <div className="self-stretch relative leading-[120%] font-semibold z-[1] mq450:text-14xl mq450:leading-[39px] mq800:text-24xl mq800:leading-[52px]">
                   Codext one of the best system in SAAS.
                 </div>
-                <div className="h-[75px] relative text-base-8 leading-[160%] text-gray-100 inline-block max-w-full z-[1]">
+                <div className="h-[75px] relative text-base-8 leading-[160%] text-[#ffffffcc] inline-block max-w-full z-[1]">
                   <p className="m-0">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. A nulla nulla etiam turpis quam diam et. `}</p>
                   <p className="m-0">Arcu nisi, sed aenean sit nisl.</p>
                 </div>
               </div>
-              <button className="cursor-pointer [border:none] pt-[13.1px] px-[25px] pb-[13.2px] bg-[#fff] rounded-[4.38px] flex flex-row items-start justify-start whitespace-nowrap z-[1] hover:bg-gainsboro-200">
+              <button className="cursor-pointer [border:none] pt-[13.1px] px-[25px] pb-[13.2px] bg-[#fff] rounded-[4.38px] flex flex-row items-start justify-start whitespace-nowrap z-[1] hover:bg-[#e6e6e6]">
                 <div className="relative text-mid-5 leading-[160%] font-medium font-body-base-regular text-[#000] text-left">
                   Try A Live Demo
                 </div>

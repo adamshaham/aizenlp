@@ -22,7 +22,7 @@ const HeroBanner = ({ className = "" }) => {
               <b className="self-stretch relative leading-[116%] shrink-0 mq450:text-9xl mq450:leading-[33px] mq1050:text-18xl mq1050:leading-[43px]">
                 Revolutionizing Business Decisions with AI-Powered Analytics
               </b>
-              <div className="self-stretch flex flex-row items-start justify-start py-0 px-[77px] box-border max-w-full shrink-0 text-base-6 text-dimgray-200 font-body-base-regular mq1050:pl-[38px] mq1050:pr-[38px] mq1050:box-border">
+              <div className="self-stretch flex flex-row items-start justify-start py-0 px-[77px] box-border max-w-full shrink-0 text-base-6 text-[#4b5162cc] font-body-base-regular mq1050:pl-[38px] mq1050:pr-[38px] mq1050:box-border">
                 <div className="flex-1 relative leading-[160%] inline-block max-w-full">
                   Harnesses the power of artificial intelligence to transform
                   your business data into actionable insights, propelling you to
@@ -131,7 +131,7 @@ const HeroBanner = ({ className = "" }) => {
               src="/group-4.svg"
             />
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-[#4452fe]alpha-pra10 mix-blend-color-burn z-[3]" />
-            <div className="absolute top-[calc(50%_-_40.85px)] left-[calc(50%_-_81.7px)] rounded-[77.78px] bg-darkoverlayelement-do20 w-[287.8px] h-[80.7px] hidden" />
+            <div className="absolute top-[calc(50%_-_40.85px)] left-[calc(50%_-_81.7px)] rounded-[77.78px] bg-[#ffffff33] w-[287.8px] h-[80.7px] hidden" />
             <div className="absolute top-[calc(50%_-_27.25px)] left-[calc(50%_-_65.5px)] rounded-[46.67px] bg-[#fff] hidden flex-row items-center justify-start py-[11.7px] px-[17px] gap-[7.8px] whitespace-nowrap">
               <img
                 className="h-[23.3px] w-[23.3px] relative"
@@ -143,7 +143,7 @@ const HeroBanner = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="absolute top-[calc(50%_-_40.85px)] left-[calc(50%_-_159px)] [backdrop-filter:blur(11.67px)] rounded-[46.67px] bg-[#fff] border-lightsteelblue border-[11.7px] border-solid box-border w-[340.3px] h-[105px] flex flex-row items-end justify-start py-[11.7px] px-[11px] gap-[11.7px] z-[4]">
+          <div className="absolute top-[calc(50%_-_40.85px)] left-[calc(50%_-_159px)] [backdrop-filter:blur(11.67px)] rounded-[46.67px] bg-[#fff] border-[#c4d1ff59] border-[11.7px] border-solid box-border w-[340.3px] h-[105px] flex flex-row items-end justify-start py-[11.7px] px-[11px] gap-[11.7px] z-[4]">
             <img
               className="h-[58.3px] w-[58.3px] relative overflow-hidden shrink-0"
               alt=""
@@ -154,12 +154,12 @@ const HeroBanner = ({ className = "" }) => {
                 <div className="relative leading-[31px] font-semibold">
                   Watch introduce video
                 </div>
-                <div className="flex flex-row items-start justify-start gap-[7.8px] text-base-6 text-dimgray-200">
+                <div className="flex flex-row items-start justify-start gap-[7.8px] text-base-6 text-[#4b5162cc]">
                   <div className="relative leading-[25px] inline-block min-w-[49px]">
                     5 mins
                   </div>
                   <div className="flex flex-col items-start justify-start pt-[10.5px] px-0 pb-0">
-                    <div className="w-[3.9px] h-[3.9px] relative rounded-[50%] bg-neutralalphainvert-ni20" />
+                    <div className="w-[3.9px] h-[3.9px] relative rounded-[50%] bg-[#32448b33]" />
                   </div>
                   <div className="relative leading-[25px] font-medium text-[#387ff5] inline-block min-w-[77px]">
                     Play video

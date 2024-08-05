@@ -17,7 +17,7 @@ const BottomFooter = ({ className = "" }) => {
           </i>
         </div>
       </div>
-      <div className="h-[66px] relative text-sm leading-[160%] text-darkoverlayelement-do70 inline-block z-[1]">
+      <div className="h-[66px] relative text-sm leading-[160%] text-[#ffffffb3] inline-block z-[1]">
         <p className="m-0">Lorem ipsum dolor sit amet, consect</p>
         <p className="m-0">
           etur adipiscing elit. Ullamcorper purus eleifend purus faucibus

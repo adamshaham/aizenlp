@@ -4,39 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dimgray: {
-          100: "#51565e",
-          200: "rgba(75, 81, 98, 0.8)",
-        },
-        "neutralalpha-na10": "rgba(255, 255, 255, 0.1)",
-        "primaryalpha-pra10": "rgba(56, 127, 245, 0.1)",
-        "darkoverlayelement-do20": "rgba(255, 255, 255, 0.2)",
-        "darkoverlayelement-do70": "rgba(255, 255, 255, 0.7)",
-        "neutralalpha-na60": "rgba(255, 255, 255, 0.6)",
-        lightsteelblue: "rgba(196, 209, 255, 0.35)",
-        "neutralalphainvert-ni20": "rgba(50, 68, 139, 0.2)",
-        gainsboro: {
-          100: "#e8e8e8",
-          200: "#e6e6e6",
-          300: "#dedede",
-          400: "#ddd",
-        },
-        gray: {
-          100: "rgba(255, 255, 255, 0.8)",
-          200: "rgba(5, 17, 20, 0.7)",
-          300: "rgba(255, 255, 255, 0.5)",
-        },
-        blueviolet: {
-          100: "#a342f0",
-          200: "#7c1dc9",
-        },
-        whitesmoke: {
-          100: "#f5f5f5",
-          200: "#f4f4f4",
-          300: "#efefef",
-        },
         background: "#18171d",
       },
+      
       spacing: {
         "inline-xs": "3.8888888359069824px",
         "section-spacing-lg": "58.33333206176758px",

@@ -84,7 +84,7 @@ const UserCard = ({
         className="w-[43px] flex flex-row items-start justify-end py-0 pl-3 pr-[45px] box-border"
         style={frameDivStyle}
       >
-        <div className="h-[31.1px] w-[31.1px] relative rounded-[38.89px] border-neutralalpha-na60 border-[1px] border-solid box-border overflow-hidden shrink-0">
+        <div className="h-[31.1px] w-[31.1px] relative rounded-[38.89px] border-[#ffffff99] border-[1px] border-solid box-border overflow-hidden shrink-0">
           <img
             className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
             alt=""

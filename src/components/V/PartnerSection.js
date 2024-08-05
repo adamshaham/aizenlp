@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const PartnerSection = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-[#fff] flex flex-col items-center justify-start pt-[38.9px] px-5 pb-[58px] box-border min-h-[314px] shrink-0 max-w-full text-center text-base text-dimgray-200 font-body-base-regular ${className}`}
+      className={`self-stretch bg-[#fff] flex flex-col items-center justify-start pt-[38.9px] px-5 pb-[58px] box-border min-h-[314px] shrink-0 max-w-full text-center text-base text-[#4b5162cc] font-body-base-regular ${className}`}
     >
       <div className="w-[1170.6px] flex flex-col items-center justify-start pt-0 px-0 pb-[0.1px] box-border gap-[19.4px] max-w-[1170.56px] lg:max-w-full">
         <div className="self-stretch relative leading-[160%]">

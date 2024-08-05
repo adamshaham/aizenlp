@@ -49,7 +49,7 @@ const Features = ({ className = "" }) => {
             <div className="flex flex-col items-start justify-start gap-[24.8px] max-w-[calc(100%_-_43px)]">
               <div className="flex flex-col items-start justify-start gap-[9px]">
                 <div className="relative leading-[33px] font-medium mq450:text-lg mq450:leading-[26px]">{`Ultra fast & Secure`}</div>
-                <div className="relative text-smi-3 leading-[160%] text-gray-200">
+                <div className="relative text-smi-3 leading-[160%] text-[#051114b3]">
                   <p className="m-0">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. `}</p>
                   <p className="m-0">{`vitae velit proin justo, elementum siIn morbi `}</p>
                 </div>
@@ -58,7 +58,7 @@ const Features = ({ className = "" }) => {
                 <div className="relative leading-[33px] font-medium z-[2] mq450:text-lg mq450:leading-[26px]">
                   Allows customization
                 </div>
-                <div className="relative text-smi-3 leading-[160%] text-gray-200 z-[1]">
+                <div className="relative text-smi-3 leading-[160%] text-[#051114b3] z-[1]">
                   <p className="m-0">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. `}</p>
                   <p className="m-0">{`vitae velit proin justo, elementum siIn morbi `}</p>
                 </div>
@@ -67,7 +67,7 @@ const Features = ({ className = "" }) => {
                 <div className="relative leading-[33px] font-medium mq450:text-lg mq450:leading-[26px]">
                   Smart contract
                 </div>
-                <div className="relative text-smi-3 leading-[160%] text-gray-200">
+                <div className="relative text-smi-3 leading-[160%] text-[#051114b3]">
                   <p className="m-0">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. `}</p>
                   <p className="m-0">{`vitae velit proin justo, elementum siIn morbi `}</p>
                 </div>

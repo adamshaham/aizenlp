@@ -12,7 +12,7 @@ const FrameComponent17 = ({ className = "" }) => {
             Lastest insights news
           </div>
         </div>
-        <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[26.2px] max-w-full text-left text-smi-3 text-gray-200">
+        <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[26.2px] max-w-full text-left text-smi-3 text-[#051114b3]">
           <NewsCard
             cardImage="/rectangle-33@2x.png"
             ourCreativeTeam="Our Creative Team"

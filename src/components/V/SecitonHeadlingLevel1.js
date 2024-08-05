@@ -76,7 +76,7 @@ const SecitonHeadlingLevel1 = ({
           </b>
         </div>
         <div
-          className="w-full flex flex-row items-center justify-start py-0 px-[19px] box-border max-w-[797.22px] shrink-0 text-base-6 text-dimgray-200 font-body-base-regular mq1050:max-w-full"
+          className="w-full flex flex-row items-center justify-start py-0 px-[19px] box-border max-w-[797.22px] shrink-0 text-base-6 text-[#4b5162cc] font-body-base-regular mq1050:max-w-full"
           style={descrWrapperStyle}
         >
           <div

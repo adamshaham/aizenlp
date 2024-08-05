@@ -44,7 +44,7 @@ const FunctionCard = ({
           {featureHeadline}
         </div>
       </div>
-      <div className="self-stretch relative leading-[160%] text-dimgray-200 [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:3] [-webkit-box-orient:vertical]">
+      <div className="self-stretch relative leading-[160%] text-[#4b5162cc] [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:3] [-webkit-box-orient:vertical]">
         {descriptionContentExperie}
       </div>
     </div>

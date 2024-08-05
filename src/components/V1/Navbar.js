@@ -32,7 +32,7 @@ const Navbar = ({ className = "" }) => {
             Login
           </a>
         </button>
-        <button className="cursor-pointer [border:none] pt-[15.6px] px-[38px] pb-[15.5px] bg-[#fff] rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-gainsboro-200">
+        <button className="cursor-pointer [border:none] pt-[15.6px] px-[38px] pb-[15.5px] bg-[#fff] rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-[#e6e6e6]">
           <a className="[text-decoration:none] relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#2da884] text-center inline-block min-w-[81px] whitespace-nowrap">
             Sign up
           </a>

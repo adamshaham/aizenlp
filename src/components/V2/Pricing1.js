@@ -18,16 +18,16 @@ const Pricing1 = ({ className = "" }) => {
               <div className="relative leading-[29px] font-medium">
                 Added for Monthly
               </div>
-              <div className="h-[28.9px] w-[72.6px] relative rounded-mid-5 bg-[#fff] border-blueviolet-200 border-[0.9px] border-solid box-border">
-                <div className="absolute top-[0px] left-[0px] rounded-mid-5 bg-[#fff] border-blueviolet-200 border-[0.9px] border-solid box-border w-full h-full hidden" />
-                <div className="absolute top-[4.4px] left-[4.3px] rounded-mid-5 bg-blueviolet-200 border-blueviolet-200 border-[0.9px] border-solid box-border w-[31.5px] h-[20.1px] z-[1]" />
+              <div className="h-[28.9px] w-[72.6px] relative rounded-mid-5 bg-[#fff] border-[#7c1dc9] border-[0.9px] border-solid box-border">
+                <div className="absolute top-[0px] left-[0px] rounded-mid-5 bg-[#fff] border-[#7c1dc9] border-[0.9px] border-solid box-border w-full h-full hidden" />
+                <div className="absolute top-[4.4px] left-[4.3px] rounded-mid-5 bg-[#7c1dc9] border-[#7c1dc9] border-[0.9px] border-solid box-border w-[31.5px] h-[20.1px] z-[1]" />
               </div>
-              <div className="relative leading-[29px] font-medium text-gray-200 inline-block min-w-[59px]">
+              <div className="relative leading-[29px] font-medium text-[#051114b3] inline-block min-w-[59px]">
                 Yearly
               </div>
             </div>
           </div>
-          <div className="self-stretch grid flex-row items-start justify-start gap-[25.4px] grid-cols-[repeat(3,_minmax(238px,_1fr))] text-gray-200 mq800:justify-center mq800:grid-cols-[minmax(238px,_1fr)]">
+          <div className="self-stretch grid flex-row items-start justify-start gap-[25.4px] grid-cols-[repeat(3,_minmax(238px,_1fr))] text-[#051114b3] mq800:justify-center mq800:grid-cols-[minmax(238px,_1fr)]">
             <PlanItems
               startUp="Start-up"
               prop="$10"

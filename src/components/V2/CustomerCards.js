@@ -39,7 +39,7 @@ const CustomerCards = ({
               {dataAnalytic}
             </div>
           </div>
-          <div className="self-stretch relative text-smi-3 leading-[160%] text-dimgray-100 z-[1]">
+          <div className="self-stretch relative text-smi-3 leading-[160%] text-[#51565e] z-[1]">
             Lorem ipsum dolor sit amet ecte adipiscing elitIpsum.
           </div>
         </div>

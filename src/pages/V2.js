@@ -33,7 +33,7 @@ const V2 = () => {
               <div className="self-stretch relative leading-[140%] font-medium z-[1]">
                 Resources
               </div>
-              <div className="flex flex-col items-start justify-start gap-[8.1px] text-base-8 text-darkoverlayelement-do70 font-body-base-regular">
+              <div className="flex flex-col items-start justify-start gap-[8.1px] text-base-8 text-[#ffffffb3] font-body-base-regular">
                 <div className="relative leading-[26px] inline-block min-w-[64px] z-[1]">
                   services
                 </div>
@@ -52,7 +52,7 @@ const V2 = () => {
               <div className="w-[114px] relative leading-[140%] font-medium inline-block z-[1]">
                 Usefull links
               </div>
-              <div className="flex flex-col items-start justify-start gap-[8.1px] text-base-8 text-darkoverlayelement-do70 font-body-base-regular">
+              <div className="flex flex-col items-start justify-start gap-[8.1px] text-base-8 text-[#ffffffb3] font-body-base-regular">
                 <div className="relative leading-[26px] z-[1]">
                   Terms of Services
                 </div>
@@ -68,8 +68,8 @@ const V2 = () => {
           </div>
           <FooterSection />
         </div>
-        <div className="w-[997.5px] flex flex-col items-start justify-start gap-[25.3px] max-w-full text-center text-base-8 text-darkoverlayelement-do70 font-body-base-regular">
-          <div className="self-stretch h-[0.9px] relative bg-darkoverlayelement-do20 border-[#fff] border-t-[0.9px] border-solid box-border z-[1]" />
+        <div className="w-[997.5px] flex flex-col items-start justify-start gap-[25.3px] max-w-full text-center text-base-8 text-[#ffffffb3] font-body-base-regular">
+          <div className="self-stretch h-[0.9px] relative bg-[#ffffff33] border-[#fff] border-t-[0.9px] border-solid box-border z-[1]" />
           <div className="self-stretch flex flex-row items-start justify-center py-0 px-5">
             <div className="relative leading-[26px] font-medium whitespace-pre-wrap z-[1]">
               Copyright 2021 The Codext All Rights Reserved.

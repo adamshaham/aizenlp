@@ -334,7 +334,7 @@ const Pricing = ({ className = "" }) => {
                     src="/premium-cost-items.svg"
                   />
                 </div>
-                <button className="cursor-pointer [border:none] pt-[23.3px] px-[38px] pb-[23.4px] bg-[#fff] self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center hover:bg-gainsboro-200">
+                <button className="cursor-pointer [border:none] pt-[23.3px] px-[38px] pb-[23.4px] bg-[#fff] self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center hover:bg-[#e6e6e6]">
                   <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#2da884] text-center mq450:text-base mq450:leading-[19px]">
                     Purchase
                   </div>

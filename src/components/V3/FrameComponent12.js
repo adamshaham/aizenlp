@@ -16,7 +16,7 @@ const FrameComponent12 = ({ className = "" }) => {
         </div>
         <div className="w-[782.9px] overflow-hidden flex flex-row flex-wrap items-start justify-start gap-[20.4px] max-w-full text-base font-button1">
           <div className="flex-1 flex flex-col items-center justify-start gap-[17.7px] min-w-[248px] max-w-full">
-            <div className="self-stretch rounded-[8.87px] bg-[#181818] border-gainsboro-300 border-[0.9px] border-solid flex flex-col items-start justify-start py-[34px] pl-[35px] pr-[25px] gap-[26.6px]">
+            <div className="self-stretch rounded-[8.87px] bg-[#181818] border-[#dedede] border-[0.9px] border-solid flex flex-col items-start justify-start py-[34px] pl-[35px] pr-[25px] gap-[26.6px]">
               <div className="overflow-hidden flex flex-row items-center justify-start gap-[11.5px]">
                 <img
                   className="h-[44.3px] w-[44.3px] relative object-cover"

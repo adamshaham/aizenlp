@@ -14,7 +14,7 @@ const FrameComponent16 = ({ className = "" }) => {
                 Let’s see our User’s Review
               </div>
             </div>
-            <div className="self-stretch relative text-base-8 leading-[160%] text-gray-200">
+            <div className="self-stretch relative text-base-8 leading-[160%] text-[#051114b3]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               scelerisque tellus interdum venenatis auctor et nibh. Rhoncus a,
               sed lobortis nisi.
@@ -57,9 +57,9 @@ const FrameComponent16 = ({ className = "" }) => {
           </div>
           <div className="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px]">
             <div className="w-[70px] flex flex-row items-start justify-start gap-[8.8px]">
-              <div className="h-[8.8px] w-[35px] relative border-blueviolet-200 border-t-[8.8px] border-solid box-border shrink-0" />
-              <div className="h-[8.8px] w-[21.9px] relative border-blueviolet-200 border-t-[8.8px] border-solid box-border opacity-[0.4] shrink-0" />
-              <div className="h-[8.8px] w-[21.9px] relative border-blueviolet-200 border-t-[8.8px] border-solid box-border opacity-[0.4] shrink-0" />
+              <div className="h-[8.8px] w-[35px] relative border-[#7c1dc9] border-t-[8.8px] border-solid box-border shrink-0" />
+              <div className="h-[8.8px] w-[21.9px] relative border-[#7c1dc9] border-t-[8.8px] border-solid box-border opacity-[0.4] shrink-0" />
+              <div className="h-[8.8px] w-[21.9px] relative border-[#7c1dc9] border-t-[8.8px] border-solid box-border opacity-[0.4] shrink-0" />
             </div>
           </div>
         </div>
