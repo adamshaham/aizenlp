@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const FAQSection = ({ className = "" }) => {
   return (
     <div
-      className={`flex-1 bg-neutral-n0 overflow-hidden flex flex-col items-center justify-start pt-[124.4px] px-5 pb-[108.9px] box-border max-w-full text-left text-lgi-4 text-neutral-1000 font-dm-sans gap-section-spacing-lg mq450:pt-[53px] mq450:pb-[46px] mq450:box-border mq1050:pt-[81px] mq1050:pb-[71px] mq1050:box-border ${className}`}
+      className={`flex-1 bg-[#fff] overflow-hidden flex flex-col items-center justify-start pt-[124.4px] px-5 pb-[108.9px] box-border max-w-full text-left text-lgi-4 text-[#1c1f25] font-dm-sans gap-section-spacing-lg mq450:pt-[53px] mq450:pb-[46px] mq450:box-border mq1050:pt-[81px] mq1050:pb-[71px] mq1050:box-border ${className}`}
     >
       <div className="w-[1170.6px] flex flex-row flex-wrap items-start justify-start py-0 pl-0 pr-[3px] box-border gap-x-[46.7px] gap-y-[44.7px] max-w-[1170.56px] shrink-0 lg:max-w-full gap-[22px]">
         <SecitonHeadlingLevel1
@@ -43,7 +43,7 @@ const FAQSection = ({ className = "" }) => {
             propHeight1="unset"
             propMinHeight="unset"
             propHeight2="unset"
-            propColor="#4b5162"
+            propColor="-[#4b5162]"
           />
           <FAQItemStyle
             answer="Neuros's AI-driven predictive analytics utilizes advanced machine learning algorithms to analyze historical data and identify patterns. By doing so, it can anticipate future trends, market shifts, and potential challenges, allowing businesses to make informed decisions proactively."

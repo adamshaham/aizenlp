@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 const ValueSection = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-neutral-n0 overflow-hidden flex flex-row items-start justify-center pt-[124.4px] px-5 pb-[109px] box-border shrink-0 max-w-full z-[1] text-center text-18xl-9 text-neutral-1000 font-dm-sans lg:pt-[124.4px] lg:pb-[71px] lg:box-border gap-section-spacing-lg mq750:pb-[46px] mq750:box-border ${className}`}
+      className={`self-stretch bg-[#fff] overflow-hidden flex flex-row items-start justify-center pt-[124.4px] px-5 pb-[109px] box-border shrink-0 max-w-full z-[1] text-center text-18xl-9 text-[#1c1f25] font-dm-sans lg:pt-[124.4px] lg:pb-[71px] lg:box-border gap-section-spacing-lg mq750:pb-[46px] mq750:box-border ${className}`}
     >
       <div className="h-[990.2px] w-[1170.6px] flex flex-col items-start justify-start pt-0 px-0 pb-[702.8px] box-border gap-[58.4px] max-w-[1170.6px] lg:pb-[457px] lg:box-border lg:max-w-full gap-[29px] mq450:h-auto mq450:pb-[193px] mq450:box-border mq1050:pb-[297px] mq1050:box-border">
         <FrameComponent
@@ -42,7 +42,7 @@ const ValueSection = ({ className = "" }) => {
               descriptionContentExperie="In the fast-paced world of business, every second counts. Neuros processes data in real-time, ensuring you're always working with the most up-to-date information. React to changes as they happen and pivot your strategies instantly."
             />
           </div>
-          <div className="self-stretch h-[466.7px] rounded-[23.33px] [background:linear-gradient(100.26deg,_#809ff0,_#4c62c5)] border-neutral-n300 border-[1px] border-solid box-border overflow-y-auto shrink-0 flex flex-row items-start justify-start max-w-full text-lgi-4">
+          <div className="self-stretch h-[466.7px] rounded-[23.33px] [background:linear-gradient(100.26deg,_#809ff0,_#4c62c5)] border-[#d2d5e2] border-[1px] border-solid box-border overflow-y-auto shrink-0 flex flex-row items-start justify-start max-w-full text-lgi-4">
             <ImgLibIlustrationGraphIco />
           </div>
         </div>

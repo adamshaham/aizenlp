@@ -8,7 +8,7 @@ import PropTypes from "prop-types";
 const FrameComponent9 = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[13.3px] box-border max-w-full text-left text-33xl text-neutral-n0 font-body-base-regular ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[13.3px] box-border max-w-full text-left text-33xl text-[#fff] font-body-base-regular ${className}`}
     >
       <div className="flex-1 bg-dark-background overflow-hidden flex flex-col items-center justify-start py-[44.3px] px-5 box-border max-w-full gap-4 mq450:pt-5 mq450:pb-5 mq450:box-border mq1000:pt-[29px] mq1000:pb-[29px] mq1000:box-border">
         <div className="w-[873.3px] flex flex-col items-center justify-start gap-[39px] max-w-full gap-5">
@@ -27,7 +27,7 @@ const FrameComponent9 = ({ className = "" }) => {
             />
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-start gap-[29.3px] max-w-full shrink-0 text-center text-xl text-first-text">
-            <div className="flex-1 shadow-[0px_3.5px_27.49px_rgba(0,_0,_0,_0.15)] rounded-[8.87px] bg-neutral-n0 border-lightgray border-[0.9px] border-solid box-border flex flex-col items-center justify-start py-[34px] pl-[31px] pr-[30px] gap-[50.5px] min-w-[274px] max-w-full gap-[25px] mq725:pt-[22px] mq725:pb-[22px] mq725:box-border">
+            <div className="flex-1 shadow-[0px_3.5px_27.49px_rgba(0,_0,_0,_0.15)] rounded-[8.87px] bg-[#fff] border-lightgray border-[0.9px] border-solid box-border flex flex-col items-center justify-start py-[34px] pl-[31px] pr-[30px] gap-[50.5px] min-w-[274px] max-w-full gap-[25px] mq725:pt-[22px] mq725:pb-[22px] mq725:box-border">
               <div className="overflow-hidden flex flex-col items-center justify-start gap-[8.9px]">
                 <Title
                   propWidth="67.7px"
@@ -78,7 +78,7 @@ const FrameComponent9 = ({ className = "" }) => {
                 src="/macbook-pro.svg"
               />
             </div>
-            <div className="flex-1 shadow-[0px_3.5px_27.49px_rgba(0,_0,_0,_0.15)] rounded-[8.87px] bg-neutral-n0 border-lightgray border-[0.9px] border-solid box-border flex flex-col items-center justify-start py-[34px] px-[31px] gap-[26.6px] min-w-[274px] max-w-full mq725:pt-[22px] mq725:pb-[22px] mq725:box-border">
+            <div className="flex-1 shadow-[0px_3.5px_27.49px_rgba(0,_0,_0,_0.15)] rounded-[8.87px] bg-[#fff] border-lightgray border-[0.9px] border-solid box-border flex flex-col items-center justify-start py-[34px] px-[31px] gap-[26.6px] min-w-[274px] max-w-full mq725:pt-[22px] mq725:pb-[22px] mq725:box-border">
               <div className="overflow-hidden flex flex-col items-center justify-start gap-[8.9px]">
                 <Title designWithRealData="Design with real data" />
                 <Paragraphe

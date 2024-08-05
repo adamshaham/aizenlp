@@ -22,7 +22,7 @@ const FrameComponent = ({
 
   return (
     <div
-      className={`self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full shrink-0 text-center text-18xl-9 text-neutral-1000 font-dm-sans ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full shrink-0 text-center text-18xl-9 text-[#1c1f25] font-dm-sans ${className}`}
     >
       <div
         className="w-[505.6px] flex flex-col items-center justify-start pt-0 px-0 pb-0 box-border gap-stack-3xl max-w-[505.56px] gap-stack-3xl mq750:max-w-full"

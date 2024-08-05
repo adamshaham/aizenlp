@@ -26,7 +26,7 @@ const Misi = ({
 
   return (
     <div
-      className={`self-stretch shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-neutral-n0 overflow-hidden flex flex-col items-start justify-start py-[38.9px] px-[23px] gap-[15.5px] text-left text-8xl-2 text-heading font-montserrat ${className}`}
+      className={`self-stretch shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-[#fff] overflow-hidden flex flex-col items-start justify-start py-[38.9px] px-[23px] gap-[15.5px] text-left text-8xl-2 text-heading font-montserrat ${className}`}
       style={misiStyle}
     >
       <div className="self-stretch flex flex-col items-start justify-start gap-[23.4px]">

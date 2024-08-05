@@ -20,7 +20,7 @@ const FrameComponent3 = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-start justify-start gap-[38.8px] max-w-full text-left text-8xl-2 text-neutral-n0 gap-[19px]">
+        <div className="self-stretch flex flex-col items-start justify-start gap-[38.8px] max-w-full text-left text-8xl-2 text-[#fff] gap-[19px]">
           <div className="self-stretch shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-accent-1 overflow-hidden flex flex-row flex-wrap items-end justify-center pt-[46.6px] px-[42px] pb-[46.7px] box-border gap-[23.3px] max-w-full lg:pl-[21px] lg:pr-[21px] lg:box-border">
             <div className="flex-1 flex flex-col items-start justify-start gap-[15.6px] min-w-[675px] max-w-full mq1050:min-w-full">
               <div className="self-stretch relative leading-[31.11px] font-semibold shrink-0 mq450:text-3xl mq450:leading-[25px]">

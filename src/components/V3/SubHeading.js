@@ -24,7 +24,7 @@ const SubHeading = ({
 
   return (
     <div
-      className={`overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] text-center text-xl text-neutral-n0 font-body-base-regular ${className}`}
+      className={`overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] text-center text-xl text-[#fff] font-body-base-regular ${className}`}
       style={subHeadingStyle}
     >
       <div

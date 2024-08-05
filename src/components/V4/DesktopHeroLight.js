@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const DesktopHeroLight = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-col items-center justify-start py-[77.8px] px-5 box-border gap-[38.9px] max-w-full text-center text-2xl-4 text-neutral-n0 font-button1 gap-[19px] mq750:pt-[51px] mq750:pb-[51px] mq750:box-border ${className}`}
+      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-col items-center justify-start py-[77.8px] px-5 box-border gap-[38.9px] max-w-full text-center text-2xl-4 text-[#fff] font-button1 gap-[19px] mq750:pt-[51px] mq750:pb-[51px] mq750:box-border ${className}`}
     >
       <div className="overflow-hidden flex flex-col items-center justify-start pt-[19.4px] px-[19px] pb-[19.5px] box-border max-w-full shrink-0">
         <div className="overflow-hidden flex flex-col items-center justify-start gap-[6.8px]">

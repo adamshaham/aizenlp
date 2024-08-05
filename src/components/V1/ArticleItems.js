@@ -36,7 +36,7 @@ const ArticleItems = ({
     <div
       className={`flex-1 flex flex-col items-start justify-start gap-[23.3px] min-w-[283px] max-w-full text-left text-base-6 text-accent-1 font-montserrat ${className}`}
     >
-      <div className="self-stretch h-[311.1px] relative rounded-[15.56px] bg-neutral-n0 overflow-hidden shrink-0">
+      <div className="self-stretch h-[311.1px] relative rounded-[15.56px] bg-[#fff] overflow-hidden shrink-0">
         <img
           className="absolute top-[calc(50%_-_155.55px)] left-[calc(50%_-_188.6px)] rounded-[15.56px] w-full h-full overflow-hidden object-cover"
           loading="lazy"
@@ -110,7 +110,7 @@ const ArticleItems = ({
             </div>
           </div>
           <button className="cursor-pointer [border:none] py-[23.3px] px-[38px] bg-accent-1 self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-mediumaquamarine">
-            <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-neutral-n0 text-center">
+            <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center">
               Read More
             </div>
           </button>

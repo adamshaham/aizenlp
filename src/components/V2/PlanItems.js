@@ -62,9 +62,9 @@ const PlanItems = ({
 
   return (
     <div
-      className={`shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-neutral-n0 flex flex-col items-start justify-start pt-[43.7px] px-[59px] pb-[44.5px] gap-[34.8px] text-center text-lgi-3 text-gray-200 font-body-base-regular gap-[17px] mq450:pt-7 mq450:px-5 mq450:pb-[29px] mq450:box-border ${className}`}
+      className={`shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-[#fff] flex flex-col items-start justify-start pt-[43.7px] px-[59px] pb-[44.5px] gap-[34.8px] text-center text-lgi-3 text-gray-200 font-body-base-regular gap-[17px] mq450:pt-7 mq450:px-5 mq450:pb-[29px] mq450:box-border ${className}`}
     >
-      <div className="w-[315px] h-[420px] relative shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-neutral-n0 hidden" />
+      <div className="w-[315px] h-[420px] relative shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-[#fff] hidden" />
       <div className="self-stretch flex flex-row items-start justify-start py-0 pl-[19px] pr-[22px]">
         <div className="flex-1 flex flex-col items-end justify-start gap-[11.3px]">
           <div className="flex flex-row items-start justify-end py-0 pl-[39px] pr-[38px]">

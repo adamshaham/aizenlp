@@ -25,7 +25,7 @@ const FunctionCard = ({
 
   return (
     <div
-      className={`flex-1 rounded-xl bg-neutral-n0 flex flex-col items-start justify-center pt-[15.5px] px-[19px] pb-[15.6px] box-border gap-stack-sm1 min-w-[350px] max-w-full text-left text-base-6 text-neutral-1000 font-body-base-regular ${className}`}
+      className={`flex-1 rounded-xl bg-[#fff] flex flex-col items-start justify-center pt-[15.5px] px-[19px] pb-[15.6px] box-border gap-stack-sm1 min-w-[350px] max-w-full text-left text-base-6 text-[#1c1f25] font-body-base-regular ${className}`}
       style={functionCard1Style}
     >
       <div className="self-stretch flex flex-row items-start justify-start gap-[11.7px] mq450:flex-wrap">

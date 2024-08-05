@@ -18,9 +18,9 @@ const CustomerCards = ({
 
   return (
     <div
-      className={`shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-neutral-n0 flex flex-col items-end justify-start pt-[35px] px-[21px] pb-[30.6px] gap-[43.7px] text-center text-2xl-9 text-black1 font-body-base-regular mq450:pt-[23px] mq450:pb-5 mq450:box-border ${className}`}
+      className={`shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-[#fff] flex flex-col items-end justify-start pt-[35px] px-[21px] pb-[30.6px] gap-[43.7px] text-center text-2xl-9 text-black1 font-body-base-regular mq450:pt-[23px] mq450:pb-5 mq450:box-border ${className}`}
     >
-      <div className="w-[229.3px] h-[364.9px] relative shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-neutral-n0 hidden" />
+      <div className="w-[229.3px] h-[364.9px] relative shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-[#fff] hidden" />
       <div className="self-stretch flex flex-row items-start justify-end py-0 pl-[29px] pr-[27px]">
         <img
           className="h-[131.3px] w-[131.3px] relative z-[1]"

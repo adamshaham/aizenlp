@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 const Footer1 = ({ className = "" }) => {
   return (
     <footer
-      className={`self-stretch bg-neutral-n0 flex flex-row items-start justify-center pt-[77.8px] px-5 pb-[38.8px] box-border max-w-full text-left text-base-6 text-neutral-n900 font-dm-sans gap-[35px] mq750:pt-[51px] mq750:pb-[25px] mq750:box-border gap-[17px] ${className}`}
+      className={`self-stretch bg-[#fff] flex flex-row items-start justify-center pt-[77.8px] px-5 pb-[38.8px] box-border max-w-full text-left text-base-6 text-[#343844] font-dm-sans gap-[35px] mq750:pt-[51px] mq750:pb-[25px] mq750:box-border gap-[17px] ${className}`}
     >
       <div className="h-[392.1px] w-[1170.6px] flex flex-col items-start justify-start pt-0 px-0 pb-[58.9px] box-border max-w-[1170.6px] lg:max-w-full mq450:pb-[38px] mq450:box-border mq1050:h-auto">
         <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[108.9px] box-border gap-[58.3px] shrink-0 max-w-full gap-[29px]">
@@ -128,11 +128,11 @@ const Footer1 = ({ className = "" }) => {
           </div>
         </div>
         <DividerInline />
-        <div className="self-stretch flex flex-row flex-wrap items-center justify-center pt-[19.4px] px-0 pb-[19.5px] box-border gap-x-[23.3px] gap-y-[21.3px] shrink-0 max-w-full text-sm-6 text-neutral-n700 font-body-base-regular">
+        <div className="self-stretch flex flex-row flex-wrap items-center justify-center pt-[19.4px] px-0 pb-[19.5px] box-border gap-x-[23.3px] gap-y-[21.3px] shrink-0 max-w-full text-sm-6 text-[#626981] font-body-base-regular">
           <div className="flex-1 relative leading-[20px] inline-block min-w-[352px] max-w-full">
             ©2023 NIMBUS · All rights reserved.
           </div>
-          <div className="flex flex-row items-center justify-center gap-[23.3px] text-center text-#4b5162 font-dm-sans">
+          <div className="flex flex-row items-center justify-center gap-[23.3px] text-center text--[#4b5162] font-dm-sans">
             <ButtonTextLink
               rIcon={false}
               text="Term of use"

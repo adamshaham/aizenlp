@@ -29,7 +29,7 @@ const Text1 = ({
 
   return (
     <div
-      className={`overflow-hidden flex flex-row items-center justify-start pt-[8.9px] px-[27px] pb-[8.8px] text-left text-mid text-neutral-n0 font-body-base-regular ${className}`}
+      className={`overflow-hidden flex flex-row items-center justify-start pt-[8.9px] px-[27px] pb-[8.8px] text-left text-mid text-[#fff] font-body-base-regular ${className}`}
       style={text2Style}
     >
       <div

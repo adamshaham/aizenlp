@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 const DesktopContactLight = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-col items-center justify-start pt-[204.2px] px-5 pb-[96.3px] box-border gap-[58.3px] max-w-full z-[1] mt-[-0.1px] text-center text-25xl-7 text-neutral-n0 font-button1 lg:pt-[204.2px] lg:pb-[63px] lg:box-border mq1050:pb-[41px] mq1050:box-border gap-[29px] mq450:pb-[27px] mq450:box-border ${className}`}
+      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-col items-center justify-start pt-[204.2px] px-5 pb-[96.3px] box-border gap-[58.3px] max-w-full z-[1] mt-[-0.1px] text-center text-25xl-7 text-[#fff] font-button1 lg:pt-[204.2px] lg:pb-[63px] lg:box-border mq1050:pb-[41px] mq1050:box-border gap-[29px] mq450:pb-[27px] mq450:box-border ${className}`}
     >
       <div className="w-[1400px] h-px relative hidden max-w-full" />
       <div className="w-[848px] flex flex-row items-start justify-center py-0 pl-0.5 pr-0 box-border max-w-full">
@@ -81,7 +81,7 @@ const DesktopContactLight = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="self-stretch shadow-[0px_12.6px_18.47px_rgba(0,_0,_0,_0.07)] rounded-[19.44px] bg-neutral-n0 border-gainsboro-400 border-[1px] border-solid overflow-hidden flex flex-col items-start justify-start py-[49px] px-[47px] gap-[43.8px] text-left text-2xl-4 mq1050:pl-[23px] mq1050:pr-[23px] mq1050:box-border gap-[22px] mq750:pt-[204.2px] mq750:pb-8 mq750:box-border">
+          <div className="self-stretch shadow-[0px_12.6px_18.47px_rgba(0,_0,_0,_0.07)] rounded-[19.44px] bg-[#fff] border-gainsboro-400 border-[1px] border-solid overflow-hidden flex flex-col items-start justify-start py-[49px] px-[47px] gap-[43.8px] text-left text-2xl-4 mq1050:pl-[23px] mq1050:pr-[23px] mq1050:box-border gap-[22px] mq750:pt-[204.2px] mq750:pb-8 mq750:box-border">
             <div className="self-stretch flex flex-row items-start justify-center py-0 pl-0 pr-0.5">
               <b className="relative tracking-[0.1px] leading-[33px] inline-block min-w-[107px] mq450:text-mid mq450:leading-[26px]">
                 Contact Us

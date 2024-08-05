@@ -5,9 +5,9 @@ import PropTypes from "prop-types";
 const TrialBanner = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-neutral-n0 overflow-hidden flex flex-row items-start justify-center py-[77.8px] px-5 box-border shrink-0 max-w-full z-[3] text-left text-27xl-7 text-neutral-n0 font-dm-sans gap-section-spacing-lg mq750:pb-[51px] mq750:box-border ${className}`}
+      className={`self-stretch bg-[#fff] overflow-hidden flex flex-row items-start justify-center py-[77.8px] px-5 box-border shrink-0 max-w-full z-[3] text-left text-27xl-7 text-[#fff] font-dm-sans gap-section-spacing-lg mq750:pb-[51px] mq750:box-border ${className}`}
     >
-      <div className="h-[415.2px] w-[1170.6px] rounded-13xl bg-primary-pr600 overflow-hidden shrink-0 flex flex-col items-start justify-start py-inset-6xl px-[58px] box-border relative gap-[7.8px] max-w-[1170.6px] lg:max-w-full mq450:h-auto mq450:min-h-[415.2]">
+      <div className="h-[415.2px] w-[1170.6px] rounded-13xl bg-[#387ff5] overflow-hidden shrink-0 flex flex-col items-start justify-start py-inset-6xl px-[58px] box-border relative gap-[7.8px] max-w-[1170.6px] lg:max-w-full mq450:h-auto mq450:min-h-[415.2]">
         <img
           className="w-[854.6px] h-[calc(100%_-_3px)] absolute !m-[0] top-[3px] bottom-[0px] left-[0px] max-h-full overflow-hidden object-contain"
           alt=""

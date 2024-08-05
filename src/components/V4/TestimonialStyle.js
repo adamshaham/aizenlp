@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const TestimonialStyle = ({ className = "", avatar }) => {
   return (
     <div
-      className={`shadow-[0px_12.6px_18.47px_rgba(0,_0,_0,_0.07)] rounded-[9.72px] bg-neutral-n0 border-gainsboro-300 border-[1px] border-solid box-border flex flex-col items-center justify-start py-[37px] pl-[31px] pr-[29px] gap-[29.2px] max-w-full text-center text-mid-5 text-second-text1 font-button1 mq750:pt-px mq750:pb-6 mq750:box-border ${className}`}
+      className={`shadow-[0px_12.6px_18.47px_rgba(0,_0,_0,_0.07)] rounded-[9.72px] bg-[#fff] border-gainsboro-300 border-[1px] border-solid box-border flex flex-col items-center justify-start py-[37px] pl-[31px] pr-[29px] gap-[29.2px] max-w-full text-center text-mid-5 text-second-text1 font-button1 mq750:pt-px mq750:pb-6 mq750:box-border ${className}`}
     >
       <img
         className="w-[144.9px] h-[144.9px] relative object-cover"

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const FeatureStyle = ({ className = "" }) => {
   return (
     <div
-      className={`overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] text-left text-2xl-4 text-neutral-n0 font-button1 ${className}`}
+      className={`overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] text-left text-2xl-4 text-[#fff] font-button1 ${className}`}
     >
       <div className="overflow-hidden flex flex-row items-center justify-start">
         <div className="h-[42px] w-[41.8px] rounded-[29.15px] bg-primary2 overflow-hidden shrink-0 flex flex-col items-center justify-start py-[12.9px] px-3 box-border">

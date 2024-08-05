@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const DesktopFooterDark = ({ className = "" }) => {
   return (
     <footer
-      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-col items-center justify-start pt-[104.1px] px-5 pb-[104px] box-border max-w-full z-[2] text-left text-2xl-4 text-neutral-n0 font-button1 mq750:pt-[68px] mq750:pb-[68px] mq750:box-border ${className}`}
+      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-col items-center justify-start pt-[104.1px] px-5 pb-[104px] box-border max-w-full z-[2] text-left text-2xl-4 text-[#fff] font-button1 mq750:pt-[68px] mq750:pb-[68px] mq750:box-border ${className}`}
     >
       <div className="w-[1007.2px] overflow-hidden flex flex-row items-start justify-start gap-[77.8px] max-w-full mq1050:flex-wrap gap-[39px] gap-[19px]">
         <div className="flex-1 overflow-x-auto flex flex-row items-center justify-start gap-[19.4px] min-w-[397px] max-w-full mq750:min-w-full">

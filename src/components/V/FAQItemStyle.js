@@ -49,13 +49,13 @@ const FAQItemStyle = ({
 
   return (
     <div
-      className={`self-stretch border-neutral-n200 border-b-[1px] border-solid box-border overflow-hidden flex flex-col items-start justify-start max-w-full text-left text-lgi-4 text-neutral-1000 font-dm-sans ${className}`}
+      className={`self-stretch border-[#eceef4] border-b-[1px] border-solid box-border overflow-hidden flex flex-col items-start justify-start max-w-full text-left text-lgi-4 text-[#1c1f25] font-dm-sans ${className}`}
       style={fAQItemStyle2Style}
     >
       <div className="self-stretch flex flex-row items-start justify-start pt-0 pb-[23.3px] pl-0 pr-[19px] box-border gap-[15.6px] max-w-full mq750:flex-wrap">
         <div className="flex flex-row items-start justify-start pt-[5.9px] px-0 pb-[5.8px]">
           <div
-            className="h-[44.3px] w-[3.9px] relative rounded-[1.94px] bg-primary-pr600"
+            className="h-[44.3px] w-[3.9px] relative rounded-[1.94px] bg-[#387ff5]"
             style={lineStyle}
           />
         </div>
@@ -75,7 +75,7 @@ const FAQItemStyle = ({
       </div>
       {!content && (
         <div
-          className="self-stretch h-[89px] flex-row items-start justify-start pt-0 pb-[19.4px] pl-0 pr-[19px] box-border max-w-full text-base-6 text-accent-secondary-neutral-7 font-body-base-regular"
+          className="self-stretch h-[89px] flex-row items-start justify-start pt-0 pb-[19.4px] pl-0 pr-[19px] box-border max-w-full text-base-6 text-[#b9b9b9] font-body-base-regular"
           style={content1Style}
         >
           <div

@@ -55,7 +55,7 @@ const SecitonHeadlingLevel1 = ({
 
   return (
     <div
-      className={`w-full flex flex-col items-center justify-start pt-0 px-0 pb-0 box-border gap-stack-3xl max-w-[777.78px] shrink-0 text-center text-18xl-9 text-neutral-1000 font-dm-sans gap-stack-3xl mq1050:max-w-full ${className}`}
+      className={`w-full flex flex-col items-center justify-start pt-0 px-0 pb-0 box-border gap-stack-3xl max-w-[777.78px] shrink-0 text-center text-18xl-9 text-[#1c1f25] font-dm-sans gap-stack-3xl mq1050:max-w-full ${className}`}
       style={secitonHeadlingLevel111Style}
     >
       <div className="self-stretch flex flex-col items-center justify-start gap-stack-lg1 max-w-full">

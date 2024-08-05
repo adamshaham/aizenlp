@@ -28,7 +28,7 @@ const Header = ({ className = "" }) => {
           </div>
           <div className="flex-1 flex flex-col items-start justify-end pt-0 px-0 pb-[7.7px] box-border min-w-[565px] max-w-full mq750:min-w-full">
             <div className="self-stretch overflow-hidden flex flex-row items-center justify-start gap-[42.8px] max-w-full gap-[21px] mq750:flex-wrap">
-              <nav className="m-0 flex-1 overflow-hidden flex flex-row items-center justify-start gap-[20.4px] min-w-[268px] max-w-full whitespace-nowrap text-center text-mini-6 text-neutral-n0 font-button1 mq450:flex-wrap">
+              <nav className="m-0 flex-1 overflow-hidden flex flex-row items-center justify-start gap-[20.4px] min-w-[268px] max-w-full whitespace-nowrap text-center text-mini-6 text-[#fff] font-button1 mq450:flex-wrap">
                 <div className="w-[59.4px] overflow-hidden shrink-0 flex flex-row items-center justify-start py-[9.7px] px-2 box-border">
                   <a className="[text-decoration:none] relative tracking-[0.19px] leading-[27px] text-[inherit] inline-block min-w-[41px]">
                     Home

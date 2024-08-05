@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const DesktopTestimonialsLight = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-row items-start justify-start pt-px px-0 pb-0 box-border max-w-full z-[3] text-center text-25xl-7 text-neutral-n0 font-button1 ${className}`}
+      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-row items-start justify-start pt-px px-0 pb-0 box-border max-w-full z-[3] text-center text-25xl-7 text-[#fff] font-button1 ${className}`}
     >
       <div className="h-px w-[1399px] relative hidden max-w-full" />
       <div className="flex-1 flex flex-col items-center justify-start pt-[97.2px] px-5 pb-[97.3px] box-border gap-[77.8px] max-w-full gap-[39px] lg:pt-px lg:pb-[63px] lg:box-border mq1050:pb-[41px] mq1050:box-border mq450:pb-[27px] mq450:box-border gap-[19px]">

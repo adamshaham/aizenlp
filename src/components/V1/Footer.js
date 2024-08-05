@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Footer = ({ className = "" }) => {
   return (
     <footer
-      className={`self-stretch bg-accent-1 overflow-hidden flex flex-row items-center justify-between pt-[95.6px] px-[95px] pb-[95.5px] gap-5 text-left text-xl-4 text-neutral-n0 font-montserrat lg:flex-wrap lg:justify-center lg:pl-[47px] lg:pr-[47px] lg:box-border mq450:pt-[62px] mq450:pb-[62px] mq450:box-border mq750:pl-[23px] mq750:pr-[23px] mq750:box-border ${className}`}
+      className={`self-stretch bg-accent-1 overflow-hidden flex flex-row items-center justify-between pt-[95.6px] px-[95px] pb-[95.5px] gap-5 text-left text-xl-4 text-[#fff] font-montserrat lg:flex-wrap lg:justify-center lg:pl-[47px] lg:pr-[47px] lg:box-border mq450:pt-[62px] mq450:pb-[62px] mq450:box-border mq750:pl-[23px] mq750:pr-[23px] mq750:box-border ${className}`}
     >
       <div className="w-[263.5px] flex flex-col items-start justify-start gap-[38.9px] text-17xl-9 gap-[19px]">
         <div className="self-stretch relative leading-[47px] font-semibold mq1050:text-11xl mq1050:leading-[37px] mq450:text-3xl mq450:leading-[28px]">
@@ -82,28 +82,28 @@ const Footer = ({ className = "" }) => {
           Follow Us
         </div>
         <div className="self-stretch flex flex-row items-start justify-between gap-5">
-          <div className="w-[38.9px] rounded-[7.78px] bg-neutral-n0 flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
+          <div className="w-[38.9px] rounded-[7.78px] bg-[#fff] flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
             <img
               className="h-[23.3px] w-[23.3px] relative"
               alt=""
               src="/tw.svg"
             />
           </div>
-          <div className="w-[38.9px] rounded-[7.78px] bg-neutral-n0 flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
+          <div className="w-[38.9px] rounded-[7.78px] bg-[#fff] flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
             <img
               className="h-[23.3px] w-[23.3px] relative"
               alt=""
               src="/ig.svg"
             />
           </div>
-          <div className="w-[38.9px] rounded-[7.78px] bg-neutral-n0 flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
+          <div className="w-[38.9px] rounded-[7.78px] bg-[#fff] flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
             <img
               className="h-[23.3px] w-[23.3px] relative"
               alt=""
               src="/fb.svg"
             />
           </div>
-          <div className="w-[38.9px] rounded-[7.78px] bg-neutral-n0 flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
+          <div className="w-[38.9px] rounded-[7.78px] bg-[#fff] flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
             <img
               className="h-[23.3px] w-[23.3px] relative"
               alt=""

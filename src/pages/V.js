@@ -10,7 +10,7 @@ import Footer1 from "../components/V/Footer1";
 
 const V = () => {
   return (
-    <div className="w-full relative bg-neutral-n0 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
+    <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
       <Navbar1Fixed />
       <HeroBanner />
       <section className="self-stretch flex flex-col items-start justify-start max-w-full">

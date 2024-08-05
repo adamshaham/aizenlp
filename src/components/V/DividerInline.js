@@ -13,7 +13,7 @@ const DividerInline = ({ className = "", propBorderTop }) => {
       className={`self-stretch h-px flex flex-row items-start justify-start pt-[0.5px] px-0 pb-0 box-border shrink-0 max-w-full ${className}`}
     >
       <div
-        className="h-px flex-1 relative border-neutral-n300 border-t-[1px] border-solid box-border max-w-full"
+        className="h-px flex-1 relative border-[#d2d5e2] border-t-[1px] border-solid box-border max-w-full"
         style={line1Style}
       />
     </div>

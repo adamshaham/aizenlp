@@ -18,7 +18,7 @@ const Services = ({ className = "" }) => {
             et ex volutpat tincidunt eget at felis.
           </div>
         </div>
-        <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-x-[38px] gap-y-[36.9px] min-h-[600px] max-w-full text-8xl-2 text-neutral-n0 gap-[18px]">
+        <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-x-[38px] gap-y-[36.9px] min-h-[600px] max-w-full text-8xl-2 text-[#fff] gap-[18px]">
           <div className="w-[377px] shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-accent-1 overflow-hidden shrink-0 flex flex-col items-start justify-start py-[38.9px] px-[23px] box-border gap-[15.5px] max-w-full">
             <div className="self-stretch flex flex-col items-start justify-start gap-[23.4px]">
               <img

@@ -18,8 +18,8 @@ const Pricing1 = ({ className = "" }) => {
               <div className="relative leading-[29px] font-medium">
                 Added for Monthly
               </div>
-              <div className="h-[28.9px] w-[72.6px] relative rounded-mid-5 bg-neutral-n0 border-blueviolet-200 border-[0.9px] border-solid box-border">
-                <div className="absolute top-[0px] left-[0px] rounded-mid-5 bg-neutral-n0 border-blueviolet-200 border-[0.9px] border-solid box-border w-full h-full hidden" />
+              <div className="h-[28.9px] w-[72.6px] relative rounded-mid-5 bg-[#fff] border-blueviolet-200 border-[0.9px] border-solid box-border">
+                <div className="absolute top-[0px] left-[0px] rounded-mid-5 bg-[#fff] border-blueviolet-200 border-[0.9px] border-solid box-border w-full h-full hidden" />
                 <div className="absolute top-[4.4px] left-[4.3px] rounded-mid-5 bg-blueviolet-200 border-blueviolet-200 border-[0.9px] border-solid box-border w-[31.5px] h-[20.1px] z-[1]" />
               </div>
               <div className="relative leading-[29px] font-medium text-gray-200 inline-block min-w-[59px]">
@@ -33,9 +33,9 @@ const Pricing1 = ({ className = "" }) => {
               prop="$10"
               singalUserLicense="Singal user license"
             />
-            <div className="rounded-[8.75px] [background:linear-gradient(180deg,_rgba(255,_255,_255,_0),_#591eae),_#fff] flex flex-col items-start justify-start pt-0 px-0 pb-[46.3px] relative gap-[8.8px] text-neutral-n0 mq450:pb-[30px] mq450:box-border">
+            <div className="rounded-[8.75px] [background:linear-gradient(180deg,_rgba(255,_255,_255,_0),_#591eae),_#fff] flex flex-col items-start justify-start pt-0 px-0 pb-[46.3px] relative gap-[8.8px] text-[#fff] mq450:pb-[30px] mq450:box-border">
               <div className="self-stretch h-[421.8px] relative rounded-[8.75px] [background:linear-gradient(180deg,_rgba(255,_255,_255,_0),_#591eae),_#fff] hidden z-[0]" />
-              <div className="w-full h-full absolute !m-[0] top-[0px] right-[0.9px] rounded-[8.75px] bg-neutral-n0 z-[1]" />
+              <div className="w-full h-full absolute !m-[0] top-[0px] right-[0.9px] rounded-[8.75px] bg-[#fff] z-[1]" />
               <div className="self-stretch flex flex-col items-end justify-start pt-[43.7px] pb-[26.2px] pl-[78px] pr-20 relative gap-[11.3px] mq450:pl-5 mq450:pr-5 mq450:box-border">
                 <img
                   className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-contain z-[2]"
@@ -49,7 +49,7 @@ const Pricing1 = ({ className = "" }) => {
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-start justify-start gap-[5.2px] text-19xl-5">
-                  <div className="self-stretch h-[0.9px] relative bg-neutral-n0 border-neutral-n0 border-t-[0.9px] border-solid box-border z-[3]" />
+                  <div className="self-stretch h-[0.9px] relative bg-[#fff] border-[#fff] border-t-[0.9px] border-solid box-border z-[3]" />
                   <div className="flex flex-row items-start justify-start py-0 px-3.5">
                     <div className="relative leading-[49.9px] inline-block min-w-[127.8px] whitespace-nowrap z-[3] mq450:text-3xl">
                       <span className="font-semibold">$30</span>
@@ -83,7 +83,7 @@ const Pricing1 = ({ className = "" }) => {
                     </div>
                   </div>
                   <button className="cursor-pointer [border:none] pt-[13.2px] px-[25px] pb-[13.1px] bg-indigo rounded-[4.38px] flex flex-row items-start justify-start shrink-0 whitespace-nowrap z-[2] hover:bg-darkorchid">
-                    <div className="relative text-sm tracking-[0.05em] leading-[160%] font-medium font-body-base-regular text-neutral-n0 text-center">
+                    <div className="relative text-sm tracking-[0.05em] leading-[160%] font-medium font-body-base-regular text-[#fff] text-center">
                       TRY THIS PACKAGE
                     </div>
                   </button>

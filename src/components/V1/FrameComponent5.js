@@ -45,7 +45,7 @@ const FrameComponent5 = ({ className = "" }) => {
                 enterYourFullNamePlacehol="Enter your message"
               />
             </div>
-            <button className="cursor-pointer [border:none] pt-[23.3px] px-5 pb-[23.4px] bg-neutral-n0 self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center hover:bg-gainsboro-200">
+            <button className="cursor-pointer [border:none] pt-[23.3px] px-5 pb-[23.4px] bg-[#fff] self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center hover:bg-gainsboro-200">
               <div className="w-[299.4px] relative text-xl-4 leading-[24px] font-semibold font-montserrat text-accent-1 text-center inline-block shrink-0 mq450:text-base mq450:leading-[19px]">
                 Read More
               </div>

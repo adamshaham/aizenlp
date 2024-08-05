@@ -9,7 +9,7 @@ import FooterSection from "../components/V2/FooterSection";
 
 const V2 = () => {
   return (
-    <div className="w-full relative bg-neutral-n0 overflow-hidden flex flex-col items-start justify-start gap-[14.9px] leading-[normal] tracking-[normal]">
+    <div className="w-full relative bg-[#fff] overflow-hidden flex flex-col items-start justify-start gap-[14.9px] leading-[normal] tracking-[normal]">
       <img
         className="mt-[-14.9px] ml-[-147.9px] w-0 h-0 relative shrink-0"
         alt=""
@@ -20,7 +20,7 @@ const V2 = () => {
       <Pricing1 />
       <FrameComponent16 />
       <FrameComponent17 />
-      <footer className="self-stretch bg-black1 flex flex-col items-center justify-start pt-[87.5px] px-5 pb-[30px] box-border gap-[70px] max-w-full shrink-0 text-left text-lgi-3 text-neutral-n0 font-poppins mq450:pt-[57px] mq450:pb-5 mq450:box-border gap-[17px] gap-[35px]">
+      <footer className="self-stretch bg-black1 flex flex-col items-center justify-start pt-[87.5px] px-5 pb-[30px] box-border gap-[70px] max-w-full shrink-0 text-left text-lgi-3 text-[#fff] font-poppins mq450:pt-[57px] mq450:pb-5 mq450:box-border gap-[17px] gap-[35px]">
         <img
           className="w-[1400px] h-[441px] relative hidden max-w-full"
           alt=""
@@ -69,7 +69,7 @@ const V2 = () => {
           <FooterSection />
         </div>
         <div className="w-[997.5px] flex flex-col items-start justify-start gap-[25.3px] max-w-full text-center text-base-8 text-darkoverlayelement-do70 font-body-base-regular">
-          <div className="self-stretch h-[0.9px] relative bg-darkoverlayelement-do20 border-neutral-n0 border-t-[0.9px] border-solid box-border z-[1]" />
+          <div className="self-stretch h-[0.9px] relative bg-darkoverlayelement-do20 border-[#fff] border-t-[0.9px] border-solid box-border z-[1]" />
           <div className="self-stretch flex flex-row items-start justify-center py-0 px-5">
             <div className="relative leading-[26px] font-medium whitespace-pre-wrap z-[1]">
               Copyright 2021 The Codext All Rights Reserved.

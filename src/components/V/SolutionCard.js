@@ -9,7 +9,7 @@ const SolutionCard = ({
 }) => {
   return (
     <div
-      className={`flex-1 rounded-xl bg-neutral-n0 border-neutral-n400 border-[1px] border-solid box-border flex flex-col items-start justify-center p-[30px] gap-stack-lg1 min-w-[283px] max-w-full text-left text-lgi-4 text-neutral-1000 font-dm-sans ${className}`}
+      className={`flex-1 rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border flex flex-col items-start justify-center p-[30px] gap-stack-lg1 min-w-[283px] max-w-full text-left text-lgi-4 text-[#1c1f25] font-dm-sans ${className}`}
     >
       <div className="flex flex-row items-start justify-start">
         <img
@@ -25,7 +25,7 @@ const SolutionCard = ({
           {solutionDescr}
         </div>
       </div>
-      <div className="self-stretch relative text-sm-6 leading-[140%] font-body-base-regular text-primary-pr600 overflow-hidden text-ellipsis whitespace-nowrap">
+      <div className="self-stretch relative text-sm-6 leading-[140%] font-body-base-regular text-[#387ff5] overflow-hidden text-ellipsis whitespace-nowrap">
         {solutionField}
       </div>
     </div>

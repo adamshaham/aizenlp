@@ -6,9 +6,9 @@ import PropTypes from "prop-types";
 const Navbar1Fixed = ({ className = "" }) => {
   return (
     <header
-      className={`self-stretch bg-neutral-n0 flex flex-row items-start justify-center py-0 px-5 box-border top-[0] z-[99] sticky max-w-full gap-[81px] gap-[41px] gap-5 ${className}`}
+      className={`self-stretch bg-[#fff] flex flex-row items-start justify-center py-0 px-5 box-border top-[0] z-[99] sticky max-w-full gap-[81px] gap-[41px] gap-5 ${className}`}
     >
-      <div className="w-[1170.6px] border-neutral-n300 border-b-[1px] border-solid box-border flex flex-col items-start justify-start max-w-[1170.6px] lg:max-w-full">
+      <div className="w-[1170.6px] border-[#d2d5e2] border-b-[1px] border-solid box-border flex flex-col items-start justify-start max-w-[1170.6px] lg:max-w-full">
         <div className="self-stretch flex flex-row items-center justify-between pt-[19.4px] px-0 pb-0 gap-5">
           <div className="flex flex-row items-start justify-start gap-inline-xl">
             <TextLinkMenu
@@ -58,12 +58,12 @@ const Navbar1Fixed = ({ className = "" }) => {
               nimbusSymbol="/nimbus-symbol.svg"
             />
             <div className="flex-1 flex flex-col items-start justify-end pt-0 px-0 pb-1.5 box-border max-w-full">
-              <nav className="m-0 self-stretch flex flex-row items-center justify-start py-0 px-0 gap-[30.8px] shrink-0 text-center text-base-6 text-#4b5162 font-dm-sans lg:hidden gap-[15px]">
+              <nav className="m-0 self-stretch flex flex-row items-center justify-start py-0 px-0 gap-[30.8px] shrink-0 text-center text-base-6 text--[#4b5162] font-dm-sans lg:hidden gap-[15px]">
                 <TextLinkMenu
                   label="Features"
                   rIcon
                   propPadding="unset"
-                  propColor="#4b5162"
+                  propColor="-[#4b5162]"
                   propMinWidth="64px"
                   propWidth="unset"
                   icon="/icon-2.svg"
@@ -72,7 +72,7 @@ const Navbar1Fixed = ({ className = "" }) => {
                   label="Case Studies"
                   rIcon
                   propPadding="unset"
-                  propColor="#4b5162"
+                  propColor="-[#4b5162]"
                   propMinWidth="97px"
                   propWidth="unset"
                   icon="/icon-2.svg"
@@ -81,7 +81,7 @@ const Navbar1Fixed = ({ className = "" }) => {
                   label="Pricing"
                   rIcon={false}
                   propPadding="unset"
-                  propColor="#4b5162"
+                  propColor="-[#4b5162]"
                   propMinWidth="51px"
                   propWidth="unset"
                   icon="/icon2.svg"

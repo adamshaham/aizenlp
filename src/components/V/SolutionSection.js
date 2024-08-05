@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 const SolutionSection = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch bg-neutral-n0 overflow-hidden flex flex-col items-center justify-start pt-[124.4px] px-5 pb-[108.9px] box-border max-w-full text-center text-18xl-9 text-neutral-1000 font-dm-sans lg:pt-[81px] lg:pb-[71px] lg:box-border gap-section-spacing-lg mq750:pt-[53px] mq750:pb-[46px] mq750:box-border ${className}`}
+      className={`self-stretch bg-[#fff] overflow-hidden flex flex-col items-center justify-start pt-[124.4px] px-5 pb-[108.9px] box-border max-w-full text-center text-18xl-9 text-[#1c1f25] font-dm-sans lg:pt-[81px] lg:pb-[71px] lg:box-border gap-section-spacing-lg mq750:pt-[53px] mq750:pb-[46px] mq750:box-border ${className}`}
     >
       <div className="w-[1170.6px] flex flex-col items-center justify-start gap-[58.3px] max-w-[1170.56px] lg:max-w-full gap-[29px]">
         <SecitonHeadlingLevel1

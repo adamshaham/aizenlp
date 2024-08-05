@@ -33,7 +33,7 @@ const TextBlock = ({
 
   return (
     <div
-      className={`self-stretch overflow-hidden flex flex-col items-start justify-start text-left text-xl text-neutral-n0 font-body-base-regular ${className}`}
+      className={`self-stretch overflow-hidden flex flex-col items-start justify-start text-left text-xl text-[#fff] font-body-base-regular ${className}`}
     >
       <div className="overflow-hidden flex flex-row items-start justify-start">
         <div

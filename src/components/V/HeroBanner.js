@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const HeroBanner = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch bg-neutral-n0 flex flex-row items-start justify-center pt-[108.9px] px-5 pb-[77.8px] box-border max-w-full text-center text-27xl-7 text-neutral-1000 font-dm-sans mq750:pt-[46px] mq750:pb-[33px] mq750:box-border mq1050:pt-[71px] mq1050:pb-[51px] mq1050:box-border ${className}`}
+      className={`self-stretch bg-[#fff] flex flex-row items-start justify-center pt-[108.9px] px-5 pb-[77.8px] box-border max-w-full text-center text-27xl-7 text-[#1c1f25] font-dm-sans mq750:pt-[46px] mq750:pb-[33px] mq750:box-border mq1050:pt-[71px] mq1050:pb-[51px] mq1050:box-border ${className}`}
     >
       <div className="w-[1170.6px] flex flex-col items-start justify-start gap-[58.3px] max-w-[1170.6px] lg:max-w-full gap-[29px]">
         <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
@@ -87,7 +87,7 @@ const HeroBanner = ({ className = "" }) => {
                 propAlignSelf2="unset"
                 propWidth2="unset"
                 propMinWidth="96px"
-                propColor="#4b5162"
+                propColor="-[#4b5162]"
                 propDisplay="inline-block"
                 propHeight3="unset"
                 rIcon="/r-icon3.svg"
@@ -98,8 +98,8 @@ const HeroBanner = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="self-stretch h-[466.7px] relative rounded-[23.33px] bg-primary-pr600 border-neutral-n300 border-[1px] border-solid box-border overflow-hidden shrink-0 text-left text-lgi-4 font-body-base-regular">
-          <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-primary-pr500 overflow-hidden">
+        <div className="self-stretch h-[466.7px] relative rounded-[23.33px] bg-[#387ff5] border-[#d2d5e2] border-[1px] border-solid box-border overflow-hidden shrink-0 text-left text-lgi-4 font-body-base-regular">
+          <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-[#6099f7] overflow-hidden">
             <img
               className="relative w-[2080.4px] h-[1113.5px]"
               alt=""
@@ -132,7 +132,7 @@ const HeroBanner = ({ className = "" }) => {
             />
             <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-primaryalpha-pra10 mix-blend-color-burn z-[3]" />
             <div className="absolute top-[calc(50%_-_40.85px)] left-[calc(50%_-_81.7px)] rounded-[77.78px] bg-darkoverlayelement-do20 w-[287.8px] h-[80.7px] hidden" />
-            <div className="absolute top-[calc(50%_-_27.25px)] left-[calc(50%_-_65.5px)] rounded-[46.67px] bg-neutral-n0 hidden flex-row items-center justify-start py-[11.7px] px-[17px] gap-[7.8px] whitespace-nowrap">
+            <div className="absolute top-[calc(50%_-_27.25px)] left-[calc(50%_-_65.5px)] rounded-[46.67px] bg-[#fff] hidden flex-row items-center justify-start py-[11.7px] px-[17px] gap-[7.8px] whitespace-nowrap">
               <img
                 className="h-[23.3px] w-[23.3px] relative"
                 alt=""
@@ -143,7 +143,7 @@ const HeroBanner = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="absolute top-[calc(50%_-_40.85px)] left-[calc(50%_-_159px)] [backdrop-filter:blur(11.67px)] rounded-[46.67px] bg-neutral-n0 border-lightsteelblue border-[11.7px] border-solid box-border w-[340.3px] h-[105px] flex flex-row items-end justify-start py-[11.7px] px-[11px] gap-[11.7px] z-[4]">
+          <div className="absolute top-[calc(50%_-_40.85px)] left-[calc(50%_-_159px)] [backdrop-filter:blur(11.67px)] rounded-[46.67px] bg-[#fff] border-lightsteelblue border-[11.7px] border-solid box-border w-[340.3px] h-[105px] flex flex-row items-end justify-start py-[11.7px] px-[11px] gap-[11.7px] z-[4]">
             <img
               className="h-[58.3px] w-[58.3px] relative overflow-hidden shrink-0"
               alt=""
@@ -161,7 +161,7 @@ const HeroBanner = ({ className = "" }) => {
                   <div className="flex flex-col items-start justify-start pt-[10.5px] px-0 pb-0">
                     <div className="w-[3.9px] h-[3.9px] relative rounded-[50%] bg-neutralalphainvert-ni20" />
                   </div>
-                  <div className="relative leading-[25px] font-medium text-primary-pr600 inline-block min-w-[77px]">
+                  <div className="relative leading-[25px] font-medium text-[#387ff5] inline-block min-w-[77px]">
                     Play video
                   </div>
                 </div>

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const DesktopLightCTA = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-row items-end justify-start pt-[157.9px] pb-[106px] pl-[115px] pr-12 box-border gap-[48.6px] max-w-full z-[1] text-left text-2xl-4 text-neutral-n0 font-button1 lg:flex-wrap mq1050:pb-[69px] mq1050:box-border mq450:pl-5 mq450:pb-[45px] mq450:box-border gap-6 mq750:pl-[57px] mq750:pr-6 mq750:box-border ${className}`}
+      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-row items-end justify-start pt-[157.9px] pb-[106px] pl-[115px] pr-12 box-border gap-[48.6px] max-w-full z-[1] text-left text-2xl-4 text-[#fff] font-button1 lg:flex-wrap mq1050:pb-[69px] mq1050:box-border mq450:pl-5 mq450:pb-[45px] mq450:box-border gap-6 mq750:pl-[57px] mq750:pr-6 mq750:box-border ${className}`}
     >
       <div className="h-px w-[1400px] relative hidden max-w-full" />
       <img

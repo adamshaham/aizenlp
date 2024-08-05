@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 const FrameComponent12 = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[13.3px] box-border max-w-full text-left text-33xl text-neutral-n0 font-body-base-regular ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[13.3px] box-border max-w-full text-left text-33xl text-[#fff] font-body-base-regular ${className}`}
     >
       <div className="flex-1 bg-dark-background overflow-hidden flex flex-col items-center justify-start pt-[44.4px] px-5 pb-[44.3px] box-border gap-[44.3px] max-w-full gap-[22px] mq450:pt-5 mq450:pb-5 mq450:box-border mq1000:pt-[29px] mq1000:pb-[29px] mq1000:box-border">
         <div className="w-[321.7px] overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] box-border max-w-full">

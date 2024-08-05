@@ -22,7 +22,7 @@ const FrameComponent4 = ({ className = "" }) => {
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[38.9px] max-w-full text-left text-base-6 text-accent-1 gap-[19px]">
           <div className="flex-1 flex flex-col items-start justify-start gap-[23.3px] min-w-[283px] max-w-full">
-            <div className="self-stretch rounded-[15.56px] bg-neutral-n0 overflow-hidden flex flex-row items-start justify-start max-w-full">
+            <div className="self-stretch rounded-[15.56px] bg-[#fff] overflow-hidden flex flex-row items-start justify-start max-w-full">
               <img
                 className="h-[311.1px] flex-1 relative rounded-[15.56px] max-w-full overflow-hidden object-cover"
                 loading="lazy"
@@ -88,7 +88,7 @@ const FrameComponent4 = ({ className = "" }) => {
                   </div>
                 </div>
                 <button className="cursor-pointer [border:none] pt-[23.3px] px-[38px] pb-[23.4px] bg-accent-1 self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-mediumaquamarine">
-                  <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-neutral-n0 text-center">
+                  <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center">
                     Read More
                   </div>
                 </button>

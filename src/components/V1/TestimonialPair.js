@@ -58,7 +58,7 @@ const TestimonialPair = ({
 
   return (
     <div
-      className={`w-[542.5px] shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-accent-1 flex flex-col items-start justify-start py-[31.1px] pl-[63px] pr-[39px] box-border relative gap-[38.9px] max-w-full shrink-0 text-left text-base-6 text-neutral-n0 font-plus-jakarta-sans gap-[19px] mq750:pl-[31px] mq750:box-border ${className}`}
+      className={`w-[542.5px] shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-accent-1 flex flex-col items-start justify-start py-[31.1px] pl-[63px] pr-[39px] box-border relative gap-[38.9px] max-w-full shrink-0 text-left text-base-6 text-[#fff] font-plus-jakarta-sans gap-[19px] mq750:pl-[31px] mq750:box-border ${className}`}
       style={testimonialPairStyle}
     >
       <div

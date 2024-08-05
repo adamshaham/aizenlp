@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const DesktopHeroLight1 = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch overflow-hidden flex flex-col items-center justify-start pt-[77.8px] px-5 pb-[77.7px] box-border gap-[38.9px] max-w-full text-center text-2xl-4 text-neutral-n0 font-button1 lg:pt-[51px] lg:pb-[51px] lg:box-border gap-[19px] mq750:pt-[33px] mq750:pb-[33px] mq750:box-border ${className}`}
+      className={`self-stretch overflow-hidden flex flex-col items-center justify-start pt-[77.8px] px-5 pb-[77.7px] box-border gap-[38.9px] max-w-full text-center text-2xl-4 text-[#fff] font-button1 lg:pt-[51px] lg:pb-[51px] lg:box-border gap-[19px] mq750:pt-[33px] mq750:pb-[33px] mq750:box-border ${className}`}
     >
       <div className="overflow-hidden flex flex-col items-center justify-start pt-[19.5px] px-[19px] pb-[19.4px] box-border max-w-full">
         <div className="overflow-hidden flex flex-col items-center justify-start pt-0 px-0 pb-[0.1px] box-border gap-[6.8px] max-w-full shrink-0">
@@ -26,7 +26,7 @@ const DesktopHeroLight1 = ({ className = "" }) => {
       <div className="w-[268.3px] overflow-hidden flex flex-col items-center justify-start pt-[19.4px] px-[19px] pb-[19.5px] box-border">
         <button className="cursor-pointer [border:none] p-0 bg-[transparent] self-stretch flex flex-col items-start justify-start">
           <div className="self-stretch flex flex-col items-center justify-start">
-            <div className="self-stretch rounded-[34.03px] bg-neutral-n0 overflow-hidden flex flex-col items-center justify-start pt-[15.6px] px-[54px] pb-[15.5px]">
+            <div className="self-stretch rounded-[34.03px] bg-[#fff] overflow-hidden flex flex-col items-center justify-start pt-[15.6px] px-[54px] pb-[15.5px]">
               <div className="overflow-hidden flex flex-row items-center justify-start">
                 <b className="relative text-3xl tracking-[0.1px] leading-[33px] inline-block font-button1 text-primary2 text-center min-w-[120px] mq450:text-lg mq450:leading-[26px]">
                   Try For Free

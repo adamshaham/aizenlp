@@ -20,7 +20,7 @@ const FrameComponent2 = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-start justify-start gap-[37.6px] max-w-full text-left text-base-6 text-neutral-n0 font-plus-jakarta-sans gap-[19px]">
+        <div className="self-stretch flex flex-col items-start justify-start gap-[37.6px] max-w-full text-left text-base-6 text-[#fff] font-plus-jakarta-sans gap-[19px]">
           <div className="self-stretch flex flex-row flex-wrap items-start justify-between max-w-full gap-5 lg:justify-center">
             <TestimonialPair
               ekoSusiloanto="Eko Susiloanto"

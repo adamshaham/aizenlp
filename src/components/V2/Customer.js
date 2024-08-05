@@ -14,8 +14,8 @@ const Customer = ({ className = "" }) => {
         </div>
         <div className="self-stretch grid flex-row items-start justify-start gap-[25.9px] grid-cols-[repeat(4,_minmax(174px,_1fr))] text-2xl-9 mq450:grid-cols-[minmax(174px,_1fr)] mq800:justify-center mq800:grid-cols-[repeat(2,_minmax(174px,_301px))]">
           <div className="h-[367.5px] flex flex-col items-start justify-start">
-            <div className="self-stretch rounded-[8.75px] bg-neutral-n0 flex flex-col items-start justify-start pt-[35px] px-[49px] pb-[121.9px] gap-[43.7px] z-[1] mq450:pt-[23px] mq450:pb-[79px] mq450:box-border">
-              <div className="w-[230.1px] h-[364.9px] relative rounded-[8.75px] bg-neutral-n0 hidden" />
+            <div className="self-stretch rounded-[8.75px] bg-[#fff] flex flex-col items-start justify-start pt-[35px] px-[49px] pb-[121.9px] gap-[43.7px] z-[1] mq450:pt-[23px] mq450:pb-[79px] mq450:box-border">
+              <div className="w-[230.1px] h-[364.9px] relative rounded-[8.75px] bg-[#fff] hidden" />
               <img
                 className="w-[131.3px] h-[131.3px] relative z-[2]"
                 loading="lazy"
@@ -26,7 +26,7 @@ const Customer = ({ className = "" }) => {
                 <div className="self-stretch flex-1 relative leading-[150%] font-medium z-[2] mq450:text-lg mq450:leading-[26px]">{` `}</div>
               </div>
             </div>
-            <div className="self-stretch flex-1 shadow-[0px_1.8px_35px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] [background:linear-gradient(180deg,_rgba(90,_31,_175,_0),_#591eae),_#fff] flex flex-row items-start justify-start pt-[182px] px-0 pb-0 mt-[-362.3px] text-neutral-n0">
+            <div className="self-stretch flex-1 shadow-[0px_1.8px_35px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] [background:linear-gradient(180deg,_rgba(90,_31,_175,_0),_#591eae),_#fff] flex flex-row items-start justify-start pt-[182px] px-0 pb-0 mt-[-362.3px] text-[#fff]">
               <div className="h-[364.9px] w-[231.9px] relative shadow-[0px_1.8px_35px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] [background:linear-gradient(180deg,_rgba(90,_31,_175,_0),_#591eae),_#fff] hidden" />
               <div className="self-stretch flex-1 flex flex-col items-start justify-start pt-[25.4px] px-[22px] pb-[25px] relative gap-[9px]">
                 <div className="self-stretch relative leading-[33px] font-medium z-[4] mq450:text-lg mq450:leading-[26px]">

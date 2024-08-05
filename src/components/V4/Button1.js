@@ -46,7 +46,7 @@ const Button1 = ({
         style={textButtonStyle}
       >
         <div
-          className="relative text-base tracking-[0.2px] leading-[16px] font-medium font-button1 text-neutral-n0 text-left inline-block min-w-[65px]"
+          className="relative text-base tracking-[0.2px] leading-[16px] font-medium font-button1 text-[#fff] text-left inline-block min-w-[65px]"
           style={subsribeStyle}
         >
           {subsribe}

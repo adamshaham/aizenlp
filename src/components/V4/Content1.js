@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Content1 = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-col items-center justify-start py-[92.4px] px-[71px] box-border gap-[68.1px] max-w-full text-center text-2xl-4 text-neutral-n0 font-button1 mq1050:pt-[60px] mq1050:pb-[60px] mq1050:box-border gap-[17px] gap-[34px] mq750:py-[39px] mq750:px-[35px] mq750:box-border ${className}`}
+      className={`self-stretch flex flex-col items-center justify-start py-[92.4px] px-[71px] box-border gap-[68.1px] max-w-full text-center text-2xl-4 text-[#fff] font-button1 mq1050:pt-[60px] mq1050:pb-[60px] mq1050:box-border gap-[17px] gap-[34px] mq750:py-[39px] mq750:px-[35px] mq750:box-border ${className}`}
     >
       <div className="overflow-hidden flex flex-col items-center justify-start pt-0 px-0 pb-[0.1px] gap-[6.8px] shrink-0">
         <div className="overflow-hidden flex flex-row items-center justify-start">

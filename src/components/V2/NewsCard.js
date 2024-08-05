@@ -78,7 +78,7 @@ const NewsCard = ({
             </div>
           </div>
           <button className="cursor-pointer [border:none] pt-[8.8px] px-4 pb-[8.7px] bg-blueviolet-200 w-[93px] rounded-[4.38px] flex flex-row items-start justify-start box-border z-[1] hover:bg-blueviolet-100">
-            <div className="relative text-smi-3 tracking-[0.05em] leading-[20px] font-medium font-body-base-regular text-neutral-n0 text-left inline-block min-w-[59px]">
+            <div className="relative text-smi-3 tracking-[0.05em] leading-[20px] font-medium font-body-base-regular text-[#fff] text-left inline-block min-w-[59px]">
               Continue
             </div>
           </button>

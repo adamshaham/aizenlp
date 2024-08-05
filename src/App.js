@@ -5,14 +5,12 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+
+
 import V from "./pages/V";
 import V1 from "./pages/V1";
 import V2 from "./pages/V2";
-
-
 import V3 from "./pages/V3";
-
-
 import V4 from "./pages/V4";
 
 function App() {

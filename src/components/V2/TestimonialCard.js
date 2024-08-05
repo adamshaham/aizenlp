@@ -60,11 +60,11 @@ const TestimonialCard = ({
 
   return (
     <div
-      className={`flex-1 shadow-[0px_1.8px_3.5px_#5b1fb0] rounded-[8.75px] bg-neutral-n0 flex flex-col items-start justify-start pt-[43.8px] pb-[43.7px] pl-[49px] pr-[47px] box-border gap-[20.4px] min-w-[236px] text-left text-2xs-5 text-black1 font-body-base-regular mq450:pl-5 mq450:pr-5 mq450:box-border ${className}`}
+      className={`flex-1 shadow-[0px_1.8px_3.5px_#5b1fb0] rounded-[8.75px] bg-[#fff] flex flex-col items-start justify-start pt-[43.8px] pb-[43.7px] pl-[49px] pr-[47px] box-border gap-[20.4px] min-w-[236px] text-left text-2xs-5 text-black1 font-body-base-regular mq450:pl-5 mq450:pr-5 mq450:box-border ${className}`}
       style={testimonialCardStyle}
     >
       <div
-        className="w-[315px] h-[254.6px] relative shadow-[0px_1.8px_3.5px_#5b1fb0] rounded-[8.75px] bg-neutral-n0 hidden"
+        className="w-[315px] h-[254.6px] relative shadow-[0px_1.8px_3.5px_#5b1fb0] rounded-[8.75px] bg-[#fff] hidden"
         style={rectangleDivStyle}
       />
       <div className="w-[203.9px] flex flex-row items-start justify-start gap-[8.9px]">

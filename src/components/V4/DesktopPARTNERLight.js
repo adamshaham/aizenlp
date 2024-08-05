@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const DesktopPARTNERLight = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-col items-start justify-start max-w-full z-[2] text-center text-25xl-7 text-neutral-n0 font-button1 ${className}`}
+      className={`self-stretch bg-dark-background1 overflow-hidden flex flex-col items-start justify-start max-w-full z-[2] text-center text-25xl-7 text-[#fff] font-button1 ${className}`}
     >
       <div className="self-stretch overflow-hidden flex flex-col items-center justify-start py-[77.8px] px-5 box-border gap-[77.8px] max-w-full gap-[39px] gap-[19px] mq750:pt-5 mq750:pb-[51px] mq750:box-border">
         <div className="overflow-hidden flex flex-col items-center justify-start pt-0 px-0 pb-[0.1px] gap-[6.8px] shrink-0">
@@ -82,7 +82,7 @@ const DesktopPARTNERLight = ({ className = "" }) => {
           <div className="flex flex-col items-center justify-start">
             <div className="rounded-[34.03px] bg-primary2 overflow-hidden flex flex-col items-center justify-start pt-[15.5px] px-[54px] pb-[15.6px]">
               <div className="overflow-hidden flex flex-row items-center justify-start">
-                <b className="relative text-3xl tracking-[0.1px] leading-[33px] inline-block font-button1 text-neutral-n0 text-left min-w-[120px] mq450:text-lg mq450:leading-[26px]">
+                <b className="relative text-3xl tracking-[0.1px] leading-[33px] inline-block font-button1 text-[#fff] text-left min-w-[120px] mq450:text-lg mq450:leading-[26px]">
                   Try For Free
                 </b>
               </div>

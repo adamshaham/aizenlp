@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Content = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[22px] box-border max-w-full text-center text-115xl-2 text-neutral-n0 font-montserrat ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[22px] box-border max-w-full text-center text-115xl-2 text-[#fff] font-montserrat ${className}`}
     >
       <div className="w-[1031.5px] flex flex-col items-end justify-start gap-[100.5px] max-w-full gap-[50px] gap-[25px]">
         <div className="self-stretch flex flex-col items-end justify-start gap-[54.1px] max-w-full gap-[27px]">
@@ -22,11 +22,11 @@ const Content = ({ className = "" }) => {
           <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
             <div className="w-[434.6px] flex flex-row flex-wrap items-start justify-start gap-[38.9px] max-w-full gap-[19px]">
               <button className="cursor-pointer [border:none] py-[31.1px] px-[38px] bg-accent-1 rounded-[97.22px] overflow-hidden flex flex-row items-start justify-start shrink-0 whitespace-nowrap z-[1] hover:bg-mediumaquamarine">
-                <div className="relative text-xl-4 leading-[24px] font-semibold font-montserrat text-neutral-n0 text-center inline-block min-w-[121px]">
+                <div className="relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center inline-block min-w-[121px]">
                   Get Started
                 </div>
               </button>
-              <button className="cursor-pointer [border:none] py-[31.1px] px-[38px] bg-neutral-n0 flex-1 rounded-[97.22px] overflow-hidden flex flex-row items-start justify-start box-border min-w-[128px] shrink-0 whitespace-nowrap z-[1] hover:bg-gainsboro-200">
+              <button className="cursor-pointer [border:none] py-[31.1px] px-[38px] bg-[#fff] flex-1 rounded-[97.22px] overflow-hidden flex flex-row items-start justify-start box-border min-w-[128px] shrink-0 whitespace-nowrap z-[1] hover:bg-gainsboro-200">
                 <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-accent-1 text-center inline-block min-w-[119.6px]">
                   Learn More
                 </div>
@@ -35,7 +35,7 @@ const Content = ({ className = "" }) => {
           </div>
         </div>
         <div className="self-stretch flex flex-row items-start justify-end py-0 pl-[37px] pr-[35px] box-border max-w-full text-29xl-6 text-heading">
-          <div className="flex-1 rounded-[15.56px] bg-neutral-n0 overflow-hidden flex flex-row items-start justify-between py-[31.1px] px-[31px] box-border max-w-full gap-5 z-[1] mq1050:flex-wrap">
+          <div className="flex-1 rounded-[15.56px] bg-[#fff] overflow-hidden flex flex-row items-start justify-between py-[31.1px] px-[31px] box-border max-w-full gap-5 z-[1] mq1050:flex-wrap">
             <div className="w-[127px] flex flex-col items-start justify-start gap-[7.8px]">
               <div className="self-stretch relative leading-[55px] font-semibold mq1050:text-20xl mq1050:leading-[44px] mq450:text-10xl mq450:leading-[33px]">
                 <span>15</span>
