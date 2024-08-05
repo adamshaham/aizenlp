@@ -40,7 +40,7 @@ const Title = ({
 
   return (
     <div
-      className={`w-[219.7px] overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] box-border text-center text-xl text-first-text font-body-base-regular ${className}`}
+      className={`w-[219.7px] overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] box-border text-center text-xl text-[#000] font-body-base-regular ${className}`}
       style={titleStyle}
     >
       <div

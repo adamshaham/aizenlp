@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const FrameComponent16 = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[98.8px] box-border max-w-full shrink-0 text-center text-19xl-5 text-black font-body-base-regular mq800:pb-16 mq800:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[98.8px] box-border max-w-full shrink-0 text-center text-19xl-5 text-[#060e1a] font-body-base-regular mq800:pb-16 mq800:box-border ${className}`}
     >
       <div className="w-[997.5px] flex flex-col items-end justify-start gap-[53.2px] max-w-full gap-[27px]">
         <div className="self-stretch flex flex-row items-start justify-center py-0 pl-[21px] pr-5 box-border max-w-full">
@@ -21,7 +21,7 @@ const FrameComponent16 = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-start justify-start gap-[43.8px] text-left text-2xs-5 text-black1 gap-[22px]">
+        <div className="self-stretch flex flex-col items-start justify-start gap-[43.8px] text-left text-2xs-5 text-[#051114] gap-[22px]">
           <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[26.3px]">
             <TestimonialCard
               group425="/group-425.svg"

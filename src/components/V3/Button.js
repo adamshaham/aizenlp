@@ -23,7 +23,7 @@ const Button = ({
 
   return (
     <button
-      className={`cursor-pointer [border:none] py-[1.7px] pl-8 pr-[31px] bg-primary shadow-[0px_4px_31px_rgba(0,_0,_0,_0.15)] overflow-hidden flex flex-row items-center justify-start ${className}`}
+      className={`cursor-pointer [border:none] py-[1.7px] pl-8 pr-[31px] bg-[#4452fe] shadow-[0px_4px_31px_rgba(0,_0,_0,_0.15)] overflow-hidden flex flex-row items-center justify-start ${className}`}
       style={buttonStyle}
     >
       <Text1 tryForFree={tryForFree} />

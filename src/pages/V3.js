@@ -12,7 +12,7 @@ import LightFOOTER from "../components/V3/LightFOOTER";
 
 const V3 = () => {
   return (
-    <div className="w-full relative bg-dark-background overflow-hidden flex flex-col items-end justify-start pt-[22.2px] px-0 pb-0 box-border gap-[75.4px] leading-[normal] tracking-[normal] gap-[19px] gap-[38px]">
+    <div className="w-full relative bg-[#181818] overflow-hidden flex flex-col items-end justify-start pt-[22.2px] px-0 pb-0 box-border gap-[75.4px] leading-[normal] tracking-[normal] gap-[19px] gap-[38px]">
       <FrameComponent7 />
       <section className="self-stretch flex flex-row items-start justify-center py-0 pl-[21px] pr-5 box-border max-w-full">
         <div className="w-[726.7px] flex flex-col items-end justify-start gap-[15.1px] max-w-full">

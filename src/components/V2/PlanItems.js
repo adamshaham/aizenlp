@@ -75,8 +75,8 @@ const PlanItems = ({
               {startUp}
             </div>
           </div>
-          <div className="self-stretch flex flex-col items-end justify-start gap-[5.2px] text-19xl-5 text-black1">
-            <div className="self-stretch h-[0.9px] relative border-black1 border-t-[0.9px] border-solid box-border z-[1]" />
+          <div className="self-stretch flex flex-col items-end justify-start gap-[5.2px] text-19xl-5 text-[#051114]">
+            <div className="self-stretch h-[0.9px] relative border-[#051114] border-t-[0.9px] border-solid box-border z-[1]" />
             <div
               className="self-stretch flex flex-row items-start justify-end py-0 pl-[17px] pr-2"
               style={planDurationsStyle}
@@ -89,7 +89,7 @@ const PlanItems = ({
           </div>
         </div>
       </div>
-      <div className="self-stretch flex flex-row items-start justify-start py-0 pl-7 pr-[31px] text-sm text-black1">
+      <div className="self-stretch flex flex-row items-start justify-start py-0 pl-7 pr-[31px] text-sm text-[#051114]">
         <div className="flex-1 flex flex-col items-end justify-start gap-[8.8px] opacity-[0.7] z-[1]">
           <div className="flex flex-row items-start justify-end py-0 px-[5px]">
             <div
@@ -124,7 +124,7 @@ const PlanItems = ({
         </div>
       </div>
       <button className="cursor-pointer [border:none] pt-[13.2px] px-[25px] pb-[13.1px] bg-[transparent] rounded-[4.38px] [background:linear-gradient(90deg,_rgba(124,_29,_201,_0.1),_rgba(124,_29,_201,_0.1))] flex flex-row items-start justify-start whitespace-nowrap z-[1]">
-        <div className="relative text-sm tracking-[0.05em] leading-[160%] font-medium font-body-base-regular text-first-text text-center">
+        <div className="relative text-sm tracking-[0.05em] leading-[160%] font-medium font-body-base-regular text-[#000] text-center">
           TRY THIS PACKAGE
         </div>
       </button>

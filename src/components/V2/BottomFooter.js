@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const BottomFooter = ({ className = "" }) => {
   return (
     <div
-      className={`w-[259.3px] flex flex-col items-start justify-start py-0 pl-0 pr-[7px] box-border gap-[27.4px] text-left text-7xl-3 text-primary1 font-body-base-regular ${className}`}
+      className={`w-[259.3px] flex flex-col items-start justify-start py-0 pl-0 pr-[7px] box-border gap-[27.4px] text-left text-7xl-3 text-[#4452fe]1 font-body-base-regular ${className}`}
     >
       <div className="flex flex-row items-start justify-start">
         <img

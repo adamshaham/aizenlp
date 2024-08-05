@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Testimonials = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[63px] box-border max-w-full text-left text-46xl-1 text-heading font-montserrat mq750:pb-[41px] mq750:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[63px] box-border max-w-full text-left text-46xl-1 text-[#232a42] font-montserrat mq750:pb-[41px] mq750:box-border ${className}`}
     >
       <div className="w-[1209.4px] flex flex-row items-start justify-center py-0 px-0 box-border gap-[93.3px] max-w-full mq1050:flex-wrap gap-[23px] gap-[47px]">
         <img
@@ -16,9 +16,9 @@ const Testimonials = ({ className = "" }) => {
           <div className="self-stretch flex flex-col items-start justify-center gap-[23.3px]">
             <div className="self-stretch relative leading-[70px] font-semibold mq1050:text-33xl mq1050:leading-[56px] mq450:text-20xl mq450:leading-[42px]">
               <span>{`They `}</span>
-              <span className="text-accent-1">Choose Us</span>
+              <span className="text-[#2da884]">Choose Us</span>
             </div>
-            <div className="self-stretch relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans text-paragraph whitespace-pre-wrap">
+            <div className="self-stretch relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans text-[#525252] whitespace-pre-wrap">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut
               sapien et ex volutpat tincidunt eget at felis nunc eget congue

@@ -73,7 +73,7 @@ const TrialBanner = ({ className = "" }) => {
             />
           </div>
         </div>
-        <div className="w-[1170.6px] h-[415.2px] relative bg-primaryalpha-pra10 hidden mix-blend-color-burn max-w-full z-[2]" />
+        <div className="w-[1170.6px] h-[415.2px] relative bg-[#4452fe]alpha-pra10 hidden mix-blend-color-burn max-w-full z-[2]" />
       </div>
     </div>
   );

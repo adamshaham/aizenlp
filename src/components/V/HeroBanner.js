@@ -130,7 +130,7 @@ const HeroBanner = ({ className = "" }) => {
               alt=""
               src="/group-4.svg"
             />
-            <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-primaryalpha-pra10 mix-blend-color-burn z-[3]" />
+            <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-[#4452fe]alpha-pra10 mix-blend-color-burn z-[3]" />
             <div className="absolute top-[calc(50%_-_40.85px)] left-[calc(50%_-_81.7px)] rounded-[77.78px] bg-darkoverlayelement-do20 w-[287.8px] h-[80.7px] hidden" />
             <div className="absolute top-[calc(50%_-_27.25px)] left-[calc(50%_-_65.5px)] rounded-[46.67px] bg-[#fff] hidden flex-row items-center justify-start py-[11.7px] px-[17px] gap-[7.8px] whitespace-nowrap">
               <img

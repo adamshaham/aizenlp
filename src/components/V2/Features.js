@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Features = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-end justify-start pt-0 pb-[107.5px] pl-[798px] pr-[157px] box-border gap-[116.4px] max-w-full shrink-0 text-left text-19xl-5 text-black1 font-body-base-regular gap-[29px] mq450:pl-5 mq450:box-border gap-[58px] mq800:pl-[199px] mq800:pr-[39px] mq800:pb-[70px] mq800:box-border mq1350:flex-wrap mq1350:pl-[399px] mq1350:pr-[78px] mq1350:box-border ${className}`}
+      className={`self-stretch flex flex-row items-end justify-start pt-0 pb-[107.5px] pl-[798px] pr-[157px] box-border gap-[116.4px] max-w-full shrink-0 text-left text-19xl-5 text-[#051114] font-body-base-regular gap-[29px] mq450:pl-5 mq450:box-border gap-[58px] mq800:pl-[199px] mq800:pr-[39px] mq800:pb-[70px] mq800:box-border mq1350:flex-wrap mq1350:pl-[399px] mq1350:pr-[78px] mq1350:box-border ${className}`}
     >
       <div className="ml-[-880.3px] h-[546.9px] w-[763.9px] flex flex-row items-start justify-start relative min-w-[763.9px] shrink-0 max-w-[172%] mq450:min-w-full mq800:min-w-full mq1125:min-w-full mq1350:flex-1 mq1350:min-w-full">
         <div className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px]">

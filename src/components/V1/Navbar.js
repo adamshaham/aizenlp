@@ -27,13 +27,13 @@ const Navbar = ({ className = "" }) => {
         </div>
       </div>
       <div className="flex flex-row items-center justify-center gap-[31.1px] max-w-full mq450:hidden gap-4">
-        <button className="cursor-pointer [border:none] pt-[15.6px] pb-[15.5px] pl-[38px] pr-[39px] bg-accent-1 rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center hover:bg-mediumaquamarine">
+        <button className="cursor-pointer [border:none] pt-[15.6px] pb-[15.5px] pl-[38px] pr-[39px] bg-[#2da884] rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center hover:bg-[#47c29e]">
           <a className="[text-decoration:none] relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center inline-block min-w-[60px] whitespace-nowrap">
             Login
           </a>
         </button>
         <button className="cursor-pointer [border:none] pt-[15.6px] px-[38px] pb-[15.5px] bg-[#fff] rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-gainsboro-200">
-          <a className="[text-decoration:none] relative text-xl-4 leading-[24px] font-semibold font-montserrat text-accent-1 text-center inline-block min-w-[81px] whitespace-nowrap">
+          <a className="[text-decoration:none] relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#2da884] text-center inline-block min-w-[81px] whitespace-nowrap">
             Sign up
           </a>
         </button>

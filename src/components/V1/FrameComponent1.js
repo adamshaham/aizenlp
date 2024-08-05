@@ -3,16 +3,16 @@ import PropTypes from "prop-types";
 const FrameComponent1 = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[82.5px] box-border max-w-full text-center text-46xl-1 text-heading font-montserrat mq1050:pb-[54px] mq1050:box-border mq450:pb-[35px] mq450:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[82.5px] box-border max-w-full text-center text-46xl-1 text-[#232a42] font-montserrat mq1050:pb-[54px] mq1050:box-border mq450:pb-[35px] mq450:box-border ${className}`}
     >
       <div className="w-[1209.4px] flex flex-col items-start justify-start gap-[77.5px] max-w-full gap-[19px] gap-[39px]">
         <div className="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[22px] box-border max-w-full">
           <div className="w-[708.8px] flex flex-col items-start justify-start gap-[23.3px] max-w-full">
             <div className="self-stretch relative leading-[70px] font-semibold mq1050:text-33xl mq1050:leading-[56px] mq450:text-20xl mq450:leading-[42px]">
               <span>{`Our `}</span>
-              <span className="text-accent-1">Gallery</span>
+              <span className="text-[#2da884]">Gallery</span>
             </div>
-            <div className="self-stretch relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans text-paragraph">
+            <div className="self-stretch relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans text-[#525252]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut
               sapien et ex volutpat tincidunt eget at felis.

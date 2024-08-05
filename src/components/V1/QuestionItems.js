@@ -14,7 +14,7 @@ const QuestionItems = ({
 
   return (
     <div
-      className={`self-stretch shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-[#fff] overflow-hidden flex flex-row flex-wrap items-start justify-center pt-[23.4px] px-[54px] pb-[23.3px] box-border gap-[0.1px] max-w-full text-left text-8xl-2 text-heading font-montserrat lg:pl-[27px] lg:pr-[27px] lg:box-border ${className}`}
+      className={`self-stretch shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-[#fff] overflow-hidden flex flex-row flex-wrap items-start justify-center pt-[23.4px] px-[54px] pb-[23.3px] box-border gap-[0.1px] max-w-full text-left text-8xl-2 text-[#232a42] font-montserrat lg:pl-[27px] lg:pr-[27px] lg:box-border ${className}`}
     >
       <div
         className="flex-1 flex flex-col items-start justify-start pt-[15.1px] px-0 pb-0 box-border min-w-[675px] max-w-full shrink-0 mq1050:min-w-full"

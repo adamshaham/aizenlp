@@ -10,7 +10,7 @@ const ImgLibIlustrationGraphIco = ({ className = "" }) => {
         alt=""
         src="/group-5.svg"
       />
-      <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] bg-primaryalpha-pra10 mix-blend-color-burn z-[1]" />
+      <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] bg-[#4452fe]alpha-pra10 mix-blend-color-burn z-[1]" />
       <div className="w-[250.1px] flex flex-row items-start justify-start relative">
         <div className="h-[80.7px] w-[280px] absolute !m-[0] top-[-13.7px] right-[-15px] rounded-[77.78px] bg-darkoverlayelement-do20 z-[2]" />
         <div className="h-[54.3px] flex-1 rounded-[46.67px] bg-[#fff] flex flex-row items-center justify-start py-[7.8px] px-[11px] box-border gap-[6.8px] whitespace-nowrap">

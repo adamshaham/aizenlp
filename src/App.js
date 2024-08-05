@@ -11,7 +11,6 @@ import V from "./pages/V";
 import V1 from "./pages/V1";
 import V2 from "./pages/V2";
 import V3 from "./pages/V3";
-import V4 from "./pages/V4";
 
 function App() {
   const action = useNavigationType();
@@ -71,7 +70,6 @@ function App() {
       <Route path="/v1" element={<V1 />} />
       <Route path="/v2" element={<V2 />} />
       <Route path="/v3" element={<V3 />} />
-      <Route path="/v6" element={<V4 />} />
     </Routes>
   );
 }

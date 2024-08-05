@@ -11,7 +11,7 @@ import DesktopFooterDark from "../components/V4/DesktopFooterDark";
 
 const V4 = () => {
   return (
-    <div className="w-full relative bg-dark-background1 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
+    <div className="w-full relative bg-[#181818]1 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
       <Header />
       <DesktopHeroLight1 />
       <div className="self-stretch h-px relative hidden" />

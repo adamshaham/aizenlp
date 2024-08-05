@@ -35,7 +35,7 @@ const NewsCard = ({
     <div
       className={`flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[25.6px] box-border relative gap-[26.2px] min-w-[316px] max-w-full text-left text-smi-3 text-gray-200 font-body-base-regular ${className}`}
     >
-      <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-[8.75px] border-black1 border-[1.8px] border-solid box-border opacity-[0.1]" />
+      <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-[8.75px] border-[#051114] border-[1.8px] border-solid box-border opacity-[0.1]" />
       <img
         className="self-stretch h-[313.3px] relative rounded-t-[8.75px] rounded-b-none max-w-full overflow-hidden shrink-0 object-cover z-[1]"
         loading="lazy"
@@ -69,7 +69,7 @@ const NewsCard = ({
                 </div>
               </div>
             </div>
-            <div className="relative text-lgi-3 leading-[150%] font-medium text-black1 inline-block max-w-full z-[1]">
+            <div className="relative text-lgi-3 leading-[150%] font-medium text-[#051114] inline-block max-w-full z-[1]">
               {runningRemoteOffsitesAndO}
             </div>
             <div className="w-[373.6px] relative leading-[160%] inline-block max-w-full z-[1]">

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const LightFOOTER = ({ className = "" }) => {
   return (
     <footer
-      className={`self-stretch bg-dark-background overflow-hidden flex flex-col items-center justify-start pt-[94.9px] px-5 pb-[94.8px] box-border max-w-full text-left text-xl text-[#fff] font-body-base-regular mq450:pt-[62px] mq450:pb-[62px] mq450:box-border ${className}`}
+      className={`self-stretch bg-[#181818] overflow-hidden flex flex-col items-center justify-start pt-[94.9px] px-5 pb-[94.8px] box-border max-w-full text-left text-xl text-[#fff] font-body-base-regular mq450:pt-[62px] mq450:pb-[62px] mq450:box-border ${className}`}
     >
       <div className="w-[943.3px] overflow-hidden flex flex-row items-start justify-between max-w-full gap-5 mq1000:flex-wrap">
         <div className="w-[454.8px] overflow-hidden shrink-0 flex flex-col items-start justify-start min-w-[454.8px] max-w-full gap-[25px] mq725:min-w-full mq1000:flex-1">

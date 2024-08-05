@@ -7,7 +7,7 @@ const FrameComponent10 = ({ className = "" }) => {
     <section
       className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[13.2px] box-border max-w-full text-left text-33xl text-[#fff] font-body-base-regular ${className}`}
     >
-      <div className="flex-1 bg-dark-background overflow-hidden flex flex-col items-center justify-start pt-[44.3px] px-5 pb-[44.4px] box-border max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border gap-4 mq1000:pt-[29px] mq1000:pb-[29px] mq1000:box-border">
+      <div className="flex-1 bg-[#181818] overflow-hidden flex flex-col items-center justify-start pt-[44.3px] px-5 pb-[44.4px] box-border max-w-full mq450:pt-5 mq450:pb-5 mq450:box-border gap-4 mq1000:pt-[29px] mq1000:pb-[29px] mq1000:box-border">
         <div className="flex flex-col items-center justify-start gap-[39px] max-w-full gap-5">
           <div className="overflow-hidden flex flex-col items-center justify-start max-w-full shrink-0">
             <div className="w-[190.7px] overflow-hidden flex flex-row items-center justify-start pt-[8.9px] px-2 pb-[8.8px] box-border">

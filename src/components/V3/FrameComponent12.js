@@ -8,7 +8,7 @@ const FrameComponent12 = ({ className = "" }) => {
     <section
       className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[13.3px] box-border max-w-full text-left text-33xl text-[#fff] font-body-base-regular ${className}`}
     >
-      <div className="flex-1 bg-dark-background overflow-hidden flex flex-col items-center justify-start pt-[44.4px] px-5 pb-[44.3px] box-border gap-[44.3px] max-w-full gap-[22px] mq450:pt-5 mq450:pb-5 mq450:box-border mq1000:pt-[29px] mq1000:pb-[29px] mq1000:box-border">
+      <div className="flex-1 bg-[#181818] overflow-hidden flex flex-col items-center justify-start pt-[44.4px] px-5 pb-[44.3px] box-border gap-[44.3px] max-w-full gap-[22px] mq450:pt-5 mq450:pb-5 mq450:box-border mq1000:pt-[29px] mq1000:pb-[29px] mq1000:box-border">
         <div className="w-[321.7px] overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] box-border max-w-full">
           <h1 className="m-0 flex-1 relative text-inherit tracking-[0.2px] leading-[62px] font-normal font-[inherit] mq450:text-12xl mq450:leading-[37px] mq1000:text-23xl mq1000:leading-[50px]">
             Testimonials
@@ -16,7 +16,7 @@ const FrameComponent12 = ({ className = "" }) => {
         </div>
         <div className="w-[782.9px] overflow-hidden flex flex-row flex-wrap items-start justify-start gap-[20.4px] max-w-full text-base font-button1">
           <div className="flex-1 flex flex-col items-center justify-start gap-[17.7px] min-w-[248px] max-w-full">
-            <div className="self-stretch rounded-[8.87px] bg-dark-background border-gainsboro-300 border-[0.9px] border-solid flex flex-col items-start justify-start py-[34px] pl-[35px] pr-[25px] gap-[26.6px]">
+            <div className="self-stretch rounded-[8.87px] bg-[#181818] border-gainsboro-300 border-[0.9px] border-solid flex flex-col items-start justify-start py-[34px] pl-[35px] pr-[25px] gap-[26.6px]">
               <div className="overflow-hidden flex flex-row items-center justify-start gap-[11.5px]">
                 <img
                   className="h-[44.3px] w-[44.3px] relative object-cover"

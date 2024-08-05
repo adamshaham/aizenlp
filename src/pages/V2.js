@@ -20,7 +20,7 @@ const V2 = () => {
       <Pricing1 />
       <FrameComponent16 />
       <FrameComponent17 />
-      <footer className="self-stretch bg-black1 flex flex-col items-center justify-start pt-[87.5px] px-5 pb-[30px] box-border gap-[70px] max-w-full shrink-0 text-left text-lgi-3 text-[#fff] font-poppins mq450:pt-[57px] mq450:pb-5 mq450:box-border gap-[17px] gap-[35px]">
+      <footer className="self-stretch bg-[#051114] flex flex-col items-center justify-start pt-[87.5px] px-5 pb-[30px] box-border gap-[70px] max-w-full shrink-0 text-left text-lgi-3 text-[#fff] font-poppins mq450:pt-[57px] mq450:pb-5 mq450:box-border gap-[17px] gap-[35px]">
         <img
           className="w-[1400px] h-[441px] relative hidden max-w-full"
           alt=""

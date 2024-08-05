@@ -21,27 +21,27 @@ const Content = ({ className = "" }) => {
           </div>
           <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
             <div className="w-[434.6px] flex flex-row flex-wrap items-start justify-start gap-[38.9px] max-w-full gap-[19px]">
-              <button className="cursor-pointer [border:none] py-[31.1px] px-[38px] bg-accent-1 rounded-[97.22px] overflow-hidden flex flex-row items-start justify-start shrink-0 whitespace-nowrap z-[1] hover:bg-mediumaquamarine">
+              <button className="cursor-pointer [border:none] py-[31.1px] px-[38px] bg-[#2da884] rounded-[97.22px] overflow-hidden flex flex-row items-start justify-start shrink-0 whitespace-nowrap z-[1] hover:bg-[#47c29e]">
                 <div className="relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center inline-block min-w-[121px]">
                   Get Started
                 </div>
               </button>
               <button className="cursor-pointer [border:none] py-[31.1px] px-[38px] bg-[#fff] flex-1 rounded-[97.22px] overflow-hidden flex flex-row items-start justify-start box-border min-w-[128px] shrink-0 whitespace-nowrap z-[1] hover:bg-gainsboro-200">
-                <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-accent-1 text-center inline-block min-w-[119.6px]">
+                <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#2da884] text-center inline-block min-w-[119.6px]">
                   Learn More
                 </div>
               </button>
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-row items-start justify-end py-0 pl-[37px] pr-[35px] box-border max-w-full text-29xl-6 text-heading">
+        <div className="self-stretch flex flex-row items-start justify-end py-0 pl-[37px] pr-[35px] box-border max-w-full text-29xl-6 text-[#232a42]">
           <div className="flex-1 rounded-[15.56px] bg-[#fff] overflow-hidden flex flex-row items-start justify-between py-[31.1px] px-[31px] box-border max-w-full gap-5 z-[1] mq1050:flex-wrap">
             <div className="w-[127px] flex flex-col items-start justify-start gap-[7.8px]">
               <div className="self-stretch relative leading-[55px] font-semibold mq1050:text-20xl mq1050:leading-[44px] mq450:text-10xl mq450:leading-[33px]">
                 <span>15</span>
-                <span className="text-accent-1">+</span>
+                <span className="text-[#2da884]">+</span>
               </div>
-              <div className="relative text-base-6 tracking-[-0.01px] leading-[24px] font-medium font-plus-jakarta-sans text-paragraph inline-block min-w-[127px]">
+              <div className="relative text-base-6 tracking-[-0.01px] leading-[24px] font-medium font-plus-jakarta-sans text-[#525252] inline-block min-w-[127px]">
                 Years Experience
               </div>
             </div>
@@ -56,9 +56,9 @@ const Content = ({ className = "" }) => {
             <div className="w-[116px] flex flex-col items-start justify-start gap-[7.8px]">
               <div className="self-stretch relative leading-[54.44px] font-semibold whitespace-nowrap mq1050:text-20xl mq1050:leading-[44px] mq450:text-10xl mq450:leading-[33px]">
                 <span>10K</span>
-                <span className="text-accent-1">+</span>
+                <span className="text-[#2da884]">+</span>
               </div>
-              <div className="self-stretch relative text-base-6 leading-[24px] font-medium font-plus-jakarta-sans text-paragraph">
+              <div className="self-stretch relative text-base-6 leading-[24px] font-medium font-plus-jakarta-sans text-[#525252]">
                 Product
               </div>
             </div>
@@ -73,9 +73,9 @@ const Content = ({ className = "" }) => {
             <div className="w-[121px] flex flex-col items-start justify-start gap-[7.8px]">
               <div className="self-stretch relative leading-[55px] font-semibold mq1050:text-20xl mq1050:leading-[44px] mq450:text-10xl mq450:leading-[33px]">
                 <span>5K</span>
-                <span className="text-accent-1">+</span>
+                <span className="text-[#2da884]">+</span>
               </div>
-              <div className="relative text-base-6 leading-[24px] font-medium font-plus-jakarta-sans text-paragraph inline-block min-w-[121px]">
+              <div className="relative text-base-6 leading-[24px] font-medium font-plus-jakarta-sans text-[#525252] inline-block min-w-[121px]">
                 Satisfied Clients
               </div>
             </div>
@@ -89,9 +89,9 @@ const Content = ({ className = "" }) => {
             <div className="w-[156px] flex flex-col items-start justify-start gap-[7.8px]">
               <div className="self-stretch relative leading-[55px] font-semibold mq1050:text-20xl mq1050:leading-[44px] mq450:text-10xl mq450:leading-[33px]">
                 <span>87</span>
-                <span className="text-accent-1">+</span>
+                <span className="text-[#2da884]">+</span>
               </div>
-              <div className="relative text-base-6 tracking-[-0.02px] leading-[24px] font-medium font-plus-jakarta-sans text-paragraph">
+              <div className="relative text-base-6 tracking-[-0.02px] leading-[24px] font-medium font-plus-jakarta-sans text-[#525252]">
                 Local Team Members
               </div>
             </div>

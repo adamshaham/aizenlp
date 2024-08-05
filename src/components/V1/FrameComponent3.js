@@ -4,16 +4,16 @@ import PropTypes from "prop-types";
 const FrameComponent3 = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[82.4px] box-border max-w-full text-center text-46xl-1 text-heading font-montserrat lg:pb-[54px] lg:box-border mq750:pb-[35px] mq750:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[82.4px] box-border max-w-full text-center text-46xl-1 text-[#232a42] font-montserrat lg:pb-[54px] lg:box-border mq750:pb-[35px] mq750:box-border ${className}`}
     >
       <div className="w-[1209.4px] flex flex-col items-start justify-start gap-[77.5px] max-w-full gap-[19px] gap-[39px]">
         <div className="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px] box-border max-w-full">
           <div className="w-[949.9px] flex flex-col items-start justify-start gap-[23.3px] max-w-full">
             <div className="self-stretch relative leading-[70px] font-semibold mq1050:text-33xl mq1050:leading-[56px] mq450:text-20xl mq450:leading-[42px]">
               <span>{`Frequently Asked `}</span>
-              <span className="text-accent-1">Questions</span>
+              <span className="text-[#2da884]">Questions</span>
             </div>
-            <div className="self-stretch relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans text-paragraph">
+            <div className="self-stretch relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans text-[#525252]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut
               sapien et ex volutpat tincidunt eget at felis.
@@ -21,7 +21,7 @@ const FrameComponent3 = ({ className = "" }) => {
           </div>
         </div>
         <div className="self-stretch flex flex-col items-start justify-start gap-[38.8px] max-w-full text-left text-8xl-2 text-[#fff] gap-[19px]">
-          <div className="self-stretch shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-accent-1 overflow-hidden flex flex-row flex-wrap items-end justify-center pt-[46.6px] px-[42px] pb-[46.7px] box-border gap-[23.3px] max-w-full lg:pl-[21px] lg:pr-[21px] lg:box-border">
+          <div className="self-stretch shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-[#2da884] overflow-hidden flex flex-row flex-wrap items-end justify-center pt-[46.6px] px-[42px] pb-[46.7px] box-border gap-[23.3px] max-w-full lg:pl-[21px] lg:pr-[21px] lg:box-border">
             <div className="flex-1 flex flex-col items-start justify-start gap-[15.6px] min-w-[675px] max-w-full mq1050:min-w-full">
               <div className="self-stretch relative leading-[31.11px] font-semibold shrink-0 mq450:text-3xl mq450:leading-[25px]">
                 Do you specialize in both residential and commercial

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const FrameComponent17 = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[107.5px] box-border max-w-full shrink-0 text-center text-19xl-5 text-black1 font-body-base-regular mq450:pb-[45px] mq450:box-border mq800:pb-[70px] mq800:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[107.5px] box-border max-w-full shrink-0 text-center text-19xl-5 text-[#051114] font-body-base-regular mq450:pb-[45px] mq450:box-border mq800:pb-[70px] mq800:box-border ${className}`}
     >
       <div className="w-[997.4px] flex flex-col items-start justify-start gap-[52.5px] max-w-full gap-[26px]">
         <div className="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[22px]">
