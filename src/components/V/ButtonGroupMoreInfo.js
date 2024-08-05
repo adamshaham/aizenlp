@@ -1,4 +1,4 @@
-import ButtonText from "../ButtonText";
+import ButtonText from "./ButtonText";
 import PropTypes from "prop-types";
 
 const ButtonGroupMoreInfo = ({

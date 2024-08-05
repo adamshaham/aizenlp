@@ -1,6 +1,6 @@
 import FrameComponent7 from "../components/V3/FrameComponent7";
 import Headline from "../components/V3/Headline";
-import SubHeading from "../components/SubHeading";
+import SubHeading from "../components/V3/SubHeading";
 import CallToAction from "../components/V3/CallToAction";
 import FrameComponent8 from "../components/V3/FrameComponent8";
 import FrameComponent9 from "../components/V3/FrameComponent9";

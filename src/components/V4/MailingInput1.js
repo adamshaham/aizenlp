@@ -1,5 +1,5 @@
-import Input from "../Input";
-import Button1 from "../Button1";
+import Input from "./Input";
+import Button1 from "./Button1";
 import PropTypes from "prop-types";
 
 const MailingInput1 = ({ className = "" }) => {
