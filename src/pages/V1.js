@@ -1,15 +1,15 @@
-import Navbar from "../components/Navbar";
-import Content from "../components/Content";
-import Expertise from "../components/Expertise";
-import Testimonials from "../components/Testimonials";
-import Services from "../components/Services";
-import Pricing from "../components/Pricing";
-import FrameComponent1 from "../components/FrameComponent1";
-import FrameComponent2 from "../components/FrameComponent2";
-import FrameComponent3 from "../components/FrameComponent3";
-import FrameComponent4 from "../components/FrameComponent4";
-import FrameComponent5 from "../components/FrameComponent5";
-import Footer from "../components/Footer";
+import Navbar from "../components/V1/Navbar";
+import Content from "../components/V1/Content";
+import Expertise from "../components/V1/Expertise";
+import Testimonials from "../components/V1/Testimonials";
+import Services from "../components/V1/Services";
+import Pricing from "../components/V1/Pricing";
+import FrameComponent1 from "../components/V1/FrameComponent1";
+import FrameComponent2 from "../components/V1/FrameComponent2";
+import FrameComponent3 from "../components/V1/FrameComponent3";
+import FrameComponent4 from "../components/V1/FrameComponent4";
+import FrameComponent5 from "../components/V1/FrameComponent5";
+import Footer from "../components/V1/Footer";
 
 const V1 = () => {
   return (

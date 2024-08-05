@@ -1,13 +1,13 @@
-import Header from "../components/Header";
-import DesktopHeroLight1 from "../components/DesktopHeroLight1";
-import Content1 from "../components/Content1";
-import DesktopHeroLight from "../components/DesktopHeroLight";
-import DesktopLightCTA from "../components/DesktopLightCTA";
-import DesktopPARTNERLight from "../components/DesktopPARTNERLight";
-import DesktopTestimonialsLight from "../components/DesktopTestimonialsLight";
-import DesktopPricingLight from "../components/DesktopPricingLight";
-import DesktopContactLight from "../components/DesktopContactLight";
-import DesktopFooterDark from "../components/DesktopFooterDark";
+import Header from "../components/V4/Header";
+import DesktopHeroLight1 from "../components/V4/DesktopHeroLight1";
+import Content1 from "../components/V4/Content1";
+import DesktopHeroLight from "../components/V4/DesktopHeroLight";
+import DesktopLightCTA from "../components/V4/DesktopLightCTA";
+import DesktopPARTNERLight from "../components/V4/DesktopPARTNERLight";
+import DesktopTestimonialsLight from "../components/V4/DesktopTestimonialsLight";
+import DesktopPricingLight from "../components/V4/DesktopPricingLight";
+import DesktopContactLight from "../components/V4/DesktopContactLight";
+import DesktopFooterDark from "../components/V4/DesktopFooterDark";
 
 const V4 = () => {
   return (

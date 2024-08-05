@@ -1,5 +1,5 @@
 import SecitonHeadlingLevel1 from "./SecitonHeadlingLevel1";
-import FAQItemStyle from "./FAQItemStyle";
+import FAQItemStyle from "./V/FAQItemStyle";
 import PropTypes from "prop-types";
 
 const FAQSection = ({ className = "" }) => {

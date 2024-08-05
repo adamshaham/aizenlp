@@ -1,11 +1,11 @@
-import FrameComponent14 from "../components/FrameComponent14";
-import Features from "../components/Features";
-import Customer from "../components/Customer";
-import Pricing1 from "../components/Pricing1";
-import FrameComponent16 from "../components/FrameComponent16";
-import FrameComponent17 from "../components/FrameComponent17";
-import BottomFooter from "../components/BottomFooter";
-import FooterSection from "../components/FooterSection";
+import FrameComponent14 from "../components/V2/FrameComponent14";
+import Features from "../components/V2/Features";
+import Customer from "../components/V2/Customer";
+import Pricing1 from "../components/V2/Pricing1";
+import FrameComponent16 from "../components/V2/FrameComponent16";
+import FrameComponent17 from "../components/V2/FrameComponent17";
+import BottomFooter from "../components/V2/BottomFooter";
+import FooterSection from "../components/V2/FooterSection";
 
 const V2 = () => {
   return (

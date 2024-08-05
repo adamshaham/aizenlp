@@ -1,14 +1,14 @@
-import FrameComponent7 from "../components/FrameComponent7";
-import Headline from "../components/Headline";
+import FrameComponent7 from "../components/V3/FrameComponent7";
+import Headline from "../components/V3/Headline";
 import SubHeading from "../components/SubHeading";
-import CallToAction from "../components/CallToAction";
-import FrameComponent8 from "../components/FrameComponent8";
-import FrameComponent9 from "../components/FrameComponent9";
-import FrameComponent10 from "../components/FrameComponent10";
-import FrameComponent11 from "../components/FrameComponent11";
-import FrameComponent12 from "../components/FrameComponent12";
-import FrameComponent13 from "../components/FrameComponent13";
-import LightFOOTER from "../components/LightFOOTER";
+import CallToAction from "../components/V3/CallToAction";
+import FrameComponent8 from "../components/V3/FrameComponent8";
+import FrameComponent9 from "../components/V3/FrameComponent9";
+import FrameComponent10 from "../components/V3/FrameComponent10";
+import FrameComponent11 from "../components/V3/FrameComponent11";
+import FrameComponent12 from "../components/V3/FrameComponent12";
+import FrameComponent13 from "../components/V3/FrameComponent13";
+import LightFOOTER from "../components/V3/LightFOOTER";
 
 const V3 = () => {
   return (

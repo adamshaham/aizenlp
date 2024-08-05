@@ -1,12 +1,12 @@
-import Navbar1Fixed from "../components/Navbar1Fixed";
-import HeroBanner from "../components/HeroBanner";
-import PartnerSection from "../components/PartnerSection";
-import ValueSection from "../components/ValueSection";
-import TestimonialSection from "../components/TestimonialSection";
-import TrialBanner from "../components/TrialBanner";
-import SolutionSection from "../components/SolutionSection";
-import FrameComponent6 from "../components/FrameComponent6";
-import Footer1 from "../components/Footer1";
+import Navbar1Fixed from "../components/V/Navbar1Fixed";
+import HeroBanner from "../components/V/HeroBanner";
+import PartnerSection from "../components/V/PartnerSection";
+import ValueSection from "../components/V/ValueSection";
+import TestimonialSection from "../components/V/TestimonialSection";
+import TrialBanner from "../components/V/TrialBanner";
+import SolutionSection from "../components/V/SolutionSection";
+import FrameComponent6 from "../components/V/FrameComponent6";
+import Footer1 from "../components/V/Footer1";
 
 const V = () => {
   return (
