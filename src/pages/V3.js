@@ -12,19 +12,13 @@ import LightFOOTER from "../components/V3/LightFOOTER";
 
 const V3 = () => {
   return (
-    <div className="w-full relative bg-[#181818] overflow-hidden flex flex-col items-end justify-start pt-[22.2px] px-0 pb-0 box-border gap-[75.4px] leading-[normal] tracking-[normal] gap-[19px] gap-[38px]">
+    <div className="w-[1440px]] relative bg-[#181818] overflow-hidden flex flex-col items-end justify-start pt-[22.2px] px-0 pb-0 box-border gap-[75.4px] leading-[normal] tracking-[normal] gap-[19px] gap-[38px]">
       <FrameComponent7 />
       <section className="self-stretch flex flex-row items-start justify-center py-0 pl-[21px] pr-5 box-border max-w-full">
-        <div className="w-[726.7px] flex flex-col items-end justify-start gap-[15.1px] max-w-full">
+        <div className=" w-[726.7px] flex flex-col items-end justify-start gap-[15.1px] max-w-full">
           <Headline />
-          <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-            <SubHeading
-              propPadding="8.8px 8px 8.9px"
-              propWidth="516px"
-              propHeight="53.2px"
-              weFocusOnErgonomicsAndMee="Most calendars are designed for teams. Slate is designed for "
-              itsOnlyAKeystrokeAway="freelancers who want a simple way to plan their schedule."
-            />
+          <div className=" self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
+            <SubHeading/>
           </div>
         </div>
       </section>

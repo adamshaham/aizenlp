@@ -1,5 +1,24 @@
 import PropTypes from "prop-types";
 
+const contentData = {
+  title: "EcoSculpt",
+  description: [
+    "Lorem ipsum dolor sit amet, conse",
+    "ctetur adipiscing elit. Vivamus hes",
+    "ndrerit suscipit egestas."
+  ],
+  quickLinksTitle: "Quick Links",
+  quickLinks: ["About Us", "Service", "Pricing", "Blog"],
+  contactUsTitle: "Contact Us",
+  contactDetails: {
+    email: "hello@website.com",
+    address: "Riverside Building, County Hall, London SE1 7PB, United Kingdom",
+    phone: "+02 5421234560"
+  },
+  followUsTitle: "Follow Us",
+  socialMediaIcons: ["/tw.svg", "/ig.svg", "/fb.svg", "/yt.svg"]
+};
+
 const Footer = ({ className = "" }) => {
   return (
     <footer
@@ -7,36 +26,34 @@ const Footer = ({ className = "" }) => {
     >
       <div className="w-[263.5px] flex flex-col items-start justify-start gap-[38.9px] text-17xl-9 gap-[19px]">
         <div className="self-stretch relative leading-[47px] font-semibold mq1050:text-11xl mq1050:leading-[37px] mq450:text-3xl mq450:leading-[28px]">
-          EcoSculpt
+          {contentData.title}
         </div>
         <div className="relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans">
-          <p className="m-0">Lorem ipsum dolor sit amet, conse</p>
-          <p className="m-0">ctetur adipiscing elit. Vivamus hes</p>
-          <p className="m-0">{`ndrerit suscipit egestas. `}</p>
+          {contentData.description.map((line, index) => (
+            <p className="m-0" key={index}>
+              {line}
+            </p>
+          ))}
         </div>
       </div>
       <div className="w-[123px] flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border gap-[38.9px]">
         <div className="relative leading-[24px] font-semibold inline-block min-w-[123px] mq450:text-base mq450:leading-[19px]">
-          Quick Links
+          {contentData.quickLinksTitle}
         </div>
         <div className="self-stretch flex flex-col items-start justify-start gap-[15.6px] text-base-6 font-plus-jakarta-sans">
-          <a className="[text-decoration:none] self-stretch relative leading-[24px] font-medium text-[inherit]">
-            About Us
-          </a>
-          <div className="self-stretch relative leading-[24px] font-medium">
-            Service
-          </div>
-          <div className="self-stretch relative leading-[24px] font-medium">
-            Pricing
-          </div>
-          <div className="self-stretch relative leading-[24px] font-medium">
-            Blog
-          </div>
+          {contentData.quickLinks.map((link, index) => (
+            <a
+              key={index}
+              className="[text-decoration:none] self-stretch relative leading-[24px] font-medium text-[inherit]"
+            >
+              {link}
+            </a>
+          ))}
         </div>
       </div>
       <div className="w-[284.9px] flex flex-col items-start justify-start gap-[38.9px] gap-[19px]">
         <div className="self-stretch relative leading-[24px] font-semibold mq450:text-base mq450:leading-[19px]">
-          Contact Us
+          {contentData.contactUsTitle}
         </div>
         <div className="self-stretch flex flex-col items-start justify-start text-base-6 font-plus-jakarta-sans">
           <div className="self-stretch flex flex-col items-start justify-start gap-[15.6px]">
@@ -48,7 +65,7 @@ const Footer = ({ className = "" }) => {
                 src="/icon-24.svg"
               />
               <div className="flex-1 relative leading-[24px] font-medium whitespace-nowrap">
-                hello@website.com
+                {contentData.contactDetails.email}
               </div>
             </div>
             <div className="self-stretch flex flex-row items-start justify-start gap-[7.8px]">
@@ -60,7 +77,7 @@ const Footer = ({ className = "" }) => {
                 />
               </div>
               <div className="flex-1 relative leading-[23.33px] font-medium">
-                Riverside Building, County Hall, London SE1 7PB, United Kingdom
+                {contentData.contactDetails.address}
               </div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[7.8px]">
@@ -71,7 +88,7 @@ const Footer = ({ className = "" }) => {
                 src="/icon-25.svg"
               />
               <div className="flex-1 relative leading-[24px] font-medium whitespace-nowrap">
-                +02 5421234560
+                {contentData.contactDetails.phone}
               </div>
             </div>
           </div>
@@ -79,37 +96,21 @@ const Footer = ({ className = "" }) => {
       </div>
       <div className="w-[248.9px] flex flex-col items-start justify-start gap-[38.9px]">
         <div className="self-stretch relative leading-[24px] font-semibold mq450:text-base mq450:leading-[19px]">
-          Follow Us
+          {contentData.followUsTitle}
         </div>
         <div className="self-stretch flex flex-row items-start justify-between gap-5">
-          <div className="w-[38.9px] rounded-[7.78px] bg-[#fff] flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
-            <img
-              className="h-[23.3px] w-[23.3px] relative"
-              alt=""
-              src="/tw.svg"
-            />
-          </div>
-          <div className="w-[38.9px] rounded-[7.78px] bg-[#fff] flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
-            <img
-              className="h-[23.3px] w-[23.3px] relative"
-              alt=""
-              src="/ig.svg"
-            />
-          </div>
-          <div className="w-[38.9px] rounded-[7.78px] bg-[#fff] flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
-            <img
-              className="h-[23.3px] w-[23.3px] relative"
-              alt=""
-              src="/fb.svg"
-            />
-          </div>
-          <div className="w-[38.9px] rounded-[7.78px] bg-[#fff] flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border">
-            <img
-              className="h-[23.3px] w-[23.3px] relative"
-              alt=""
-              src="/yt.svg"
-            />
-          </div>
+          {contentData.socialMediaIcons.map((icon, index) => (
+            <div
+              key={index}
+              className="w-[38.9px] rounded-[7.78px] bg-[#fff] flex flex-row items-start justify-start py-[7.8px] px-[7px] box-border"
+            >
+              <img
+                className="h-[23.3px] w-[23.3px] relative"
+                alt=""
+                src={icon}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </footer>

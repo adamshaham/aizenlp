@@ -2,6 +2,13 @@ import SubHeading from "./SubHeading";
 import Button from "./Button";
 import PropTypes from "prop-types";
 
+const contentData = {
+  heading: "Partners",
+  subHeading1: "We focus on ergonomics and meeting you where you work. ",
+  subHeading2: "It's only a keystroke away.",
+  buttonLabel: "All Partners",
+};
+
 const FrameComponent11 = ({ className = "" }) => {
   return (
     <section
@@ -11,12 +18,12 @@ const FrameComponent11 = ({ className = "" }) => {
         <div className="overflow-hidden flex flex-col items-center justify-start max-w-full">
           <div className="w-[220.7px] overflow-hidden flex flex-row items-center justify-start pt-[8.9px] px-2 pb-[8.8px] box-border">
             <h1 className="m-0 flex-1 relative text-inherit tracking-[0.2px] leading-[62px] font-normal font-[inherit] mq450:text-12xl mq450:leading-[37px] mq1000:text-23xl mq1000:leading-[50px]">
-              Partners
+              {contentData.heading}
             </h1>
           </div>
           <SubHeading
-            weFocusOnErgonomicsAndMee="We focus on ergonomics and meeting you where you work. "
-            itsOnlyAKeystrokeAway="It's only a keystroke away."
+            weFocusOnErgonomicsAndMee={contentData.subHeading1}
+            itsOnlyAKeystrokeAway={contentData.subHeading2}
           />
         </div>
         <div className="w-[737.7px] overflow-hidden flex flex-row flex-wrap items-center justify-between gap-5 max-w-full mq725:justify-center">
@@ -60,7 +67,7 @@ const FrameComponent11 = ({ className = "" }) => {
           propAlignSelf="unset"
           propPadding="0px 25px 0px 26px"
           propWidth="unset"
-          tryForFree="All Partners"
+          tryForFree={contentData.buttonLabel}
         />
       </div>
     </section>

@@ -5,7 +5,7 @@ const Testimonials = ({ className = "" }) => {
     <section
       className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[63px] box-border max-w-full text-left text-46xl-1 text-[#232a42] font-montserrat mq750:pb-[41px] mq750:box-border ${className}`}
     >
-      <div className="w-[1209.4px] flex flex-row items-start justify-center py-0 px-0 box-border gap-[93.3px] max-w-full mq1050:flex-wrap gap-[23px] gap-[47px]">
+      <div className="w-[1440px] flex flex-row items-start justify-center py-0 px-0 box-border gap-[93.3px] max-w-full mq1050:flex-wrap gap-[23px] gap-[47px]">
         <img
           className="w-[523.1px] relative rounded-[15.56px] max-h-full overflow-hidden shrink-0 object-cover max-w-full mq1050:flex-1"
           loading="lazy"
@@ -18,7 +18,7 @@ const Testimonials = ({ className = "" }) => {
               <span>{`They `}</span>
               <span className="text-[#2da884]">Choose Us</span>
             </div>
-            <div className="self-stretch relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans text-[#525252] whitespace-pre-wrap">
+            <div className=" w-[700px] self-stretch relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans text-[#525252] whitespace-pre-wrap">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut
               sapien et ex volutpat tincidunt eget at felis nunc eget congue

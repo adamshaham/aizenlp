@@ -3,6 +3,16 @@ import Adress from "./Adress";
 import Subtitle from "./Subtitle";
 import PropTypes from "prop-types";
 
+const contentData = {
+  testimonialLines: [
+    "you need to work to reach your financial ",
+    "goal for the month and year. Slate helps ",
+    "you see how many more days ",
+    "you need to work to reach your financial ",
+    "goal for the month and year."
+  ]
+};
+
 const Card = ({
   className = "",
   propWidth,
@@ -57,15 +67,11 @@ const Card = ({
       </div>
       <div className="self-stretch overflow-hidden flex flex-row items-center justify-start">
         <div className="relative tracking-[0.2px] leading-[24px]">
-          <p className="m-0">{`Slate helps you see how many more days `}</p>
-          <p className="m-0">{`you need to work to reach your financial `}</p>
-          <p className="m-0">
-            <span>{`goal for the month and year. `}</span>
-            <span className="font-button1">{`Slate helps `}</span>
-          </p>
-          <p className="m-0 font-button1">{`you see how many more days `}</p>
-          <p className="m-0 font-button1">{`you need to work to reach your financial `}</p>
-          <p className="m-0 font-button1">goal for the month and year.</p>
+          {contentData.testimonialLines.map((line, index) => (
+            <p key={index} className="m-0">
+              {line}
+            </p>
+          ))}
         </div>
       </div>
     </div>

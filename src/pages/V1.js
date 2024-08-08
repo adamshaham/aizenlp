@@ -26,7 +26,6 @@ const V1 = () => {
         </div>
       </section>
       <Expertise />
-      <Testimonials />
       <Services />
       <Pricing />
       <FrameComponent1 />

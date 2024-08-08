@@ -1,5 +1,28 @@
 import PropTypes from "prop-types";
 
+const contentData = {
+  title: "It’s helpful for operating system",
+  features: [
+    {
+      title: "Ultra fast & Secure",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae velit proin justo, elementum siIn morbi.",
+      icon: "/vector-12.svg"
+    },
+    {
+      title: "Allows customization",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae velit proin justo, elementum siIn morbi.",
+      icon: "/vector-22.svg"
+    },
+    {
+      title: "Smart contract",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. vitae velit proin justo, elementum siIn morbi.",
+      icon: "/vector-31.svg"
+    }
+  ],
+  mainImage: "/group@2x.png",
+  backgroundShape: "/feature-shape.svg"
+};
+
 const Features = ({ className = "" }) => {
   return (
     <section
@@ -10,68 +33,45 @@ const Features = ({ className = "" }) => {
           <img
             className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full"
             alt=""
-            src="/feature-shape.svg"
+            src={contentData.backgroundShape}
           />
           <img
             className="absolute top-[91.8px] left-[184.4px] w-[526px] h-[412.3px] object-contain z-[1]"
             loading="lazy"
             alt=""
-            src="/group@2x.png"
+            src={contentData.mainImage}
           />
         </div>
       </div>
       <div className="flex flex-col items-start justify-end pt-0 px-0 pb-[28.3px] box-border min-w-[444.5px] max-w-full mq450:min-w-full mq800:min-w-full mq1125:min-w-full mq1350:flex-1 mq1350:min-w-full">
         <div className="flex flex-col items-start justify-start gap-[43.7px] shrink-0 max-w-full gap-[22px]">
           <div className="relative leading-[130%] font-semibold mq450:text-4xl mq450:leading-[30px] mq800:text-12xl mq800:leading-[40px]">
-            <p className="m-0">{`It’s helpful for operating `}</p>
-            <p className="m-0">system</p>
+            <p className="m-0"></p>
+            <p className="m-0"></p>
           </div>
           <div className="flex flex-row items-start justify-start gap-[21.9px] max-w-full text-2xl-9">
             <div className="flex flex-col items-start justify-start pt-[7px] px-0 pb-0">
               <div className="flex flex-col items-start justify-start gap-[87.4px]">
-                <img
-                  className="w-[21px] h-[19.3px] relative"
-                  alt=""
-                  src="/vector-12.svg"
-                />
-                <img
-                  className="w-[21px] h-[19.3px] relative"
-                  alt=""
-                  src="/vector-22.svg"
-                />
-                <img
-                  className="w-[21px] h-[19.3px] relative"
-                  alt=""
-                  src="/vector-31.svg"
-                />
+                {contentData.features.map((feature, index) => (
+                  <img
+                    key={index}
+                    className="w-[21px] h-[19.3px] relative"
+                    alt=""
+                    src={feature.icon}
+                  />
+                ))}
               </div>
             </div>
             <div className="flex flex-col items-start justify-start gap-[24.8px] max-w-[calc(100%_-_43px)]">
-              <div className="flex flex-col items-start justify-start gap-[9px]">
-                <div className="relative leading-[33px] font-medium mq450:text-lg mq450:leading-[26px]">{`Ultra fast & Secure`}</div>
-                <div className="relative text-smi-3 leading-[160%] text-[#051114b3]">
-                  <p className="m-0">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. `}</p>
-                  <p className="m-0">{`vitae velit proin justo, elementum siIn morbi `}</p>
+              {contentData.features.map((feature, index) => (
+                <div key={index} className="flex flex-col items-start justify-start gap-[9px]">
+                  <div className="relative leading-[33px] font-medium mq450:text-lg mq450:leading-[26px]"></div>
+                  <div className="relative text-smi-3 leading-[160%] text-[#051114b3]">
+                    <p className="m-0"></p>
+                    <p className="m-0"></p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex flex-col items-start justify-start gap-[9px]">
-                <div className="relative leading-[33px] font-medium z-[2] mq450:text-lg mq450:leading-[26px]">
-                  Allows customization
-                </div>
-                <div className="relative text-smi-3 leading-[160%] text-[#051114b3] z-[1]">
-                  <p className="m-0">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. `}</p>
-                  <p className="m-0">{`vitae velit proin justo, elementum siIn morbi `}</p>
-                </div>
-              </div>
-              <div className="flex flex-col items-start justify-start gap-[9px]">
-                <div className="relative leading-[33px] font-medium mq450:text-lg mq450:leading-[26px]">
-                  Smart contract
-                </div>
-                <div className="relative text-smi-3 leading-[160%] text-[#051114b3]">
-                  <p className="m-0">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. `}</p>
-                  <p className="m-0">{`vitae velit proin justo, elementum siIn morbi `}</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>

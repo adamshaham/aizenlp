@@ -2,71 +2,55 @@ import SmallEyebrowTagLabelStyle from "./SmallEyebrowTagLabelStyle";
 import ButtonText from "./ButtonText";
 import PropTypes from "prop-types";
 
+const contentData = {
+  smallEyebrowTagLabel: {
+    content: "Generative Business Intelligence for Analysts",
+    icon: true,
+    propWidth: "unset",
+    iconAI: "/iconai@2x.png",
+    propDisplay: "unset",
+    propMinWidth: "unset",
+  },
+  mainHeading: "Revolutionizing Business Decisions with AI-Powered Analytics",
+  description:
+    "Harnesses the power of artificial intelligence to transform your business data into actionable insights, propelling you to new heights of success",
+  buttonText: "Watch video",
+  watchIntroduceVideo: "Watch introduce video",
+  videoDuration: "5 mins",
+  playVideo: "Play video",
+};
+
 const HeroBanner = ({ className = "" }) => {
   return (
     <section
       className={`self-stretch bg-[#fff] flex flex-row items-start justify-center pt-[108.9px] px-5 pb-[77.8px] box-border max-w-full text-center text-27xl-7 text-[#1c1f25] font-dm-sans mq750:pt-[46px] mq750:pb-[33px] mq750:box-border mq1050:pt-[71px] mq1050:pb-[51px] mq1050:box-border ${className}`}
     >
-      <div className="w-[1170.6px] flex flex-col items-start justify-start gap-[58.3px] max-w-[1170.6px] lg:max-w-full gap-[29px]">
+      <div className="w-[1440.6px] flex flex-col items-start justify-start gap-[58.3px] max-w-[1440.6px] lg:max-w-full gap-[29px]">
         <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
           <div className="w-[836.1px] flex flex-col items-center justify-start gap-[38.9px] max-w-[836.11px] shrink-0 gap-[19px] mq1050:max-w-full">
             <div className="self-stretch flex flex-col items-center justify-start gap-[19.4px] max-w-full">
               <SmallEyebrowTagLabelStyle
-                content="Generative Business Intelligence for Analysts"
-                icon
-                propWidth="unset"
-                iconAI="/iconai@2x.png"
-                propDisplay="unset"
-                propMinWidth="unset"
+                content={contentData.smallEyebrowTagLabel.content}
+                icon={contentData.smallEyebrowTagLabel.icon}
+                propWidth={contentData.smallEyebrowTagLabel.propWidth}
+                iconAI={contentData.smallEyebrowTagLabel.iconAI}
+                propDisplay={contentData.smallEyebrowTagLabel.propDisplay}
+                propMinWidth={contentData.smallEyebrowTagLabel.propMinWidth}
               />
               <b className="self-stretch relative leading-[116%] shrink-0 mq450:text-9xl mq450:leading-[33px] mq1050:text-18xl mq1050:leading-[43px]">
-                Revolutionizing Business Decisions with AI-Powered Analytics
+                {contentData.mainHeading}
               </b>
               <div className="self-stretch flex flex-row items-start justify-start py-0 px-[77px] box-border max-w-full shrink-0 text-base-6 text-[#4b5162cc] font-body-base-regular mq1050:pl-[38px] mq1050:pr-[38px] mq1050:box-border">
                 <div className="flex-1 relative leading-[160%] inline-block max-w-full">
-                  Harnesses the power of artificial intelligence to transform
-                  your business data into actionable insights, propelling you to
-                  new heights of success
+                  {contentData.description}
                 </div>
               </div>
             </div>
             <div className="flex flex-row items-start justify-start gap-stack-md max-w-full mq450:flex-wrap">
               <ButtonText
                 showRIcon={false}
-                showLIcon={false}
-                buttonText="Start your free trial"
-                propAlignSelf="unset"
-                propBorderRadius="12px"
-                propBorder="none"
-                propBackgroundColor="#387ff5"
-                propWidth="unset"
-                propBackdropFilter="unset"
-                propFlex="unset"
-                propPadding="11.7px 19px"
-                propBackground="unset"
-                propHeight="unset"
-                lIcon="/l-icon2.svg"
-                propHeight1="23.3px"
-                propWidth1="23.3px"
-                propMinHeight="23px"
-                propAlignSelf1="unset"
-                propHeight2="unset"
-                propFlex1="unset"
-                propAlignSelf2="unset"
-                propWidth2="unset"
-                propMinWidth="unset"
-                propColor="#fff"
-                propDisplay="unset"
-                propHeight3="unset"
-                rIcon="/r-icon2.svg"
-                propHeight4="23.3px"
-                propWidth3="23.3px"
-                propMinHeight1="23px"
-              />
-              <ButtonText
-                showRIcon={false}
                 showLIcon
-                buttonText="Watch video"
+                buttonText={contentData.buttonText}
                 propAlignSelf="unset"
                 propBorderRadius="12px"
                 propBorder="1px solid #b6bcce"
@@ -139,7 +123,7 @@ const HeroBanner = ({ className = "" }) => {
                 src="/iconplay.svg"
               />
               <div className="self-stretch relative leading-[158%] font-medium">
-                Play video
+                {contentData.playVideo}
               </div>
             </div>
           </div>
@@ -152,17 +136,17 @@ const HeroBanner = ({ className = "" }) => {
             <div className="flex flex-col items-start justify-end pt-0 px-0 pb-[1.1px]">
               <div className="flex flex-col items-start justify-start">
                 <div className="relative leading-[31px] font-semibold">
-                  Watch introduce video
+                  {contentData.watchIntroduceVideo}
                 </div>
                 <div className="flex flex-row items-start justify-start gap-[7.8px] text-base-6 text-[#4b5162cc]">
                   <div className="relative leading-[25px] inline-block min-w-[49px]">
-                    5 mins
+                    {contentData.videoDuration}
                   </div>
                   <div className="flex flex-col items-start justify-start pt-[10.5px] px-0 pb-0">
                     <div className="w-[3.9px] h-[3.9px] relative rounded-[50%] bg-[#32448b33]" />
                   </div>
                   <div className="relative leading-[25px] font-medium text-[#387ff5] inline-block min-w-[77px]">
-                    Play video
+                    {contentData.playVideo}
                   </div>
                 </div>
               </div>

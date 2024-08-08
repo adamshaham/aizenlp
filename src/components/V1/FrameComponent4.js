@@ -1,6 +1,44 @@
 import ArticleItems from "./ArticleItems";
 import PropTypes from "prop-types";
 
+const contentData = {
+  titlePart1: "Blog And ",
+  titlePart2: "Articles",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut sapien et ex volutpat tincidunt eget at felis.",
+  article1: {
+    category: "Tips",
+    title: "Choosing the Right Plants for Your Climate Zone",
+    likes: "10",
+    views: "10K",
+    timeAgo: "5 min ago",
+    excerpt: [
+      "Lorem ipsum dolor sit amet, consectetur adipisci",
+      "ng elit. Vivamus hendrerit suscipit egestas. Nun",
+      "eget congue ante. Vivamus ut sapien et ex vol",
+      "utpat tincidunt eget at felis..."
+    ],
+    buttonText: "Read More"
+  },
+  articleItems: [
+    {
+      imagePlaceholder: "/image-placeholder-13@2x.png",
+      title: "How to Create a Low Maintenance Landscape",
+      likes: "50",
+      views: "15K",
+      timeAgo: "7 min ago",
+      icon: "/icon-7.svg"
+    },
+    {
+      imagePlaceholder: "/image-placeholder-14@2x.png",
+      title: "Landscaping Trends for the Modern Homeowner",
+      likes: "100",
+      views: "20K",
+      timeAgo: "10 min ago",
+      icon: "/icon-6.svg"
+    }
+  ]
+};
+
 const FrameComponent4 = ({ className = "" }) => {
   return (
     <section
@@ -10,13 +48,11 @@ const FrameComponent4 = ({ className = "" }) => {
         <div className="self-stretch flex flex-row items-start justify-center py-0 pl-5 pr-[21px] box-border max-w-full">
           <div className="w-[692.2px] flex flex-col items-start justify-start gap-[23.3px] max-w-full">
             <div className="self-stretch relative leading-[70px] font-semibold mq1050:text-33xl mq1050:leading-[56px] mq450:text-20xl mq450:leading-[42px]">
-              <span>{`Blog And `}</span>
-              <span className="text-[#2da884]">Articles</span>
+              <span>{contentData.titlePart1}</span>
+              <span className="text-[#2da884]">{contentData.titlePart2}</span>
             </div>
             <div className="self-stretch relative text-base-6 leading-[23.33px] font-medium font-plus-jakarta-sans text-[#525252]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              hendrerit suscipit egestas. Nunc eget congue ante. Vivamus ut
-              sapien et ex volutpat tincidunt eget at felis.
+              {contentData.description}
             </div>
           </div>
         </div>
@@ -32,12 +68,12 @@ const FrameComponent4 = ({ className = "" }) => {
             </div>
             <div className="self-stretch flex flex-col items-start justify-start gap-[15.6px]">
               <div className="self-stretch relative leading-[24px] font-semibold">
-                Tips
+                {contentData.article1.category}
               </div>
               <div className="self-stretch h-[303.3px] flex flex-col items-start justify-start pt-0 px-0 pb-0 box-border gap-[38.9px] text-[#525252] font-plus-jakarta-sans gap-[19px]">
                 <div className="self-stretch flex flex-col items-start justify-start gap-[15.6px] shrink-0">
                   <div className="self-stretch relative text-8xl-2 leading-[31.11px] font-semibold font-montserrat text-[#232a42] mq450:text-3xl mq450:leading-[25px]">
-                    Choosing the Right Plants for Your Climate Zone
+                    {contentData.article1.title}
                   </div>
                   <div className="flex flex-row items-start justify-start gap-[7.8px]">
                     <div className="flex flex-row items-center justify-start gap-[7.8px]">
@@ -48,7 +84,7 @@ const FrameComponent4 = ({ className = "" }) => {
                         src="/group-58.svg"
                       />
                       <div className="relative leading-[24px] font-medium inline-block min-w-[18px]">
-                        10
+                        {contentData.article1.likes}
                       </div>
                     </div>
                     <div className="flex flex-row items-center justify-start gap-[7.8px]">
@@ -59,7 +95,7 @@ const FrameComponent4 = ({ className = "" }) => {
                         src="/group-59.svg"
                       />
                       <div className="relative leading-[24px] font-medium inline-block min-w-[28px]">
-                        10K
+                        {contentData.article1.views}
                       </div>
                       <div className="flex flex-row items-start justify-start gap-[7.8px]">
                         <img
@@ -69,53 +105,39 @@ const FrameComponent4 = ({ className = "" }) => {
                           src="/icon-6.svg"
                         />
                         <div className="relative leading-[24px] font-medium inline-block min-w-[72px]">
-                          5 min ago
+                          {contentData.article1.timeAgo}
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="self-stretch relative leading-[23.33px] font-medium">
-                    <p className="m-0">
-                      Lorem ipsum dolor sit amet, consectetur adipisci
-                    </p>
-                    <p className="m-0">
-                      ng elit. Vivamus hendrerit suscipit egestas. Nun
-                    </p>
-                    <p className="m-0">
-                      eget congue ante. Vivamus ut sapien et ex vol
-                    </p>
-                    <p className="m-0">utpat tincidunt eget at felis...</p>
+                    {contentData.article1.excerpt.map((line, index) => (
+                      <p className="m-0" key={index}>
+                        {line}
+                      </p>
+                    ))}
                   </div>
                 </div>
                 <button className="cursor-pointer [border:none] pt-[23.3px] px-[38px] pb-[23.4px] bg-[#2da884] self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-[#47c29e]">
                   <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center">
-                    Read More
+                    {contentData.article1.buttonText}
                   </div>
                 </button>
               </div>
             </div>
           </div>
-          <ArticleItems
-            imagePlaceholder="/image-placeholder-13@2x.png"
-            howToCreateALowMaintenanc="How to Create a Low Maintenance Landscape"
-            prop="50"
-            group59="/group-59.svg"
-            k="15K"
-            icon="/icon-7.svg"
-            minAgo="7 min ago"
-          />
-          <ArticleItems
-            imagePlaceholder="/image-placeholder-14@2x.png"
-            howToCreateALowMaintenanc="Landscaping Trends for the Modern Homeowner"
-            prop="100"
-            propMinWidth="29px"
-            group59="/group-59-2.svg"
-            k="20K"
-            propMinWidth1="31px"
-            icon="/icon-6.svg"
-            minAgo="10 min ago"
-            propMinWidth2="80px"
-          />
+          {contentData.articleItems.map((item, index) => (
+            <ArticleItems
+              key={index}
+              imagePlaceholder={item.imagePlaceholder}
+              howToCreateALowMaintenanc={item.title}
+              prop={item.likes}
+              group59="/group-59.svg"
+              k={item.views}
+              icon={item.icon}
+              minAgo={item.timeAgo}
+            />
+          ))}
         </div>
       </div>
     </section>

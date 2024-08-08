@@ -1,13 +1,22 @@
 import { useMemo } from "react";
 import PropTypes from "prop-types";
 
+const contentData = {
+  subHeading: {
+    textLines: [
+      "Slate is designed for freelancers who want a simple way to plan their schedule."
+    ],
+    padding: "8.8px 8px 8.9px",
+    width: "516px",
+    height: "53.2px"
+  }
+};
+
 const SubHeading = ({
   className = "",
-  propPadding,
-  propWidth,
-  propHeight,
-  weFocusOnErgonomicsAndMee,
-  itsOnlyAKeystrokeAway,
+  propPadding = contentData.subHeading.padding,
+  propWidth = contentData.subHeading.width,
+  propHeight = contentData.subHeading.height
 }) => {
   const subHeadingStyle = useMemo(() => {
     return {
@@ -31,8 +40,9 @@ const SubHeading = ({
         className="w-[571px] relative tracking-[0.2px] leading-[30px] inline-block mq450:text-base mq450:leading-[24px]"
         style={weFocusOnContainerStyle}
       >
-        <p className="m-0">{weFocusOnErgonomicsAndMee}</p>
-        <p className="m-0">{itsOnlyAKeystrokeAway}</p>
+        {contentData.subHeading.textLines.map((line, index) => (
+          <p key={index} className="m-0">{line}</p>
+        ))}
       </div>
     </div>
   );
@@ -40,8 +50,6 @@ const SubHeading = ({
 
 SubHeading.propTypes = {
   className: PropTypes.string,
-  weFocusOnErgonomicsAndMee: PropTypes.string,
-  itsOnlyAKeystrokeAway: PropTypes.string,
 
   /** Style props */
   propPadding: PropTypes.any,

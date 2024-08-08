@@ -1,6 +1,17 @@
 import { useMemo } from "react";
 import PropTypes from "prop-types";
 
+const contentdata = {
+  title: "Insight",
+  description: [
+    "Lorem ipsum dolor sit amet, consectetur adipisci",
+    "ng elit. Vivamus hendrerit suscipit egestas. Nun",
+    "eget congue ante. Vivamus ut sapien et ex vol",
+    "utpat tincidunt eget at felis...",
+  ],
+  buttonText: "Read More",
+};
+
 const ArticleItems = ({
   className = "",
   imagePlaceholder,
@@ -46,7 +57,7 @@ const ArticleItems = ({
       </div>
       <div className="self-stretch flex flex-col items-start justify-start gap-[15.6px]">
         <div className="self-stretch relative leading-[24px] font-semibold shrink-0">
-          Insight
+          {contentdata.title}
         </div>
         <div className="self-stretch flex flex-col items-start justify-start gap-[38.9px] shrink-0 text-[#525252] font-plus-jakarta-sans gap-[19px]">
           <div className="self-stretch flex flex-col items-start justify-start gap-[15.6px]">
@@ -97,21 +108,16 @@ const ArticleItems = ({
               </div>
             </div>
             <div className="self-stretch relative leading-[23.33px] font-medium">
-              <p className="m-0">
-                Lorem ipsum dolor sit amet, consectetur adipisci
-              </p>
-              <p className="m-0">
-                ng elit. Vivamus hendrerit suscipit egestas. Nun
-              </p>
-              <p className="m-0">
-                eget congue ante. Vivamus ut sapien et ex vol
-              </p>
-              <p className="m-0">utpat tincidunt eget at felis...</p>
+              {contentdata.description.map((line, index) => (
+                <p className="m-0" key={index}>
+                  {line}
+                </p>
+              ))}
             </div>
           </div>
           <button className="cursor-pointer [border:none] py-[23.3px] px-[38px] bg-[#2da884] self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-[#47c29e]">
             <div className="flex-1 relative text-xl-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center">
-              Read More
+              {contentdata.buttonText}
             </div>
           </button>
         </div>

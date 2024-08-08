@@ -5,7 +5,7 @@ const ButtonText = ({
   className = "",
   showRIcon = false,
   showLIcon = false,
-  buttonText = "Research",
+  buttonText = "Watch video",
   propAlignSelf,
   propBorderRadius,
   propBorder,
