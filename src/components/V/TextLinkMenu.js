@@ -27,7 +27,7 @@ const TextLinkMenu = ({
 
   return (
     <div
-      className={`flex flex-row items-center justify-start gap-inline-xs1 text-center text-base-6 text--[#4b5162] font-dm-sans ${className}`}
+      className={`flex flex-row items-center justify-start gap-inline-xs1 text-center text-[15.6px] text--[#4b5162] font-dm-sans ${className}`}
       style={textLinkMenuStyle}
     >
       <div className="overflow-hidden flex flex-row items-start justify-start">

@@ -10,11 +10,11 @@ const contentData = {
   subHeading: {
     textLines: [
       "We focus on ergonomics and meeting you where you work.",
-      "It's only a keystroke away."
+      "It's only a keystroke away.",
     ],
     padding: "8.8px 8px 8.9px",
     width: "571px",
-    height: "unset"
+    height: "unset",
   },
   cards: [
     {
@@ -22,7 +22,7 @@ const contentData = {
       paragraph: [
         "Ever wondered if you're too reliant ",
         "on a client for work? Slate helps ",
-        "you identify."
+        "you identify.",
       ],
       button: {
         border: "none",
@@ -30,16 +30,16 @@ const contentData = {
         alignSelf: "unset",
         padding: "1.7px 22px 1.7px 31px",
         width: "176.6px",
-        label: "Sign Up"
+        label: "Sign Up",
       },
-      image: "/macbook-pro.svg"
+      image: "/macbook-pro.svg",
     },
     {
       title: "real data",
       paragraph: [
         "Ever wondered if you're too reliant ",
         "on a client for work? Slate helps ",
-        "you identify."
+        "you identify.",
       ],
       button: {
         border: "none",
@@ -47,23 +47,23 @@ const contentData = {
         alignSelf: "unset",
         padding: "1.7px 32px 1.7px 31px",
         width: "unset",
-        label: "Try For Free"
+        label: "Try For Free",
       },
-      image: "/macbook-pro1.svg"
-    }
-  ]
+      image: "/macbook-pro1.svg",
+    },
+  ],
 };
 
 const FrameComponent9 = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[13.3px] box-border max-w-full text-left text-33xl text-[#fff] font-body-base-regular ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[13.3px] box-border max-w-full text-left text-[52px] text-[#fff] font-body-base-regular ${className}`}
     >
       <div className="flex-1 bg-[#181818] overflow-hidden flex flex-col items-center justify-start py-[44.3px] px-5 box-border max-w-full gap-4 mq450:pt-5 mq450:pb-5 mq450:box-border mq1000:pt-[29px] mq1000:pb-[29px] mq1000:box-border">
         <div className="w-[1440.3px] flex flex-col items-center justify-start gap-[39px] max-w-full gap-5">
           <div className="overflow-hidden flex flex-col items-center justify-start max-w-full shrink-0">
             <div className="w-[242.7px] overflow-hidden flex flex-row items-center justify-start pt-[8.9px] px-2 pb-[8.8px] box-border">
-              <h1 className="m-0 flex-1 relative text-inherit tracking-[0.2px] leading-[62px] font-normal font-[inherit] mq450:text-12xl mq450:leading-[37px] mq1000:text-23xl mq1000:leading-[50px]">
+              <h1 className="m-0 flex-1 relative text-inherit tracking-[0.2px] leading-[62px] font-normal font-[inherit] mq450:text-[31px] mq450:leading-[37px] mq1000:text-[42px] mq1000:leading-[50px]">
                 {contentData.heading}
               </h1>
             </div>
@@ -75,7 +75,7 @@ const FrameComponent9 = ({ className = "" }) => {
               itsOnlyAKeystrokeAway={contentData.subHeading.textLines[1]}
             />
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-center justify-start gap-[29.3px] max-w-full shrink-0 text-center text-xl text-[#000]">
+          <div className="self-stretch flex flex-row flex-wrap items-center justify-start gap-[29.3px] max-w-full shrink-0 text-center text-[20px] text-[#000]">
             {contentData.cards.map((card, index) => (
               <div
                 key={index}

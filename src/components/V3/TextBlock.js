@@ -33,7 +33,7 @@ const TextBlock = ({
 
   return (
     <div
-      className={`self-stretch overflow-hidden flex flex-col items-start justify-start text-left text-xl text-[#fff] font-body-base-regular ${className}`}
+      className={`self-stretch overflow-hidden flex flex-col items-start justify-start text-left text-[20px] text-[#fff] font-body-base-regular ${className}`}
     >
       <div className="overflow-hidden flex flex-row items-start justify-start">
         <div
@@ -49,7 +49,7 @@ const TextBlock = ({
           />
         </div>
         <div className="overflow-hidden flex flex-row items-center justify-start pt-[8.9px] px-2 pb-[8.8px]">
-          <div className="relative tracking-[0.1px] leading-[30px] font-medium mq450:text-base mq450:leading-[24px]">
+          <div className="relative tracking-[0.1px] leading-[30px] font-medium mq450:text-[16px] mq450:leading-[24px]">
             <p className="m-0">{aSingleSource}</p>
             <p className="m-0">{ofTruth}</p>
           </div>

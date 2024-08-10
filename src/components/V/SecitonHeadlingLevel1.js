@@ -55,10 +55,10 @@ const SecitonHeadlingLevel1 = ({
 
   return (
     <div
-      className={`w-full flex flex-col items-center justify-start pt-0 px-0 pb-0 box-border gap-stack-3xl max-w-[777.78px] shrink-0 text-center text-18xl-9 text-[#1c1f25] font-dm-sans gap-stack-3xl mq1050:max-w-full ${className}`}
+      className={`w-full flex flex-col items-center justify-start pt-0 px-0 pb-0 box-border gap-stack-[22px] max-w-[777.78px] shrink-0 text-center text-[37.9px] text-[#1c1f25] font-dm-sans gap-stack-[22px] mq1050:max-w-full ${className}`}
       style={secitonHeadlingLevel111Style}
     >
-      <div className="self-stretch flex flex-col items-center justify-start gap-stack-lg1 max-w-full">
+      <div className="self-stretch flex flex-col items-center justify-start gap-stack-[11.6px]1 max-w-full">
         <SmallEyebrowTagLabelStyle
           content={content}
           icon={icon}
@@ -69,14 +69,14 @@ const SecitonHeadlingLevel1 = ({
         />
         <div className="self-stretch flex flex-row items-center justify-start max-w-full shrink-0">
           <b
-            className="flex-1 relative leading-[44px] inline-block max-w-full mq450:text-4xl mq450:leading-[26px] mq1050:text-11xl mq1050:leading-[35px]"
+            className="flex-1 relative leading-[44px] inline-block max-w-full mq450:text-[23px] mq450:leading-[26px] mq1050:text-[30px] mq1050:leading-[35px]"
             style={headlineStyle}
           >
             {headline}
           </b>
         </div>
         <div
-          className="w-full flex flex-row items-center justify-start py-0 px-[19px] box-border max-w-[797.22px] shrink-0 text-base-6 text-[#4b5162cc] font-body-base-regular mq1050:max-w-full"
+          className="w-full flex flex-row items-center justify-start py-0 px-[19px] box-border max-w-[797.22px] shrink-0 text-[15.6px] text-[#4b5162cc] font-body-base-regular mq1050:max-w-full"
           style={descrWrapperStyle}
         >
           <div

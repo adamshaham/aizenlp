@@ -44,7 +44,7 @@ const Adress = ({
 
   return (
     <div
-      className={`self-stretch flex-1 overflow-hidden flex flex-row items-center justify-start py-0 px-[7px] z-[1] text-left text-base text-[#fff] font-body-base-regular ${className}`}
+      className={`self-stretch flex-1 overflow-hidden flex flex-row items-center justify-start py-0 px-[7px] z-[1] text-left text-[16px] text-[#fff] font-body-base-regular ${className}`}
       style={adressStyle}
     >
       <div

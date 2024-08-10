@@ -58,7 +58,7 @@ const TestimonialPair = ({
 
   return (
     <div
-      className={`w-[542.5px] shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-[#2da884] flex flex-col items-start justify-start py-[31.1px] pl-[63px] pr-[39px] box-border relative gap-[38.9px] max-w-full shrink-0 text-left text-base-6 text-[#fff] font-plus-jakarta-sans gap-[19px] mq750:pl-[31px] mq750:box-border ${className}`}
+      className={`w-[542.5px] shadow-[17.5px_14.6px_34.03px_rgba(0,_0,_0,_0.09)] rounded-[15.56px] bg-[#2da884] flex flex-col items-start justify-start py-[31.1px] pl-[63px] pr-[39px] box-border relative gap-[38.9px] max-w-full shrink-0 text-left text-[15.6px] text-[#fff] font-plus-jakarta-sans gap-[19px] mq750:pl-[31px] mq750:box-border ${className}`}
       style={testimonialPairStyle}
     >
       <div
@@ -66,7 +66,7 @@ const TestimonialPair = ({
         style={loremIpsumDolor1Style}
       >{`“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis nisi at est euismod volutpat. Fusce a iaculis leo. Maecenas tempor hendrerit cursus. `}</div>
       <div
-        className="self-stretch flex flex-row items-center justify-between py-0 px-0 box-border [row-gap:20px] max-w-full gap-0 text-8xl-2 font-montserrat mq750:flex-wrap"
+        className="self-stretch flex flex-row items-center justify-between py-0 px-0 box-border [row-gap:20px] max-w-full gap-0 text-[27.2px] font-montserrat mq750:flex-wrap"
         style={testimonialDetailsStyle}
       >
         <div
@@ -74,13 +74,13 @@ const TestimonialPair = ({
           style={testifierInfoStyle}
         >
           <div
-            className="self-stretch relative leading-[32px] font-semibold mq450:text-3xl mq450:leading-[25px]"
+            className="self-stretch relative leading-[32px] font-semibold mq450:text-[22px] mq450:leading-[25px]"
             style={ekoSusiloantoStyle}
           >
             {ekoSusiloanto}
           </div>
           <div
-            className="self-stretch relative text-xs-7 leading-[16px] font-plus-jakarta-sans mt-[-1px]"
+            className="self-stretch relative text-[11.7px] leading-[16px] font-plus-jakarta-sans mt-[-1px]"
             style={regionalMobilityManagerStyle}
           >
             {regionalMobilityManager}

@@ -104,7 +104,7 @@ const ButtonText = ({
 
   return (
     <button
-      className={`cursor-pointer border-[#b6d1fb] border-[1px] border-solid py-[11.7px] px-[18px] bg-[#fff] self-stretch w-[124px] [backdrop-filter:blur(11.67px)] rounded-lg box-border overflow-hidden shrink-0 flex flex-row items-center justify-center ${className}`}
+      className={`cursor-pointer border-[#b6d1fb] border-[1px] border-solid py-[11.7px] px-[18px] bg-[#fff] self-stretch w-[124px] [backdrop-filter:blur(11.67px)] rounded-[11.6px] box-border overflow-hidden shrink-0 flex flex-row items-center justify-center ${className}`}
       style={buttonTextStyle}
     >
       {showLIcon && (
@@ -120,7 +120,7 @@ const ButtonText = ({
         style={textWrapperStyle}
       >
         <b
-          className="self-stretch w-[71px] relative text-base-6 leading-[122%] inline-block font-dm-sans text-[#387ff5] text-left"
+          className="self-stretch w-[71px] relative text-[15.6px] leading-[122%] inline-block font-dm-sans text-[#387ff5] text-left"
           style={textStyle}
         >
           {buttonText}

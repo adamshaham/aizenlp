@@ -77,7 +77,7 @@ const UserCard = ({
 
   return (
     <div
-      className={`self-stretch flex-1 flex flex-col items-end justify-start pt-0 px-0 pb-[0.1px] gap-[15.5px] text-center text-base-6 text-[#343844] font-body-base-regular ${className}`}
+      className={`self-stretch flex-1 flex flex-col items-end justify-start pt-0 px-0 pb-[0.1px] gap-[15.5px] text-center text-[15.6px] text-[#343844] font-body-base-regular ${className}`}
       style={userCard2Style}
     >
       <div

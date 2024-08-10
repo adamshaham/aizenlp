@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const FAQItemStyle = ({
   title,
@@ -15,14 +15,24 @@ const FAQItemStyle = ({
   return (
     <div
       className={`faq-item w-full`}
-      style={{ borderBottom: propBorderBottom, minHeight: propHeight, minWidth: propMinWidth, color: propColor }}
+      style={{
+        borderBottom: propBorderBottom,
+        minHeight: propHeight,
+        minWidth: propMinWidth,
+        color: propColor,
+      }}
     >
-      <div className="flex items-center justify-between cursor-pointer" onClick={onClick}>
-        <h3 className="text-lg font-semibold">{title}</h3>
+      <div
+        className="flex items-center justify-between cursor-pointer"
+        onClick={onClick}
+      >
+        <h3 className="text-[11.6px] font-semibold">{title}</h3>
         <img
           src={iconchevronDownArrowDown}
           alt="Chevron Icon"
-          className={`transform transition-transform ${content ? 'rotate-180' : 'rotate-0'}`}
+          className={`transform transition-transform ${
+            content ? "rotate-180" : "rotate-0"
+          }`}
         />
       </div>
       {content && (

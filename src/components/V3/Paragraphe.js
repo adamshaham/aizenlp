@@ -31,7 +31,7 @@ const Paragraphe = ({
 
   return (
     <div
-      className={`overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] text-center text-base text-[#5d5d5d] font-body-base-regular ${className}`}
+      className={`overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] text-center text-[16px] text-[#5d5d5d] font-body-base-regular ${className}`}
       style={paragrapheStyle}
     >
       <div

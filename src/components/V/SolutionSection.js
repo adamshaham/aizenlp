@@ -3,87 +3,97 @@ import SolutionCard from "./SolutionCard";
 import ButtonText from "./ButtonText";
 import PropTypes from "prop-types";
 
-const contentData = {
-  sectionHeading: {
-    headline: "Insights and predictions made easy",
-    description: "Advanced business intelligence tools enhance efficiency across your entire operation. By predicting future revenue and dissecting marketing effectiveness, these tools provide you with the critical insights needed for informed decision-making.",
-    iconAI: "/iconai-4@2x.png",
-    content: "Applications",
-    icon: true,
-    lIcon: "/l-icon2.svg",
-    lIcon1: "/l-icon3.svg",
-    buttonText: "Get a demo",
-    buttonText1: "Research",
-    rIcon: "/r-icon2.svg",
-    rIcon1: "/r-icon5.svg",
-    showRIcon: false,
-    showRIcon1: false,
-    showLIcon: false,
-    showLIcon1: false,
-  },
-  solutionCards: [
-    {
-      iconserverDatabasesSync: "/iconserver-databases-network-1@2x.png",
-      solutionTitle: "Predictive Power",
-      solutionDescr: "Harness Neuros's advanced AI algorithms to anticipate market shifts, forecast trends, and make data-driven decisions that propel your business forward.",
-      solutionField: "Finance, Retail, E-commerce",
-    },
-    {
-      iconserverDatabasesSync: "/iconserver-databases-network-11@2x.png",
-      solutionTitle: "Connect with Ease",
-      solutionDescr: "Integrate Neuros with your existing tools and platforms for a unified analytics experience. From CRMs to ERPs, we've got you covered.",
-      solutionField: "Tech, Healthcare, Manufacturing",
-    },
-    {
-      iconserverDatabasesSync: "/iconserver-databases-network-12@2x.png",
-      solutionTitle: "Visualize Your Success",
-      solutionDescr: "Craft bespoke dashboards that resonate with your brand's goals. With drag-and-drop functionalities, visualizing your data has never been this easy.",
-      solutionField: "Marketing, Sales, Operations",
-    },
-    {
-      iconserverDatabasesSync: "/iconchart-rates-checkmark-1@2x.png",
-      solutionTitle: "Stay Updated, Always",
-      solutionDescr: "With Neuros's real-time data processing, you're always in the know. Make decisions based on the latest data and stay ahead of the curve.",
-      solutionField: "E-commerce, Logistics, Supply Chain",
-    },
-    {
-      iconserverDatabasesSync: "/iconserver-databases-network-13@2x.png",
-      solutionTitle: "Your Data's Safe Haven",
-      solutionDescr: "Rest easy knowing your data is protected with Neuros's top-tier security protocols. From encryption to access controls, we prioritize your data's safety.",
-      solutionField: "Finance, Healthcare, Legal",
-    },
-    {
-      iconserverDatabasesSync: "/iconserver-databases-network-14@2x.png",
-      solutionTitle: "Collaborate and Conquer",
-      solutionDescr: "Work together seamlessly with Neuros's collaborative features. Share insights, annotate charts, and drive collective growth.",
-      solutionField: "Design, Development, Project Management",
-    },
-    {
-      iconserverDatabasesSync: "/iconcredit-card-cursor-click-1.svg",
-      solutionTitle: "Simplicity Meets Power",
-      solutionDescr: "Neuros offers an intuitive interface that's easy to navigate, ensuring you spend less time figuring things out and more time analyzing.",
-      solutionField: "All Industries",
-    },
-    {
-      iconserverDatabasesSync: "/iconserver-databases-network-15@2x.png",
-      solutionTitle: "Let AI Do the Heavy Lifting",
-      solutionDescr: "Receive automated insights and recommendations tailored to your business needs. Let Neuros's AI guide your strategies.",
-      solutionField: "Retail, Marketing, Sales",
-    },
-    {
-      iconserverDatabasesSync: "/iconserver-databases-network-16@2x.png",
-      solutionTitle: "Collaborate and Conquer",
-      solutionDescr: "Whether you're a startup or an enterprise, Neuros scales with you. Experience robust analytics solutions that adapt to your growth.",
-      solutionField: "Startups, SMEs, Enterprises",
-    },
-  ],
-  buttonText: "Explore more application",
-};
-
 const SolutionSection = ({ className = "" }) => {
+  const contentData = {
+    sectionHeading: {
+      headline: "Insights and predictions made easy",
+      description:
+        "Advanced business intelligence tools enhance efficiency across your entire operation. By predicting future revenue and dissecting marketing effectiveness, these tools provide you with the critical insights needed for informed decision-making.",
+      iconAI: "/iconai-4@2x.png",
+      content: "Applications",
+      icon: true,
+      lIcon: "/l-icon2.svg",
+      lIcon1: "/l-icon3.svg",
+      buttonText: "Get a demo",
+      buttonText1: "Research",
+      rIcon: "/r-icon2.svg",
+      rIcon1: "/r-icon5.svg",
+      showRIcon: false,
+      showRIcon1: false,
+      showLIcon: false,
+      showLIcon1: false,
+    },
+    solutionCards: [
+      {
+        iconserverDatabasesSync: "/iconserver-databases-network-1@2x.png",
+        solutionTitle: "Predictive Power",
+        solutionDescr:
+          "Harness Neuros's advanced AI algorithms to anticipate market shifts, forecast trends, and make data-driven decisions that propel your business forward.",
+        solutionField: "Finance, Retail, E-commerce",
+      },
+      {
+        iconserverDatabasesSync: "/iconserver-databases-network-11@2x.png",
+        solutionTitle: "Connect with Ease",
+        solutionDescr:
+          "Integrate Neuros with your existing tools and platforms for a unified analytics experience. From CRMs to ERPs, we've got you covered.",
+        solutionField: "Tech, Healthcare, Manufacturing",
+      },
+      {
+        iconserverDatabasesSync: "/iconserver-databases-network-12@2x.png",
+        solutionTitle: "Visualize Your Success",
+        solutionDescr:
+          "Craft bespoke dashboards that resonate with your brand's goals. With drag-and-drop functionalities, visualizing your data has never been this easy.",
+        solutionField: "Marketing, Sales, Operations",
+      },
+      {
+        iconserverDatabasesSync: "/iconchart-rates-checkmark-1@2x.png",
+        solutionTitle: "Stay Updated, Always",
+        solutionDescr:
+          "With Neuros's real-time data processing, you're always in the know. Make decisions based on the latest data and stay ahead of the curve.",
+        solutionField: "E-commerce, Logistics, Supply Chain",
+      },
+      {
+        iconserverDatabasesSync: "/iconserver-databases-network-13@2x.png",
+        solutionTitle: "Your Data's Safe Haven",
+        solutionDescr:
+          "Rest easy knowing your data is protected with Neuros's top-tier security protocols. From encryption to access controls, we prioritize your data's safety.",
+        solutionField: "Finance, Healthcare, Legal",
+      },
+      {
+        iconserverDatabasesSync: "/iconserver-databases-network-14@2x.png",
+        solutionTitle: "Collaborate and Conquer",
+        solutionDescr:
+          "Work together seamlessly with Neuros's collaborative features. Share insights, annotate charts, and drive collective growth.",
+        solutionField: "Design, Development, Project Management",
+      },
+      {
+        iconserverDatabasesSync: "/iconcredit-card-cursor-click-1.svg",
+        solutionTitle: "Simplicity Meets Power",
+        solutionDescr:
+          "Neuros offers an intuitive interface that's easy to navigate, ensuring you spend less time figuring things out and more time analyzing.",
+        solutionField: "All Industries",
+      },
+      {
+        iconserverDatabasesSync: "/iconserver-databases-network-15@2x.png",
+        solutionTitle: "Let AI Do the Heavy Lifting",
+        solutionDescr:
+          "Receive automated insights and recommendations tailored to your business needs. Let Neuros's AI guide your strategies.",
+        solutionField: "Retail, Marketing, Sales",
+      },
+      {
+        iconserverDatabasesSync: "/iconserver-databases-network-16@2x.png",
+        solutionTitle: "Collaborate and Conquer",
+        solutionDescr:
+          "Whether you're a startup or an enterprise, Neuros scales with you. Experience robust analytics solutions that adapt to your growth.",
+        solutionField: "Startups, SMEs, Enterprises",
+      },
+    ],
+    buttonText: "Explore more application",
+  };
+
   return (
     <section
-      className={`self-stretch bg-[#fff] overflow-hidden flex flex-col items-center justify-start pt-[124.4px] px-5 pb-[108.9px] box-border text-center text-18xl-9 text-[#1c1f25] font-dm-sans lg:pt-[81px] lg:pb-[71px] lg:box-border gap-section-spacing-lg mq750:pt-[53px] mq750:pb-[46px] mq750:box-border ${className}`}
+      className={`self-stretch bg-[#fff] overflow-hidden flex flex-col items-center justify-start pt-[124.4px] px-5 pb-[108.9px] box-border text-center text-[37.9px] text-[#1c1f25] font-dm-sans lg:pt-[81px] lg:pb-[71px] lg:box-border gap-section-spacing-[11.6px] mq750:pt-[53px] mq750:pb-[46px] mq750:box-border ${className}`}
     >
       <div className="w-[1400px] flex flex-col items-center justify-start gap-[58.3px] max-w-[1400px] gap-[29px]">
         <SecitonHeadlingLevel1
@@ -103,7 +113,7 @@ const SolutionSection = ({ className = "" }) => {
           showLIcon={contentData.sectionHeading.showLIcon}
           showLIcon1={contentData.sectionHeading.showLIcon1}
         />
-        <div className="w-full flex flex-row flex-wrap items-start justify-center pt-0 px-0 pb-[0.1px] box-border relative gap-x-inline-3xl1 gap-y-inline-3xl1 max-w-[1170.56px] min-h-[889px] shrink-0 text-left text-lgi-4 lg:max-w-full gap-inline-3xl1">
+        <div className="w-full flex flex-row flex-wrap items-start justify-center pt-0 px-0 pb-[0.1px] box-border relative gap-x-inline-[22px]1 gap-y-inline-[22px]1 max-w-[1170.56px] min-h-[889px] shrink-0 text-left text-[19.4px] lg:max-w-full gap-inline-[22px]1">
           <div className="flex-1 flex flex-row flex-wrap items-start justify-center gap-x-[31.1px] gap-y-[29.2px] min-h-[811px] max-w-full">
             {contentData.solutionCards.map((card, index) => (
               <SolutionCard

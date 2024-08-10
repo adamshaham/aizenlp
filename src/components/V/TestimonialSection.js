@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const TestimonialSection = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch bg-[#fff] overflow-hidden flex flex-row items-start justify-center pt-[124.5px] px-5 pb-[108.8px] box-border shrink-0 max-w-full z-[2] text-center text-lgi-4 text-[#1c1f25] font-body-base-regular gap-section-spacing-md mq450:pb-[46px] mq450:box-border mq1050:pb-[71px] mq1050:box-border ${className}`}
+      className={`self-stretch bg-[#fff] overflow-hidden flex flex-row items-start justify-center pt-[124.5px] px-5 pb-[108.8px] box-border shrink-0 max-w-full z-[2] text-center text-[19.4px] text-[#1c1f25] font-body-base-regular gap-section-spacing-md mq450:pb-[46px] mq450:box-border mq1050:pb-[71px] mq1050:box-border ${className}`}
     >
       <div className="w-[1170.6px] flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border gap-[46.6px] max-w-[1170.6px] lg:max-w-full gap-[23px]">
         <FrameComponent
@@ -16,7 +16,7 @@ const TestimonialSection = ({ className = "" }) => {
           showRIcon1={false}
         />
         <div className="w-[1170.6px] overflow-x-auto flex flex-row items-start justify-start py-0 px-[390px] box-border gap-[23.3px] max-w-full lg:pl-[195px] lg:pr-[195px] lg:box-border mq750:pl-[97px] mq750:pr-[97px] mq750:box-border mq450:pl-5 mq450:pr-5 mq450:box-border">
-          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
+          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-[20px] bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
             <div className="h-[447.2px] flex-1 flex flex-col items-start justify-start pt-[66.1px] px-0 pb-[116.1px] box-border gap-[19.5px] mq750:pt-[124.5px] mq750:pb-[75px] mq750:box-border">
               <div className="w-[157px] h-[46.7px] overflow-hidden shrink-0 hidden" />
               <div className="self-stretch h-[265px] relative leading-[158%] font-medium flex items-center justify-center shrink-0">
@@ -51,7 +51,7 @@ const TestimonialSection = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
+          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-[20px] bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
             <div className="h-[447.2px] flex-1 flex flex-col items-start justify-start pt-[66.1px] px-0 pb-[116.1px] box-border gap-[19.5px] mq750:pt-[124.5px] mq750:pb-[75px] mq750:box-border">
               <div className="w-[157px] h-[46.7px] overflow-hidden shrink-0 hidden" />
               <div className="self-stretch h-[265px] relative leading-[158%] font-medium flex items-center justify-center shrink-0">
@@ -86,7 +86,7 @@ const TestimonialSection = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
+          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-[20px] bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
             <div className="h-[447.2px] flex-1 flex flex-col items-start justify-start pt-[66.1px] px-0 pb-[116.1px] box-border gap-[19.5px] mq750:pt-[124.5px] mq750:pb-[75px] mq750:box-border">
               <div className="w-[157px] h-[46.7px] overflow-hidden shrink-0 hidden" />
               <div className="self-stretch h-[265px] relative leading-[158%] font-medium flex items-center justify-center shrink-0">
@@ -121,7 +121,7 @@ const TestimonialSection = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
+          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-[20px] bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
             <div className="h-[447.2px] flex-1 flex flex-col items-start justify-start pt-[66.1px] px-0 pb-[116.1px] box-border gap-[19.5px] mq750:pt-[124.5px] mq750:pb-[75px] mq750:box-border">
               <div className="w-[157px] h-[46.7px] overflow-hidden shrink-0 hidden" />
               <div className="self-stretch h-[265px] relative leading-[158%] font-medium flex items-center justify-center shrink-0">
@@ -156,7 +156,7 @@ const TestimonialSection = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
+          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-[20px] bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
             <div className="h-[447.2px] flex-1 flex flex-col items-start justify-start pt-[66.1px] px-0 pb-[116.1px] box-border gap-[19.5px] mq750:pt-[124.5px] mq750:pb-[75px] mq750:box-border">
               <div className="w-[157px] h-[46.7px] overflow-hidden shrink-0 hidden" />
               <div className="self-stretch h-[265px] relative leading-[158%] font-medium flex items-center justify-center shrink-0">
@@ -192,7 +192,7 @@ const TestimonialSection = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
+          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-[20px] bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
             <div className="h-[447.2px] flex-1 flex flex-col items-start justify-start pt-[66.1px] px-0 pb-[116.1px] box-border gap-[19.5px] mq750:pt-[124.5px] mq750:pb-[75px] mq750:box-border">
               <div className="w-[157px] h-[46.7px] overflow-hidden shrink-0 hidden" />
               <div className="self-stretch h-[265px] relative leading-[158%] font-medium flex items-center justify-center shrink-0">
@@ -227,7 +227,7 @@ const TestimonialSection = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
+          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-[20px] bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
             <div className="h-[447.2px] flex-1 flex flex-col items-start justify-start pt-[66.1px] px-0 pb-[116.1px] box-border gap-[19.5px] mq750:pt-[124.5px] mq750:pb-[75px] mq750:box-border">
               <div className="w-[157px] h-[46.7px] overflow-hidden shrink-0 hidden" />
               <div className="self-stretch h-[265px] relative leading-[158%] font-medium flex items-center justify-center shrink-0">
@@ -262,7 +262,7 @@ const TestimonialSection = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
+          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-[20px] bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
             <div className="h-[447.2px] flex-1 flex flex-col items-start justify-start pt-[66.1px] px-0 pb-[116.1px] box-border gap-[19.5px] mq750:pt-[124.5px] mq750:pb-[75px] mq750:box-border">
               <div className="w-[157px] h-[46.7px] overflow-hidden shrink-0 hidden" />
               <div className="self-stretch h-[265px] relative leading-[158%] font-medium flex items-center justify-center shrink-0">
@@ -297,14 +297,14 @@ const TestimonialSection = ({ className = "" }) => {
               </div>
             </div>
           </div>
-          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-xl bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
+          <div className="ml-[-1648.9px] w-[388.9px] [backdrop-filter:blur(77.78px)] rounded-[20px] bg-[#fff] border-[#b6bcce] border-[1px] border-solid box-border shrink-0 flex flex-row items-start justify-start py-[30px] px-[38px] max-w-full mq750:pt-[124.5px] mq750:pb-5 mq750:box-border">
             <div className="h-[447.2px] flex-1 flex flex-col items-start justify-start pt-[66.1px] px-0 pb-[116.1px] box-border gap-[19.5px] mq750:pt-[124.5px] mq750:pb-[75px] mq750:box-border">
               <div className="w-[157px] h-[46.7px] overflow-hidden shrink-0 hidden" />
               <div className="self-stretch h-[265px] relative leading-[158%] font-medium flex items-center justify-center shrink-0">
                 The seamless integrations and customizable dashboards make
                 Neuros an indispensable tool for our business.
               </div>
-              <div className="w-[137px] h-[96.7px] flex flex-row items-start justify-start py-0 pl-[94px] pr-0 box-border shrink-0 text-base-6 text-[#343844]">
+              <div className="w-[137px] h-[96.7px] flex flex-row items-start justify-start py-0 pl-[94px] pr-0 box-border shrink-0 text-[15.6px] text-[#343844]">
                 <UserCard
                   imgLibAvaCartoon="/img-libavacartoon-8@2x.png"
                   name1="Raj K."

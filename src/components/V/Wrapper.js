@@ -51,7 +51,7 @@ const Wrapper = ({
 
   return (
     <div
-      className={`flex-[0.9863] flex flex-col items-start justify-center py-0 pl-0 pr-[125px] box-border gap-stack-lg min-w-[155px] text-left text-base-6 text-[#343844] font-dm-sans mq450:pr-5 mq450:box-border ${className}`}
+      className={`flex-[0.9863] flex flex-col items-start justify-center py-0 pl-0 pr-[125px] box-border gap-stack-[11.6px] min-w-[155px] text-left text-[15.6px] text-[#343844] font-dm-sans mq450:pr-5 mq450:box-border ${className}`}
       style={wrapperStyle}
     >
       <div className="flex flex-row items-center justify-center">
@@ -63,7 +63,7 @@ const Wrapper = ({
         </b>
       </div>
       <div
-        className="self-stretch flex flex-col items-start justify-center gap-stack-sm"
+        className="self-stretch flex flex-col items-start justify-center gap-stack-[14px]"
         style={listStyle}
       >
         <ButtonTextLink

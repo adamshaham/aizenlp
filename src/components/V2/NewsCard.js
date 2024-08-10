@@ -33,7 +33,7 @@ const NewsCard = ({
 
   return (
     <div
-      className={`flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[25.6px] box-border relative gap-[26.2px] min-w-[316px] max-w-full text-left text-smi-3 text-[#051114b3] font-body-base-regular ${className}`}
+      className={`flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[25.6px] box-border relative gap-[26.2px] min-w-[316px] max-w-full text-left text-[12px] text-[#051114b3] font-body-base-regular ${className}`}
     >
       <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-[8.75px] border-[#051114] border-[1.8px] border-solid box-border opacity-[0.1]" />
       <img
@@ -50,7 +50,7 @@ const NewsCard = ({
           <div className="self-stretch flex flex-col items-start justify-start gap-[17.4px] max-w-full">
             <div className="self-stretch flex flex-row items-start justify-between gap-5 mq450:flex-wrap">
               <div
-                className="relative text-sm leading-[22.8px] inline-block min-w-[124.3px] z-[1]"
+                className="relative text-[14px] leading-[22.8px] inline-block min-w-[124.3px] z-[1]"
                 style={ourCreativeTeamStyle}
               >
                 {ourCreativeTeam}
@@ -69,7 +69,7 @@ const NewsCard = ({
                 </div>
               </div>
             </div>
-            <div className="relative text-lgi-3 leading-[150%] font-medium text-[#051114] inline-block max-w-full z-[1]">
+            <div className="relative text-[11.6px]i-3 leading-[150%] font-medium text-[#051114] inline-block max-w-full z-[1]">
               {runningRemoteOffsitesAndO}
             </div>
             <div className="w-[373.6px] relative leading-[160%] inline-block max-w-full z-[1]">
@@ -78,7 +78,7 @@ const NewsCard = ({
             </div>
           </div>
           <button className="cursor-pointer [border:none] pt-[8.8px] px-4 pb-[8.7px] bg-[#7c1dc9] w-[93px] rounded-[4.38px] flex flex-row items-start justify-start box-border z-[1] hover:bg-[#a342f0]">
-            <div className="relative text-smi-3 tracking-[0.05em] leading-[20px] font-medium font-body-base-regular text-[#fff] text-left inline-block min-w-[59px]">
+            <div className="relative text-[12px] tracking-[0.05em] leading-[20px] font-medium font-body-base-regular text-[#fff] text-left inline-block min-w-[59px]">
               Continue
             </div>
           </button>

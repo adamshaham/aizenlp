@@ -20,7 +20,7 @@ const ButtonTextLink = ({
 
   return (
     <div
-      className={`flex flex-row items-start justify-start text-center text-sm-6 text--[#4b5162] font-dm-sans ${className}`}
+      className={`flex flex-row items-start justify-start text-center text-[15.6px] text--[#4b5162] font-dm-sans ${className}`}
     >
       <div className="flex flex-row items-center justify-start gap-inline-xs">
         {lIcon && (

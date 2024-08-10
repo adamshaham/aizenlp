@@ -2,28 +2,28 @@ import SmallEyebrowTagLabelStyle from "./SmallEyebrowTagLabelStyle";
 import ButtonText from "./ButtonText";
 import PropTypes from "prop-types";
 
-const contentData = {
-  smallEyebrowTagLabel: {
-    content: "Generative Business Intelligence for Analysts",
-    icon: true,
-    propWidth: "unset",
-    iconAI: "/iconai@2x.png",
-    propDisplay: "unset",
-    propMinWidth: "unset",
-  },
-  mainHeading: "Revolutionizing Business Decisions with AI-Powered Analytics",
-  description:
-    "Harnesses the power of artificial intelligence to transform your business data into actionable insights, propelling you to new heights of success",
-  buttonText: "Watch video",
-  watchIntroduceVideo: "Watch introduce video",
-  videoDuration: "5 mins",
-  playVideo: "Play video",
-};
-
 const HeroBanner = ({ className = "" }) => {
+  const contentData = {
+    smallEyebrowTagLabel: {
+      content: "Generative Business Intelligence for Analysts",
+      icon: true,
+      propWidth: "unset",
+      iconAI: "/iconai@2x.png",
+      propDisplay: "unset",
+      propMinWidth: "unset",
+    },
+    mainHeading: "Revolutionizing Business Decisions with AI-Powered Analytics",
+    description:
+      "Harnesses the power of artificial intelligence to transform your business data into actionable insights, propelling you to new heights of success",
+    buttonText: "Watch video",
+    watchIntroduceVideo: "Watch introduce video",
+    videoDuration: "5 mins",
+    playVideo: "Play video",
+  };
+
   return (
     <section
-      className={`self-stretch bg-[#fff] flex flex-row items-start justify-center pt-[108.9px] px-5 pb-[77.8px] box-border max-w-full text-center text-27xl-7 text-[#1c1f25] font-dm-sans mq750:pt-[46px] mq750:pb-[33px] mq750:box-border mq1050:pt-[71px] mq1050:pb-[51px] mq1050:box-border ${className}`}
+      className={`self-stretch bg-[#fff] flex flex-row items-start justify-center pt-[108.9px] px-5 pb-[77.8px] box-border max-w-full text-center text-[46.7px] text-[#1c1f25] font-dm-sans mq750:pt-[46px] mq750:pb-[33px] mq750:box-border mq1050:pt-[71px] mq1050:pb-[51px] mq1050:box-border ${className}`}
     >
       <div className="w-[1440.6px] flex flex-col items-start justify-start gap-[58.3px] max-w-[1440.6px] lg:max-w-full gap-[29px]">
         <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
@@ -37,10 +37,10 @@ const HeroBanner = ({ className = "" }) => {
                 propDisplay={contentData.smallEyebrowTagLabel.propDisplay}
                 propMinWidth={contentData.smallEyebrowTagLabel.propMinWidth}
               />
-              <b className="self-stretch relative leading-[116%] shrink-0 mq450:text-9xl mq450:leading-[33px] mq1050:text-18xl mq1050:leading-[43px]">
+              <b className="self-stretch relative leading-[116%] shrink-0 mq450:text-[28px] mq450:leading-[33px] mq1050:text-[37px] mq1050:leading-[43px]">
                 {contentData.mainHeading}
               </b>
-              <div className="self-stretch flex flex-row items-start justify-start py-0 px-[77px] box-border max-w-full shrink-0 text-base-6 text-[#4b5162cc] font-body-base-regular mq1050:pl-[38px] mq1050:pr-[38px] mq1050:box-border">
+              <div className="self-stretch flex flex-row items-start justify-start py-0 px-[77px] box-border max-w-full shrink-0 text-[15.6px] text-[#4b5162cc] font-body-base-regular mq1050:pl-[38px] mq1050:pr-[38px] mq1050:box-border">
                 <div className="flex-1 relative leading-[160%] inline-block max-w-full">
                   {contentData.description}
                 </div>
@@ -82,7 +82,7 @@ const HeroBanner = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="self-stretch h-[466.7px] relative rounded-[23.33px] bg-[#387ff5] border-[#d2d5e2] border-[1px] border-solid box-border overflow-hidden shrink-0 text-left text-lgi-4 font-body-base-regular">
+        <div className="self-stretch h-[466.7px] relative rounded-[23.33px] bg-[#387ff5] border-[#d2d5e2] border-[1px] border-solid box-border overflow-hidden shrink-0 text-left text-[19.4px] font-body-base-regular">
           <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] bg-[#6099f7] overflow-hidden">
             <img
               className="relative w-[2080.4px] h-[1113.5px]"
@@ -138,7 +138,7 @@ const HeroBanner = ({ className = "" }) => {
                 <div className="relative leading-[31px] font-semibold">
                   {contentData.watchIntroduceVideo}
                 </div>
-                <div className="flex flex-row items-start justify-start gap-[7.8px] text-base-6 text-[#4b5162cc]">
+                <div className="flex flex-row items-start justify-start gap-[7.8px] text-[15.6px] text-[#4b5162cc]">
                   <div className="relative leading-[25px] inline-block min-w-[49px]">
                     {contentData.videoDuration}
                   </div>

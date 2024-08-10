@@ -18,7 +18,7 @@ const TrialBenefitItem = ({
 
   return (
     <div
-      className={`self-stretch [backdrop-filter:blur(19.44px)] rounded-[15.56px] [background:linear-gradient(92.69deg,_rgba(255,_255,_255,_0.08),_rgba(255,_255,_255,_0.17))] border-[#ffffff33] border-[1px] border-solid flex flex-row items-center justify-start py-1.5 pl-[7px] pr-4 gap-[11.7px] text-left text-base-6 text-[#fff] font-body-base-regular mq450:flex-wrap ${className}`}
+      className={`self-stretch [backdrop-filter:blur(19.44px)] rounded-[15.56px] [background:linear-gradient(92.69deg,_rgba(255,_255,_255,_0.08),_rgba(255,_255,_255,_0.17))] border-[#ffffff33] border-[1px] border-solid flex flex-row items-center justify-start py-1.5 pl-[7px] pr-4 gap-[11.7px] text-left text-[15.6px] text-[#fff] font-body-base-regular mq450:flex-wrap ${className}`}
     >
       <div className="w-[46.7px] [backdrop-filter:blur(11.67px)] rounded-[11.67px] bg-[#ffffff1a] flex flex-row items-center justify-start pt-[23.8px] px-[11px] pb-[23.9px] box-border">
         <img

@@ -33,7 +33,7 @@ const contentData = {
 const LightFOOTER = ({ className = "" }) => {
   return (
     <footer
-      className={`self-stretch bg-[#181818] overflow-hidden flex flex-col items-center justify-start pt-[94.9px] px-5 pb-[94.8px] box-border max-w-full text-left text-xl text-[#fff] font-body-base-regular mq450:pt-[62px] mq450:pb-[62px] mq450:box-border ${className}`}
+      className={`self-stretch bg-[#181818] overflow-hidden flex flex-col items-center justify-start pt-[94.9px] px-5 pb-[94.8px] box-border max-w-full text-left text-[20px] text-[#fff] font-body-base-regular mq450:pt-[62px] mq450:pb-[62px] mq450:box-border ${className}`}
     >
       <div className="w-[1440px] overflow-hidden flex flex-row items-start justify-between max-w-full gap-5 mq1000:flex-wrap">
         <div className="w-[454.8px] overflow-hidden shrink-0 flex flex-col items-start justify-start min-w-[454.8px] max-w-full gap-[25px] mq725:min-w-full mq1000:flex-1">
@@ -44,11 +44,11 @@ const LightFOOTER = ({ className = "" }) => {
                 className="w-[107.3px] overflow-hidden shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border gap-[35.5px]"
               >
                 <div className="w-[99px] overflow-hidden flex flex-row items-center justify-start">
-                  <div className="flex-1 relative tracking-[0.1px] leading-[30px] font-medium mq450:text-base mq450:leading-[24px]">
+                  <div className="flex-1 relative tracking-[0.1px] leading-[30px] font-medium mq450:text-[16px] mq450:leading-[24px]">
                     {section.title}
                   </div>
                 </div>
-                <div className="self-stretch overflow-hidden flex flex-col items-start justify-start py-0 pl-0 pr-8 gap-[16.8px] text-base">
+                <div className="self-stretch overflow-hidden flex flex-col items-start justify-start py-0 pl-0 pr-8 gap-[16.8px] text-[16px]">
                   {section.links.map((link, idx) => (
                     <div
                       key={idx}
@@ -64,7 +64,7 @@ const LightFOOTER = ({ className = "" }) => {
             ))}
           </div>
         </div>
-        <div className="w-[312px] overflow-hidden shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border gap-[8.9px] min-w-[312px] text-base mq1000:flex-1">
+        <div className="w-[312px] overflow-hidden shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border gap-[8.9px] min-w-[312px] text-[16px] mq1000:flex-1">
           <div className="self-stretch overflow-hidden flex flex-row items-center justify-start">
             <img
               className="h-[40.8px] w-[40.8px] relative overflow-hidden shrink-0"

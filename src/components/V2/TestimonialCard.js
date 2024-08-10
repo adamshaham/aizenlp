@@ -60,7 +60,7 @@ const TestimonialCard = ({
 
   return (
     <div
-      className={`flex-1 shadow-[0px_1.8px_3.5px_#5b1fb0] rounded-[8.75px] bg-[#fff] flex flex-col items-start justify-start pt-[43.8px] pb-[43.7px] pl-[49px] pr-[47px] box-border gap-[20.4px] min-w-[236px] text-left text-2xs-5 text-[#051114] font-body-base-regular mq450:pl-5 mq450:pr-5 mq450:box-border ${className}`}
+      className={`flex-1 shadow-[0px_1.8px_3.5px_#5b1fb0] rounded-[8.75px] bg-[#fff] flex flex-col items-start justify-start pt-[43.8px] pb-[43.7px] pl-[49px] pr-[47px] box-border gap-[20.4px] min-w-[236px] text-left text-[10px] text-[#051114] font-body-base-regular mq450:pl-5 mq450:pr-5 mq450:box-border ${className}`}
       style={testimonialCardStyle}
     >
       <div
@@ -85,7 +85,7 @@ const TestimonialCard = ({
         </div>
       </div>
       <div
-        className="self-stretch flex flex-row items-end justify-start gap-[17.5px] text-mid-5"
+        className="self-stretch flex flex-row items-end justify-start gap-[17.5px] text-[17.5px]"
         style={testimonialAuthorStyle}
       >
         <img
@@ -106,7 +106,7 @@ const TestimonialCard = ({
               {wilsonBergson}
             </div>
             <div
-              className="relative text-4xs-8 leading-[160%] inline-block min-w-[81px] z-[1]"
+              className="relative text-[8.8px] leading-[160%] inline-block min-w-[81px] z-[1]"
               style={marketingManagerStyle}
             >
               Marketing manager

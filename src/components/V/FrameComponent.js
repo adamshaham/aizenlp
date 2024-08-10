@@ -22,13 +22,13 @@ const FrameComponent = ({
 
   return (
     <div
-      className={`self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full shrink-0 text-center text-18xl-9 text-[#1c1f25] font-dm-sans ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full shrink-0 text-center text-[37.9px] text-[#1c1f25] font-dm-sans ${className}`}
     >
       <div
-        className="w-[505.6px] flex flex-col items-center justify-start pt-0 px-0 pb-0 box-border gap-stack-3xl max-w-[505.56px] gap-stack-3xl mq750:max-w-full"
+        className="w-[505.6px] flex flex-col items-center justify-start pt-0 px-0 pb-0 box-border gap-stack-[22px] max-w-[505.56px] gap-stack-[22px] mq750:max-w-full"
         style={secitonHeadlingLevel11Style}
       >
-        <div className="self-stretch flex flex-col items-center justify-start gap-stack-lg1 max-w-full shrink-0">
+        <div className="self-stretch flex flex-col items-center justify-start gap-stack-[11.6px]1 max-w-full shrink-0">
           <SmallEyebrowTagLabelStyle
             content={content}
             icon={icon}
@@ -38,11 +38,11 @@ const FrameComponent = ({
             propMinWidth="106px"
           />
           <div className="self-stretch flex flex-row items-center justify-start max-w-full shrink-0">
-            <b className="flex-1 relative leading-[116%] inline-block max-w-full mq450:text-4xl mq450:leading-[26px] mq1050:text-11xl mq1050:leading-[35px]">
+            <b className="flex-1 relative leading-[116%] inline-block max-w-full mq450:text-[23px] mq450:leading-[26px] mq1050:text-[30px] mq1050:leading-[35px]">
               {headline}
             </b>
           </div>
-          <div className="w-full flex flex-row items-center justify-start py-0 px-[19px] box-border max-w-[797.22px] shrink-0 text-base-6 text-[#4b5162cc] font-body-base-regular mq1050:max-w-full">
+          <div className="w-full flex flex-row items-center justify-start py-0 px-[19px] box-border max-w-[797.22px] shrink-0 text-[15.6px] text-[#4b5162cc] font-body-base-regular mq1050:max-w-full">
             <div className="flex-1 relative leading-[160%] inline-block max-w-full">
               {description}
             </div>

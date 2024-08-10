@@ -62,7 +62,7 @@ const PlanItems = ({
 
   return (
     <div
-      className={`shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-[#fff] flex flex-col items-start justify-start pt-[43.7px] px-[59px] pb-[44.5px] gap-[34.8px] text-center text-lgi-3 text-[#051114b3] font-body-base-regular gap-[17px] mq450:pt-7 mq450:px-5 mq450:pb-[29px] mq450:box-border ${className}`}
+      className={`shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-[#fff] flex flex-col items-start justify-start pt-[43.7px] px-[59px] pb-[44.5px] gap-[34.8px] text-center text-[11.6px]i-3 text-[#051114b3] font-body-base-regular gap-[17px] mq450:pt-7 mq450:px-5 mq450:pb-[29px] mq450:box-border ${className}`}
     >
       <div className="w-[315px] h-[420px] relative shadow-[0px_5.3px_43.75px_4.38px_rgba(6,_14,_26,_0.05)] rounded-[8.75px] bg-[#fff] hidden" />
       <div className="self-stretch flex flex-row items-start justify-start py-0 pl-[19px] pr-[22px]">
@@ -75,21 +75,23 @@ const PlanItems = ({
               {startUp}
             </div>
           </div>
-          <div className="self-stretch flex flex-col items-end justify-start gap-[5.2px] text-19xl-5 text-[#051114]">
+          <div className="self-stretch flex flex-col items-end justify-start gap-[5.2px] text-[38px] text-[#051114]">
             <div className="self-stretch h-[0.9px] relative border-[#051114] border-t-[0.9px] border-solid box-border z-[1]" />
             <div
               className="self-stretch flex flex-row items-start justify-end py-0 pl-[17px] pr-2"
               style={planDurationsStyle}
             >
-              <div className="relative z-[1] mq450:text-3xl" style={moStyle}>
+              <div className="relative z-[1] mq450:text-[22px]" style={moStyle}>
                 <span className="leading-[130%] font-semibold">{prop}</span>
-                <span className="text-9xl leading-[140%] font-medium">/mo</span>
+                <span className="text-[28px] leading-[140%] font-medium">
+                  /mo
+                </span>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="self-stretch flex flex-row items-start justify-start py-0 pl-7 pr-[31px] text-sm text-[#051114]">
+      <div className="self-stretch flex flex-row items-start justify-start py-0 pl-7 pr-[31px] text-[14px] text-[#051114]">
         <div className="flex-1 flex flex-col items-end justify-start gap-[8.8px] opacity-[0.7] z-[1]">
           <div className="flex flex-row items-start justify-end py-0 px-[5px]">
             <div
@@ -124,7 +126,7 @@ const PlanItems = ({
         </div>
       </div>
       <button className="cursor-pointer [border:none] pt-[13.2px] px-[25px] pb-[13.1px] bg-[transparent] rounded-[4.38px] [background:linear-gradient(90deg,_rgba(124,_29,_201,_0.1),_rgba(124,_29,_201,_0.1))] flex flex-row items-start justify-start whitespace-nowrap z-[1]">
-        <div className="relative text-sm tracking-[0.05em] leading-[160%] font-medium font-body-base-regular text-[#000] text-center">
+        <div className="relative text-[14px] tracking-[0.05em] leading-[160%] font-medium font-body-base-regular text-[#000] text-center">
           TRY THIS PACKAGE
         </div>
       </button>

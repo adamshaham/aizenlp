@@ -40,11 +40,11 @@ const Title = ({
 
   return (
     <div
-      className={`w-[219.7px] overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] box-border text-center text-xl text-[#000] font-body-base-regular ${className}`}
+      className={`w-[219.7px] overflow-hidden flex flex-row items-center justify-start pt-[8.8px] px-2 pb-[8.9px] box-border text-center text-[20px] text-[#000] font-body-base-regular ${className}`}
       style={titleStyle}
     >
       <div
-        className="flex-1 relative tracking-[0.1px] leading-[30px] font-medium mq450:text-base mq450:leading-[24px]"
+        className="flex-1 relative tracking-[0.1px] leading-[30px] font-medium mq450:text-[16px] mq450:leading-[24px]"
         style={designWithRealStyle}
       >
         {designWithRealData}

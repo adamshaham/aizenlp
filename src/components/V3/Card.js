@@ -9,8 +9,8 @@ const contentData = {
     "goal for the month and year. Slate helps ",
     "you see how many more days ",
     "you need to work to reach your financial ",
-    "goal for the month and year."
-  ]
+    "goal for the month and year.",
+  ],
 };
 
 const Card = ({
@@ -34,7 +34,7 @@ const Card = ({
 
   return (
     <div
-      className={`self-stretch rounded-[8.87px] bg-[#181818] border-[#dedede] border-[0.9px] border-solid flex flex-col items-start justify-start py-[34px] pl-[35px] pr-[25px] gap-[26.6px] text-left text-base text-[#fff] font-body-base-regular ${className}`}
+      className={`self-stretch rounded-[8.87px] bg-[#181818] border-[#dedede] border-[0.9px] border-solid flex flex-col items-start justify-start py-[34px] pl-[35px] pr-[25px] gap-[26.6px] text-left text-[16px] text-[#fff] font-body-base-regular ${className}`}
     >
       <div
         className="overflow-hidden flex flex-row items-center justify-start gap-[11.5px]"
