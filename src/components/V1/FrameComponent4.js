@@ -120,7 +120,7 @@ const FrameComponent4 = ({ className = "" }) => {
                   </div>
                 </div>
                 <button className="cursor-pointer [border:none] pt-[23.3px] px-[38px] pb-[23.4px] bg-[#2da884] self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center whitespace-nowrap hover:bg-[#47c29e]">
-                  <div className="flex-1 relative text-[20px]-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center">
+                  <div className="flex-1 relative text-[24px] leading-[24px] font-semibold font-montserrat text-[#fff] text-center">
                     {contentData.article1.buttonText}
                   </div>
                 </button>

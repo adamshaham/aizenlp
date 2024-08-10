@@ -26,7 +26,7 @@ const FAQItemStyle = ({
         className="flex items-center justify-between cursor-pointer"
         onClick={onClick}
       >
-        <h3 className="text-[11.6px] font-semibold">{title}</h3>
+        <h3 className="text-[18.6px] font-semibold">{title}</h3>
         <img
           src={iconchevronDownArrowDown}
           alt="Chevron Icon"

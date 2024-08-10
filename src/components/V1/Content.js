@@ -36,12 +36,12 @@ const Content = ({ className = "" }) => {
           <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
             <div className="w-[434.6px] flex flex-row flex-wrap items-start justify-start gap-[38.9px] max-w-full gap-[19px]">
               <button className="cursor-pointer [border:none] py-[31.1px] px-[38px] bg-[#2da884] rounded-[97.22px] overflow-hidden flex flex-row items-start justify-start shrink-0 whitespace-nowrap z-[1] hover:bg-[#47c29e]">
-                <div className="relative text-[20px]-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center inline-block min-w-[121px]">
+                <div className="relative text-[24px] leading-[24px] font-semibold font-montserrat text-[#fff] text-center inline-block min-w-[121px]">
                   {contentdata.buttons.getStarted}
                 </div>
               </button>
               <button className="cursor-pointer [border:none] py-[31.1px] px-[38px] bg-[#fff] flex-1 rounded-[97.22px] overflow-hidden flex flex-row items-start justify-start box-border min-w-[128px] shrink-0 whitespace-nowrap z-[1] hover:bg-[#e6e6e6]">
-                <div className="flex-1 relative text-[20px]-4 leading-[24px] font-semibold font-montserrat text-[#2da884] text-center inline-block min-w-[119.6px]">
+                <div className="flex-1 relative text-[24px] leading-[24px] font-semibold font-montserrat text-[#2da884] text-center inline-block min-w-[119.6px]">
                   {contentdata.buttons.learnMore}
                 </div>
               </button>

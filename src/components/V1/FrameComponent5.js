@@ -49,7 +49,7 @@ const FrameComponent5 = ({ className = "" }) => {
               ))}
             </div>
             <button className="cursor-pointer [border:none] pt-[23.3px] px-5 pb-[23.4px] bg-[#fff] self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center hover:bg-[#e6e6e6]">
-              <div className="w-[299.4px] relative text-[20px]-4 leading-[24px] font-semibold font-montserrat text-[#2da884] text-center inline-block shrink-0 mq450:text-[16px] mq450:leading-[19px]">
+              <div className="w-[299.4px] relative text-[24px] leading-[24px] font-semibold font-montserrat text-[#2da884] text-center inline-block shrink-0 mq450:text-[16px] mq450:leading-[19px]">
                 {contentData.buttonText}
               </div>
             </button>

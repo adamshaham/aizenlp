@@ -15,7 +15,7 @@ const FullName = ({
 
   return (
     <div
-      className={`self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border gap-[15.6px] max-w-full shrink-0 text-left text-[20px]-4 text-[#fff] font-montserrat ${className}`}
+      className={`self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[0.1px] box-border gap-[15.6px] max-w-full shrink-0 text-left text-[24px] text-[#fff] font-montserrat ${className}`}
       style={fullNameStyle}
     >
       <div className="self-stretch relative leading-[24px] font-semibold mq450:text-[16px] mq450:leading-[19px]">

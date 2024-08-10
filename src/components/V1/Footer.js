@@ -23,7 +23,7 @@ const Footer = ({ className = "" }) => {
 
   return (
     <footer
-      className={`self-stretch bg-[#2da884] overflow-hidden flex flex-row items-center justify-between pt-[95.6px] px-[95px] pb-[95.5px] gap-5 text-left text-[20px]-4 text-[#fff] font-montserrat lg:flex-wrap lg:justify-center lg:pl-[47px] lg:pr-[47px] lg:box-border mq450:pt-[62px] mq450:pb-[62px] mq450:box-border mq750:pl-[23px] mq750:pr-[23px] mq750:box-border ${className}`}
+      className={`self-stretch bg-[#2da884] overflow-hidden flex flex-row items-center justify-between pt-[95.6px] px-[95px] pb-[95.5px] gap-5 text-left text-[24px] text-[#fff] font-montserrat lg:flex-wrap lg:justify-center lg:pl-[47px] lg:pr-[47px] lg:box-border mq450:pt-[62px] mq450:pb-[62px] mq450:box-border mq750:pl-[23px] mq750:pr-[23px] mq750:box-border ${className}`}
     >
       <div className="w-[263.5px] flex flex-col items-start justify-start gap-[38.9px] text-[40px] gap-[19px]">
         <div className="self-stretch relative leading-[47px] font-semibold mq1050:text-[30px] mq1050:leading-[37px] mq450:text-[22px] mq450:leading-[28px]">

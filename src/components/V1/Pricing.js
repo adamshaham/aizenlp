@@ -67,7 +67,7 @@ const Pricing = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[38.9px] max-w-full text-left text-[20px]-4 text-[#2da884] gap-[19px]">
+        <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[38.9px] max-w-full text-left text-[24px] text-[#2da884] gap-[19px]">
           {contentData.plans.map((plan, index) => (
             <div
               key={index}
@@ -105,7 +105,7 @@ const Pricing = ({ className = "" }) => {
                     ))}
                   </div>
                   <button className="cursor-pointer [border:none] pt-[23.4px] px-[38px] pb-[23.3px] bg-[#2da884] self-stretch rounded-[97.22px] overflow-hidden flex flex-row items-center justify-center hover:bg-[#47c29e]">
-                    <div className="flex-1 relative text-[20px]-4 leading-[24px] font-semibold font-montserrat text-[#fff] text-center mq450:text-[16px] mq450:leading-[19px]">
+                    <div className="flex-1 relative text-[24px] leading-[24px] font-semibold font-montserrat text-[#fff] text-center mq450:text-[16px] mq450:leading-[19px]">
                       {plan.purchaseButton}
                     </div>
                   </button>
